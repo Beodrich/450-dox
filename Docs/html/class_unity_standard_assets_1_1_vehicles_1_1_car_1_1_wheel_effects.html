@@ -87,6 +87,8 @@ $(document).ready(function(){initNavTree('class_unity_standard_assets_1_1_vehicl
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UnityStandardAssets.Vehicles.Car.WheelEffects Class Reference</div></div>
 </div><!--header-->
@@ -125,10 +127,24 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:abfedceb8b0de3e0697b8fb1d17305b10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#abfedceb8b0de3e0697b8fb1d17305b10">skidding</a><code> [get]</code></td></tr>
+<tr class="memitem:abfedceb8b0de3e0697b8fb1d17305b10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#abfedceb8b0de3e0697b8fb1d17305b10">skidding</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:abfedceb8b0de3e0697b8fb1d17305b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b2dc67086259e7afa83ddbe6c7b49ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#a2b2dc67086259e7afa83ddbe6c7b49ed">PlayingAudio</a><code> [get]</code></td></tr>
+<tr class="memitem:a2b2dc67086259e7afa83ddbe6c7b49ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#a2b2dc67086259e7afa83ddbe6c7b49ed">PlayingAudio</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a2b2dc67086259e7afa83ddbe6c7b49ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a614dacffed935b5108d2437ed3e85263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#a614dacffed935b5108d2437ed3e85263">Start</a> ()</td></tr>
+<tr class="separator:a614dacffed935b5108d2437ed3e85263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5ac6401d9c684321ea644e83ab4b1b94"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#a5ac6401d9c684321ea644e83ab4b1b94">m_AudioSource</a></td></tr>
+<tr class="separator:a5ac6401d9c684321ea644e83ab4b1b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1090cbc6f30b13daf616e1ec9595a00"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#ab1090cbc6f30b13daf616e1ec9595a00">m_SkidTrail</a></td></tr>
+<tr class="separator:ab1090cbc6f30b13daf616e1ec9595a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f454440f35e50883cfeccd2636dcaf"><td class="memItemLeft" align="right" valign="top">WheelCollider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html#ab9f454440f35e50883cfeccd2636dcaf">m_WheelCollider</a></td></tr>
+<tr class="separator:ab9f454440f35e50883cfeccd2636dcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="afbc2fa43f99d1e731ab5c9a56e42044d" name="afbc2fa43f99d1e731ab5c9a56e42044d"></a>
@@ -182,6 +198,31 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a614dacffed935b5108d2437ed3e85263" name="a614dacffed935b5108d2437ed3e85263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614dacffed935b5108d2437ed3e85263">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UnityStandardAssets.Vehicles.Car.WheelEffects.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af35549ebfbe30fa74e4de989ac5c68bf" name="af35549ebfbe30fa74e4de989ac5c68bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af35549ebfbe30fa74e4de989ac5c68bf">&#9670;&nbsp;</a></span>StartSkidTrail()</h2>
 
@@ -217,6 +258,72 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5ac6401d9c684321ea644e83ab4b1b94" name="a5ac6401d9c684321ea644e83ab4b1b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac6401d9c684321ea644e83ab4b1b94">&#9670;&nbsp;</a></span>m_AudioSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSource UnityStandardAssets.Vehicles.Car.WheelEffects.m_AudioSource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1090cbc6f30b13daf616e1ec9595a00" name="ab1090cbc6f30b13daf616e1ec9595a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1090cbc6f30b13daf616e1ec9595a00">&#9670;&nbsp;</a></span>m_SkidTrail</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform UnityStandardAssets.Vehicles.Car.WheelEffects.m_SkidTrail</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9f454440f35e50883cfeccd2636dcaf" name="ab9f454440f35e50883cfeccd2636dcaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f454440f35e50883cfeccd2636dcaf">&#9670;&nbsp;</a></span>m_WheelCollider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WheelCollider UnityStandardAssets.Vehicles.Car.WheelEffects.m_WheelCollider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abeb266551c5df3ce36ba0c29ac266b91" name="abeb266551c5df3ce36ba0c29ac266b91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abeb266551c5df3ce36ba0c29ac266b91">&#9670;&nbsp;</a></span>skidParticles</h2>
 
@@ -283,7 +390,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -305,7 +412,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -321,7 +428,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_unity_standard_assets.html">UnityStandardAssets</a></li><li class="navelem"><a class="el" href="namespace_unity_standard_assets_1_1_vehicles.html">Vehicles</a></li><li class="navelem"><a class="el" href="namespace_unity_standard_assets_1_1_vehicles_1_1_car.html">Car</a></li><li class="navelem"><a class="el" href="class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html">WheelEffects</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

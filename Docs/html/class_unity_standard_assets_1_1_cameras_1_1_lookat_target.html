@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('class_unity_standard_assets_1_1_camera
   <div class="summary">
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_unity_standard_assets_1_1_cameras_1_1_lookat_target-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UnityStandardAssets.Cameras.LookatTarget Class Reference</div></div>
 </div><!--header-->
@@ -116,6 +117,17 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aeca3a0ae0619e4809688f4e64de27660 inherit pro_attribs_class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f7183b7eeef7706e72c258de60f543 inherit pro_attribs_class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"><td class="memItemLeft" align="right" valign="top">Rigidbody&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower.html#a92f7183b7eeef7706e72c258de60f543">targetRigidbody</a></td></tr>
 <tr class="separator:a92f7183b7eeef7706e72c258de60f543 inherit pro_attribs_class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3057cad8a1596f5f30e8b7a8214370ad"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_cameras_1_1_lookat_target.html#a3057cad8a1596f5f30e8b7a8214370ad">m_RotationRange</a></td></tr>
+<tr class="separator:a3057cad8a1596f5f30e8b7a8214370ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acada9d4f0df4f471ccf4b7d35fafd33c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_cameras_1_1_lookat_target.html#acada9d4f0df4f471ccf4b7d35fafd33c">m_FollowSpeed</a> = 1</td></tr>
+<tr class="separator:acada9d4f0df4f471ccf4b7d35fafd33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f867a9fa87deaddce4bed643d525f81"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_cameras_1_1_lookat_target.html#a9f867a9fa87deaddce4bed643d525f81">m_FollowAngles</a></td></tr>
+<tr class="separator:a9f867a9fa87deaddce4bed643d525f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdc3e51efa60fe7a39e2621f418d342"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unity_standard_assets_1_1_cameras_1_1_lookat_target.html#adbdc3e51efa60fe7a39e2621f418d342">m_OriginalRotation</a></td></tr>
+<tr class="separator:adbdc3e51efa60fe7a39e2621f418d342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -193,6 +205,50 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9f867a9fa87deaddce4bed643d525f81" name="a9f867a9fa87deaddce4bed643d525f81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f867a9fa87deaddce4bed643d525f81">&#9670;&nbsp;</a></span>m_FollowAngles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 UnityStandardAssets.Cameras.LookatTarget.m_FollowAngles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acada9d4f0df4f471ccf4b7d35fafd33c" name="acada9d4f0df4f471ccf4b7d35fafd33c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acada9d4f0df4f471ccf4b7d35fafd33c">&#9670;&nbsp;</a></span>m_FollowSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UnityStandardAssets.Cameras.LookatTarget.m_FollowSpeed = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aacdbc1630067f16f95562987a39bfbda" name="aacdbc1630067f16f95562987a39bfbda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacdbc1630067f16f95562987a39bfbda">&#9670;&nbsp;</a></span>m_FollowVelocity</h2>
 
@@ -215,6 +271,50 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adbdc3e51efa60fe7a39e2621f418d342" name="adbdc3e51efa60fe7a39e2621f418d342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbdc3e51efa60fe7a39e2621f418d342">&#9670;&nbsp;</a></span>m_OriginalRotation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Quaternion UnityStandardAssets.Cameras.LookatTarget.m_OriginalRotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3057cad8a1596f5f30e8b7a8214370ad" name="a3057cad8a1596f5f30e8b7a8214370ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3057cad8a1596f5f30e8b7a8214370ad">&#9670;&nbsp;</a></span>m_RotationRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 UnityStandardAssets.Cameras.LookatTarget.m_RotationRange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Standard Assets/Cameras/Scripts/<a class="el" href="_lookat_target_8cs.html">LookatTarget.cs</a></li>
 </ul>
@@ -224,7 +324,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_unity_standard_assets.html">UnityStandardAssets</a></li><li class="navelem"><a class="el" href="namespace_unity_standard_assets_1_1_cameras.html">Cameras</a></li><li class="navelem"><a class="el" href="class_unity_standard_assets_1_1_cameras_1_1_lookat_target.html">LookatTarget</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

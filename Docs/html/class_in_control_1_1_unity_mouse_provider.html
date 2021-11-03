@@ -84,6 +84,10 @@ $(document).ready(function(){initNavTree('class_in_control_1_1_unity_mouse_provi
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_in_control_1_1_unity_mouse_provider-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">InControl.UnityMouseProvider Class Reference</div></div>
 </div><!--header-->
@@ -122,8 +126,67 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1491a16b705cbfdee4ccf4e9557220be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19605b7af7adbd7d8fb8dbe7bd45d19a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a19605b7af7adbd7d8fb8dbe7bd45d19a">HasMousePresent</a> ()</td></tr>
 <tr class="separator:a19605b7af7adbd7d8fb8dbe7bd45d19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2ea07e48ca0609aeadfecba9b5e5662f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a2ea07e48ca0609aeadfecba9b5e5662f">ClearState</a> ()</td></tr>
+<tr class="separator:a2ea07e48ca0609aeadfecba9b5e5662f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a6113823327c2c454757e3f9143a08305"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a6113823327c2c454757e3f9143a08305">SafeGetMouseButton</a> (int button)</td></tr>
+<tr class="separator:a6113823327c2c454757e3f9143a08305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abca8f27fc81521f9c6f04599ad46abce"><td class="memItemLeft" align="right" valign="top">readonly bool[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#abca8f27fc81521f9c6f04599ad46abce">lastButtonPressed</a> = new bool[16]</td></tr>
+<tr class="separator:abca8f27fc81521f9c6f04599ad46abce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a303724606d0b39244043a516aa984f41"><td class="memItemLeft" align="right" valign="top">readonly bool[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a303724606d0b39244043a516aa984f41">buttonPressed</a> = new bool[16]</td></tr>
+<tr class="separator:a303724606d0b39244043a516aa984f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51986ea4ffdce0aa8f247bb38c2464a"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#ac51986ea4ffdce0aa8f247bb38c2464a">lastPosition</a></td></tr>
+<tr class="separator:ac51986ea4ffdce0aa8f247bb38c2464a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3aab635bb9ff030ed45e5d59dfca728"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#ac3aab635bb9ff030ed45e5d59dfca728">position</a></td></tr>
+<tr class="separator:ac3aab635bb9ff030ed45e5d59dfca728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6632db624b4ef08feda19686df019c0a"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a6632db624b4ef08feda19686df019c0a">delta</a></td></tr>
+<tr class="separator:a6632db624b4ef08feda19686df019c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501d42e670a538104c236a2523721740"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a501d42e670a538104c236a2523721740">scroll</a></td></tr>
+<tr class="separator:a501d42e670a538104c236a2523721740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ab3439adadbf1b0d62600c5a8b3868704"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#ab3439adadbf1b0d62600c5a8b3868704">mouseXAxis</a> = &quot;mouse x&quot;</td></tr>
+<tr class="separator:ab3439adadbf1b0d62600c5a8b3868704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908feb6c0b6e37d63c4f03b50c18a529"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a908feb6c0b6e37d63c4f03b50c18a529">mouseYAxis</a> = &quot;mouse y&quot;</td></tr>
+<tr class="separator:a908feb6c0b6e37d63c4f03b50c18a529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e8b3234d0e1e2eec1a819f3f39d20e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html#a72e8b3234d0e1e2eec1a819f3f39d20e">maxSafeMouseButton</a> = int.MaxValue</td></tr>
+<tr class="separator:a72e8b3234d0e1e2eec1a819f3f39d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2ea07e48ca0609aeadfecba9b5e5662f" name="a2ea07e48ca0609aeadfecba9b5e5662f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea07e48ca0609aeadfecba9b5e5662f">&#9670;&nbsp;</a></span>ClearState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InControl.UnityMouseProvider.ClearState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a406ad282dbdaba10725a2569d5b457bc" name="a406ad282dbdaba10725a2569d5b457bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a406ad282dbdaba10725a2569d5b457bc">&#9670;&nbsp;</a></span>GetButtonIsPressed()</h2>
 
@@ -298,6 +361,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6113823327c2c454757e3f9143a08305" name="a6113823327c2c454757e3f9143a08305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6113823327c2c454757e3f9143a08305">&#9670;&nbsp;</a></span>SafeGetMouseButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool InControl.UnityMouseProvider.SafeGetMouseButton </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>button</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ea38937348f9f9e75d47b726c9e6279" name="a4ea38937348f9f9e75d47b726c9e6279"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ea38937348f9f9e75d47b726c9e6279">&#9670;&nbsp;</a></span>Setup()</h2>
 
@@ -336,6 +425,205 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a303724606d0b39244043a516aa984f41" name="a303724606d0b39244043a516aa984f41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a303724606d0b39244043a516aa984f41">&#9670;&nbsp;</a></span>buttonPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly bool [] InControl.UnityMouseProvider.buttonPressed = new bool[16]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6632db624b4ef08feda19686df019c0a" name="a6632db624b4ef08feda19686df019c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6632db624b4ef08feda19686df019c0a">&#9670;&nbsp;</a></span>delta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 InControl.UnityMouseProvider.delta</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abca8f27fc81521f9c6f04599ad46abce" name="abca8f27fc81521f9c6f04599ad46abce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abca8f27fc81521f9c6f04599ad46abce">&#9670;&nbsp;</a></span>lastButtonPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly bool [] InControl.UnityMouseProvider.lastButtonPressed = new bool[16]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac51986ea4ffdce0aa8f247bb38c2464a" name="ac51986ea4ffdce0aa8f247bb38c2464a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51986ea4ffdce0aa8f247bb38c2464a">&#9670;&nbsp;</a></span>lastPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 InControl.UnityMouseProvider.lastPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72e8b3234d0e1e2eec1a819f3f39d20e" name="a72e8b3234d0e1e2eec1a819f3f39d20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e8b3234d0e1e2eec1a819f3f39d20e">&#9670;&nbsp;</a></span>maxSafeMouseButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InControl.UnityMouseProvider.maxSafeMouseButton = int.MaxValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3439adadbf1b0d62600c5a8b3868704" name="ab3439adadbf1b0d62600c5a8b3868704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3439adadbf1b0d62600c5a8b3868704">&#9670;&nbsp;</a></span>mouseXAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string InControl.UnityMouseProvider.mouseXAxis = &quot;mouse x&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a908feb6c0b6e37d63c4f03b50c18a529" name="a908feb6c0b6e37d63c4f03b50c18a529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a908feb6c0b6e37d63c4f03b50c18a529">&#9670;&nbsp;</a></span>mouseYAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string InControl.UnityMouseProvider.mouseYAxis = &quot;mouse y&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3aab635bb9ff030ed45e5d59dfca728" name="ac3aab635bb9ff030ed45e5d59dfca728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3aab635bb9ff030ed45e5d59dfca728">&#9670;&nbsp;</a></span>position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 InControl.UnityMouseProvider.position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a501d42e670a538104c236a2523721740" name="a501d42e670a538104c236a2523721740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501d42e670a538104c236a2523721740">&#9670;&nbsp;</a></span>scroll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 InControl.UnityMouseProvider.scroll</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Plugins/InControl/Source/Mouse/<a class="el" href="_unity_mouse_provider_8cs.html">UnityMouseProvider.cs</a></li>
 </ul>
@@ -345,7 +633,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_in_control.html">InControl</a></li><li class="navelem"><a class="el" href="class_in_control_1_1_unity_mouse_provider.html">UnityMouseProvider</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

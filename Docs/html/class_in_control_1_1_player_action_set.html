@@ -88,6 +88,9 @@ $(document).ready(function(){initNavTree('class_in_control_1_1_player_action_set
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_in_control_1_1_player_action_set-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">InControl.PlayerActionSet Class Reference</div></div>
 </div><!--header-->
@@ -103,7 +106,7 @@ Inheritance diagram for InControl.PlayerActionSet:</div>
   <map id="InControl.PlayerActionSet_map" name="InControl.PlayerActionSet_map">
 <area href="class_bindings_example_1_1_player_actions.html" alt="BindingsExample.PlayerActions" shape="rect" coords="0,56,277,80"/>
 <area href="class_game_actions.html" alt="GameActions" shape="rect" coords="287,56,564,80"/>
-<area href="class_input_system.html" alt="InputSystem" shape="rect" coords="574,56,851,80"/>
+<area href="class_input_system.html" title="The Input System class for the game, based on InControl." alt="InputSystem" shape="rect" coords="574,56,851,80"/>
 <area href="class_menu_actions.html" alt="MenuActions" shape="rect" coords="861,56,1138,80"/>
 <area href="class_multiplayer_with_bindings_example_1_1_player_actions.html" alt="MultiplayerWithBindingsExample.PlayerActions" shape="rect" coords="1148,56,1425,80"/>
   </map>
@@ -175,13 +178,13 @@ Properties</h2></td></tr>
 <tr class="memitem:ae75dfd749d6f46962b0a84222064e65f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#ae75dfd749d6f46962b0a84222064e65f">Device</a><code> [getset]</code></td></tr>
 <tr class="memdesc:ae75dfd749d6f46962b0a84222064e65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optionally specifies a device which this action set should query from, if applicable.  <a href="class_in_control_1_1_player_action_set.html#ae75dfd749d6f46962b0a84222064e65f">More...</a><br /></td></tr>
 <tr class="separator:ae75dfd749d6f46962b0a84222064e65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f759003340fa67549593f72ab250f94"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a3f759003340fa67549593f72ab250f94">IncludeDevices</a><code> [get]</code></td></tr>
+<tr class="memitem:a3f759003340fa67549593f72ab250f94"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a3f759003340fa67549593f72ab250f94">IncludeDevices</a><code> [getprivate set]</code></td></tr>
 <tr class="memdesc:a3f759003340fa67549593f72ab250f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of devices which this action set should include when searching for an active device.  <a href="class_in_control_1_1_player_action_set.html#a3f759003340fa67549593f72ab250f94">More...</a><br /></td></tr>
 <tr class="separator:a3f759003340fa67549593f72ab250f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb98e5358792a2f40b661e4aebc9b65"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#aefb98e5358792a2f40b661e4aebc9b65">ExcludeDevices</a><code> [get]</code></td></tr>
+<tr class="memitem:aefb98e5358792a2f40b661e4aebc9b65"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#aefb98e5358792a2f40b661e4aebc9b65">ExcludeDevices</a><code> [getprivate set]</code></td></tr>
 <tr class="memdesc:aefb98e5358792a2f40b661e4aebc9b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of devices which this action set should exclude when searching for an active device.  <a href="class_in_control_1_1_player_action_set.html#aefb98e5358792a2f40b661e4aebc9b65">More...</a><br /></td></tr>
 <tr class="separator:aefb98e5358792a2f40b661e4aebc9b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92e6ddd4be6645bf1cfcf564170c5cbc"><td class="memItemLeft" align="right" valign="top">ReadOnlyCollection&lt; <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a92e6ddd4be6645bf1cfcf564170c5cbc">Actions</a><code> [get]</code></td></tr>
+<tr class="memitem:a92e6ddd4be6645bf1cfcf564170c5cbc"><td class="memItemLeft" align="right" valign="top">ReadOnlyCollection&lt; <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a92e6ddd4be6645bf1cfcf564170c5cbc">Actions</a><code> [getprivate set]</code></td></tr>
 <tr class="memdesc:a92e6ddd4be6645bf1cfcf564170c5cbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the actions in this action set as a readonly collection.  <a href="class_in_control_1_1_player_action_set.html#a92e6ddd4be6645bf1cfcf564170c5cbc">More...</a><br /></td></tr>
 <tr class="separator:a92e6ddd4be6645bf1cfcf564170c5cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcc95980d57ba52aef3dd54f496dc544"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#abcc95980d57ba52aef3dd54f496dc544">UpdateTick</a><code> [getprotected set]</code></td></tr>
@@ -214,6 +217,31 @@ Events</h2></td></tr>
 <tr class="memitem:ab1e494c0fa2b19f343df52ac104d5941"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="namespace_in_control.html#a9fdcf96c2fce1dd6ce4862cf8dea841a">BindingSourceType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#ab1e494c0fa2b19f343df52ac104d5941">OnLastInputTypeChanged</a></td></tr>
 <tr class="memdesc:ab1e494c0fa2b19f343df52ac104d5941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when the binding source type that last provided input to this action set changes.  <a href="class_in_control_1_1_player_action_set.html#ab1e494c0fa2b19f343df52ac104d5941">More...</a><br /></td></tr>
 <tr class="separator:ab1e494c0fa2b19f343df52ac104d5941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a837de88bf9b0b5aec007808b19a7bc95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a837de88bf9b0b5aec007808b19a7bc95">FindActiveDevice</a> ()</td></tr>
+<tr class="separator:a837de88bf9b0b5aec007808b19a7bc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:acfcad21d31f5b8d410a9256ebe64f80b"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#acfcad21d31f5b8d410a9256ebe64f80b">actions</a> = new List&lt;<a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a>&gt;()</td></tr>
+<tr class="separator:acfcad21d31f5b8d410a9256ebe64f80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e222ed8b781c595a59be4da5a2bffbc"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_player_one_axis_action.html">PlayerOneAxisAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a0e222ed8b781c595a59be4da5a2bffbc">oneAxisActions</a> = new List&lt;<a class="el" href="class_in_control_1_1_player_one_axis_action.html">PlayerOneAxisAction</a>&gt;()</td></tr>
+<tr class="separator:a0e222ed8b781c595a59be4da5a2bffbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae38c210ffdb1980405c4dbaf7270beb5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_in_control_1_1_player_two_axis_action.html">PlayerTwoAxisAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#ae38c210ffdb1980405c4dbaf7270beb5">twoAxisActions</a> = new List&lt;<a class="el" href="class_in_control_1_1_player_two_axis_action.html">PlayerTwoAxisAction</a>&gt;()</td></tr>
+<tr class="separator:ae38c210ffdb1980405c4dbaf7270beb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a1db466cc6a1cbefea4c16eeb5c5bc"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a09a1db466cc6a1cbefea4c16eeb5c5bc">actionsByName</a> = new Dictionary&lt;string, <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a>&gt;()</td></tr>
+<tr class="separator:a09a1db466cc6a1cbefea4c16eeb5c5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ad8097b010187f9ad2a477ea04e1bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_binding_listen_options.html">BindingListenOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a08ad8097b010187f9ad2a477ea04e1bc">listenOptions</a> = new <a class="el" href="class_in_control_1_1_binding_listen_options.html">BindingListenOptions</a>()</td></tr>
+<tr class="separator:a08ad8097b010187f9ad2a477ea04e1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e3d061d3f0560aa12eac7f35d3b197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a07e3d061d3f0560aa12eac7f35d3b197">activeDevice</a></td></tr>
+<tr class="separator:a07e3d061d3f0560aa12eac7f35d3b197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a067402e3d40a4e0bc202bde3d5010609"><td class="memItemLeft" align="right" valign="top">const UInt16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_player_action_set.html#a067402e3d40a4e0bc202bde3d5010609">currentDataFormatVersion</a> = 2</td></tr>
+<tr class="separator:a067402e3d40a4e0bc202bde3d5010609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An action set represents a set of actions, usually for a single player. </p>
@@ -434,6 +462,31 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="a837de88bf9b0b5aec007808b19a7bc95" name="a837de88bf9b0b5aec007808b19a7bc95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837de88bf9b0b5aec007808b19a7bc95">&#9670;&nbsp;</a></span>FindActiveDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a> InControl.PlayerActionSet.FindActiveDevice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aae7aa897b4590eb13c6d7d4697193c2c" name="aae7aa897b4590eb13c6d7d4697193c2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae7aa897b4590eb13c6d7d4697193c2c">&#9670;&nbsp;</a></span>GetPlayerActionByName()</h2>
 
@@ -626,6 +679,94 @@ Events</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="acfcad21d31f5b8d410a9256ebe64f80b" name="acfcad21d31f5b8d410a9256ebe64f80b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfcad21d31f5b8d410a9256ebe64f80b">&#9670;&nbsp;</a></span>actions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a>&gt; InControl.PlayerActionSet.actions = new List&lt;<a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09a1db466cc6a1cbefea4c16eeb5c5bc" name="a09a1db466cc6a1cbefea4c16eeb5c5bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a1db466cc6a1cbefea4c16eeb5c5bc">&#9670;&nbsp;</a></span>actionsByName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a>&gt; InControl.PlayerActionSet.actionsByName = new Dictionary&lt;string, <a class="el" href="class_in_control_1_1_player_action.html">PlayerAction</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07e3d061d3f0560aa12eac7f35d3b197" name="a07e3d061d3f0560aa12eac7f35d3b197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e3d061d3f0560aa12eac7f35d3b197">&#9670;&nbsp;</a></span>activeDevice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_in_control_1_1_input_device.html">InputDevice</a> InControl.PlayerActionSet.activeDevice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a067402e3d40a4e0bc202bde3d5010609" name="a067402e3d40a4e0bc202bde3d5010609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a067402e3d40a4e0bc202bde3d5010609">&#9670;&nbsp;</a></span>currentDataFormatVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const UInt16 InControl.PlayerActionSet.currentDataFormatVersion = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acf04e96e3e7446a4a918b27c0b4dfc5d" name="acf04e96e3e7446a4a918b27c0b4dfc5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf04e96e3e7446a4a918b27c0b4dfc5d">&#9670;&nbsp;</a></span>LastDeviceClass</h2>
 
@@ -690,6 +831,72 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="a08ad8097b010187f9ad2a477ea04e1bc" name="a08ad8097b010187f9ad2a477ea04e1bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ad8097b010187f9ad2a477ea04e1bc">&#9670;&nbsp;</a></span>listenOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_in_control_1_1_binding_listen_options.html">BindingListenOptions</a> InControl.PlayerActionSet.listenOptions = new <a class="el" href="class_in_control_1_1_binding_listen_options.html">BindingListenOptions</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e222ed8b781c595a59be4da5a2bffbc" name="a0e222ed8b781c595a59be4da5a2bffbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e222ed8b781c595a59be4da5a2bffbc">&#9670;&nbsp;</a></span>oneAxisActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_in_control_1_1_player_one_axis_action.html">PlayerOneAxisAction</a>&gt; InControl.PlayerActionSet.oneAxisActions = new List&lt;<a class="el" href="class_in_control_1_1_player_one_axis_action.html">PlayerOneAxisAction</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae38c210ffdb1980405c4dbaf7270beb5" name="ae38c210ffdb1980405c4dbaf7270beb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae38c210ffdb1980405c4dbaf7270beb5">&#9670;&nbsp;</a></span>twoAxisActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_in_control_1_1_player_two_axis_action.html">PlayerTwoAxisAction</a>&gt; InControl.PlayerActionSet.twoAxisActions = new List&lt;<a class="el" href="class_in_control_1_1_player_two_axis_action.html">PlayerTwoAxisAction</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a92e6ddd4be6645bf1cfcf564170c5cbc" name="a92e6ddd4be6645bf1cfcf564170c5cbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92e6ddd4be6645bf1cfcf564170c5cbc">&#9670;&nbsp;</a></span>Actions</h2>
@@ -706,7 +913,7 @@ Events</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -805,7 +1012,7 @@ Events</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -829,7 +1036,7 @@ Events</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1016,7 +1223,7 @@ Events</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_in_control.html">InControl</a></li><li class="navelem"><a class="el" href="class_in_control_1_1_player_action_set.html">PlayerActionSet</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:37 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,6 @@
 var class_unity_standard_assets_1_1_cross_platform_input_1_1_button_handler =
 [
+    [ "OnEnable", "class_unity_standard_assets_1_1_cross_platform_input_1_1_button_handler.html#a64c2f1eacf18dcf3e4aad86e951a62d6", null ],
     [ "SetAxisNegativeState", "class_unity_standard_assets_1_1_cross_platform_input_1_1_button_handler.html#a4385e667aabc4bd3c982b0ff8ae32933", null ],
     [ "SetAxisNeutralState", "class_unity_standard_assets_1_1_cross_platform_input_1_1_button_handler.html#a0c828c03ae8cc3f153d2b60063b6fbf8", null ],
     [ "SetAxisPositiveState", "class_unity_standard_assets_1_1_cross_platform_input_1_1_button_handler.html#a5fbaa8e9fdb70c05e7ba82bed1333e55", null ],

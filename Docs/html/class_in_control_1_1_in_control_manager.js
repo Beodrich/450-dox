@@ -1,5 +1,15 @@
 var class_in_control_1_1_in_control_manager =
 [
+    [ "FixedUpdate", "class_in_control_1_1_in_control_manager.html#a6d2f695d9700c4b24295de8f6d18cac4", null ],
+    [ "LogMessage", "class_in_control_1_1_in_control_manager.html#a1a91a600b75003bbd1564c09aff3d0a2", null ],
+    [ "OnApplicationFocus", "class_in_control_1_1_in_control_manager.html#a255d3f2e86d976d1237a8212a9bd4277", null ],
+    [ "OnApplicationPause", "class_in_control_1_1_in_control_manager.html#a0ec65fef05cc617cc8bb750715478ed9", null ],
+    [ "OnApplicationQuit", "class_in_control_1_1_in_control_manager.html#ad91270ca3a9fec09ed0f5c7c420593c9", null ],
+    [ "OnDisable", "class_in_control_1_1_in_control_manager.html#a8a27231872bfce6d67aaa407cf8b4dd7", null ],
+    [ "OnEnable", "class_in_control_1_1_in_control_manager.html#a70d38356be476f27df0cf262e5020b9c", null ],
+    [ "OnLevelWasLoaded", "class_in_control_1_1_in_control_manager.html#a7dafabe878ce2fd296554e9d5d63b96c", null ],
+    [ "Update", "class_in_control_1_1_in_control_manager.html#aa2f3f7d8ed7b9cee17c9778b8aafa181", null ],
+    [ "applicationHasQuit", "class_in_control_1_1_in_control_manager.html#ac2d36e1bc11496693407ceec33bc4767", null ],
     [ "dontDestroyOnLoad", "class_in_control_1_1_in_control_manager.html#a366cf752a92690944e56290d56d540c4", null ],
     [ "enableICade", "class_in_control_1_1_in_control_manager.html#ac109847d3f963c3c06e9666fc3102cd0", null ],
     [ "enableNativeInput", "class_in_control_1_1_in_control_manager.html#ab921130caced85c9eca19c6aa3b0598d", null ],
@@ -13,6 +23,7 @@ var class_in_control_1_1_in_control_manager =
     [ "nativeInputUpdateRate", "class_in_control_1_1_in_control_manager.html#a84eda5dc1fdc3167919e399672273da5", null ],
     [ "suspendInBackground", "class_in_control_1_1_in_control_manager.html#a9e2c6b51fc9d6387e70bc6a39a2a49cb", null ],
     [ "updateMode", "class_in_control_1_1_in_control_manager.html#a6421b114f8f9b9af6fcc0333214e0f35", null ],
+    [ "useFixedUpdate", "class_in_control_1_1_in_control_manager.html#a47e6226ceeaded1f7ecfa9cce514f666", null ],
     [ "xInputBufferSize", "class_in_control_1_1_in_control_manager.html#adf8cedf14d60b8d6641117e989350dbf", null ],
     [ "xInputOverrideBufferSize", "class_in_control_1_1_in_control_manager.html#aa41fd97123b1006ec6c34a5fb8124312", null ],
     [ "xInputOverrideUpdateRate", "class_in_control_1_1_in_control_manager.html#a3ed7dde77ffb684295268b124b113187", null ],

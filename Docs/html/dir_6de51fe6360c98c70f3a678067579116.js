@@ -19,7 +19,7 @@ var dir_6de51fe6360c98c70f3a678067579116 =
       [ "UnityStandardAssets.CrossPlatformInput.Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick" ]
     ] ],
     [ "MobileControlRig.cs", "_mobile_control_rig_8cs.html", [
-      [ "UnityStandardAssets.CrossPlatformInput.MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", null ]
+      [ "UnityStandardAssets.CrossPlatformInput.MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig" ]
     ] ],
     [ "TiltInput.cs", "_tilt_input_8cs.html", [
       [ "UnityStandardAssets.CrossPlatformInput.TiltInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input" ],

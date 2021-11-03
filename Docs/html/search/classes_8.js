@@ -27,5 +27,6 @@ var searchData=
   ['inputrange_24',['InputRange',['../struct_in_control_1_1_input_range.html',1,'InControl']]],
   ['inputsystem_25',['InputSystem',['../class_input_system.html',1,'']]],
   ['inspectornameattribute_26',['InspectorNameAttribute',['../class_in_control_1_1_inspector_name_attribute.html',1,'InControl']]],
-  ['iupdateable_27',['IUpdateable',['../interface_in_control_1_1_i_updateable.html',1,'InControl']]]
+  ['itemcollect_27',['ItemCollect',['../class_item_collect.html',1,'']]],
+  ['iupdateable_28',['IUpdateable',['../interface_in_control_1_1_i_updateable.html',1,'InControl']]]
 ];

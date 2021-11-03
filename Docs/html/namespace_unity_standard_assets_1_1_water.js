@@ -11,7 +11,7 @@ var namespace_unity_standard_assets_1_1_water =
     [ "Water", "class_unity_standard_assets_1_1_water_1_1_water.html", "class_unity_standard_assets_1_1_water_1_1_water" ],
     [ "WaterBase", "class_unity_standard_assets_1_1_water_1_1_water_base.html", "class_unity_standard_assets_1_1_water_1_1_water_base" ],
     [ "WaterBaseEditor", "class_unity_standard_assets_1_1_water_1_1_water_base_editor.html", "class_unity_standard_assets_1_1_water_1_1_water_base_editor" ],
-    [ "WaterBasic", "class_unity_standard_assets_1_1_water_1_1_water_basic.html", null ],
+    [ "WaterBasic", "class_unity_standard_assets_1_1_water_1_1_water_basic.html", "class_unity_standard_assets_1_1_water_1_1_water_basic" ],
     [ "WaterTile", "class_unity_standard_assets_1_1_water_1_1_water_tile.html", "class_unity_standard_assets_1_1_water_1_1_water_tile" ],
     [ "WaterQuality", "namespace_unity_standard_assets_1_1_water.html#ac23a9da55bc8ba734d644ff4cc1f15f5", [
       [ "High", "namespace_unity_standard_assets_1_1_water.html#ac23a9da55bc8ba734d644ff4cc1f15f5a655d20c1ca69519ca647684edbb2db35", null ],

@@ -1,10 +1,10 @@
 var annotated_dup =
 [
     [ "BasicExample", "namespace_basic_example.html", [
-      [ "BasicExample", "class_basic_example_1_1_basic_example.html", null ]
+      [ "BasicExample", "class_basic_example_1_1_basic_example.html", "class_basic_example_1_1_basic_example" ]
     ] ],
     [ "BindingsExample", "namespace_bindings_example.html", [
-      [ "BindingsExample", "class_bindings_example_1_1_bindings_example.html", null ],
+      [ "BindingsExample", "class_bindings_example_1_1_bindings_example.html", "class_bindings_example_1_1_bindings_example" ],
       [ "PlayerActions", "class_bindings_example_1_1_player_actions.html", "class_bindings_example_1_1_player_actions" ]
     ] ],
     [ "InControl", "namespace_in_control.html", [
@@ -105,7 +105,7 @@ var annotated_dup =
     ] ],
     [ "InterfaceMovement", "namespace_interface_movement.html", [
       [ "Button", "class_interface_movement_1_1_button.html", "class_interface_movement_1_1_button" ],
-      [ "ButtonFocus", "class_interface_movement_1_1_button_focus.html", null ],
+      [ "ButtonFocus", "class_interface_movement_1_1_button_focus.html", "class_interface_movement_1_1_button_focus" ],
       [ "ButtonManager", "class_interface_movement_1_1_button_manager.html", "class_interface_movement_1_1_button_manager" ]
     ] ],
     [ "Lux_SRP_GrassDisplacement", "namespace_lux___s_r_p___grass_displacement.html", [
@@ -120,10 +120,10 @@ var annotated_dup =
     ] ],
     [ "LuxLWRPEssentials", "namespace_lux_l_w_r_p_essentials.html", [
       [ "Demo", "namespace_lux_l_w_r_p_essentials_1_1_demo.html", [
-        [ "AnimateSphere", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_animate_sphere.html", null ],
-        [ "CheckSettings", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_check_settings.html", null ],
+        [ "AnimateSphere", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_animate_sphere.html", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_animate_sphere" ],
+        [ "CheckSettings", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_check_settings.html", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_check_settings" ],
         [ "ExtendedFlycam", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_extended_flycam.html", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_extended_flycam" ],
-        [ "MouseSelect", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_mouse_select.html", null ],
+        [ "MouseSelect", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_mouse_select.html", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_mouse_select" ],
         [ "ToggleOutlineSelection", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_toggle_outline_selection.html", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_toggle_outline_selection" ]
       ] ]
     ] ],
@@ -158,7 +158,7 @@ var annotated_dup =
       ] ]
     ] ],
     [ "TouchExample", "namespace_touch_example.html", [
-      [ "CubeController", "class_touch_example_1_1_cube_controller.html", null ]
+      [ "CubeController", "class_touch_example_1_1_cube_controller.html", "class_touch_example_1_1_cube_controller" ]
     ] ],
     [ "UnityEditor", "namespace_unity_editor.html", [
       [ "AI", "namespace_unity_editor_1_1_a_i.html", [
@@ -182,9 +182,9 @@ var annotated_dup =
       [ "_2D", "namespace_unity_standard_assets_1_1__2_d.html", [
         [ "Camera2DFollow", "class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow.html", "class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow" ],
         [ "CameraFollow", "class_unity_standard_assets_1_1__2_d_1_1_camera_follow.html", "class_unity_standard_assets_1_1__2_d_1_1_camera_follow" ],
-        [ "Platformer2DUserControl", "class_unity_standard_assets_1_1__2_d_1_1_platformer2_d_user_control.html", null ],
+        [ "Platformer2DUserControl", "class_unity_standard_assets_1_1__2_d_1_1_platformer2_d_user_control.html", "class_unity_standard_assets_1_1__2_d_1_1_platformer2_d_user_control" ],
         [ "PlatformerCharacter2D", "class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d.html", "class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d" ],
-        [ "Restarter", "class_unity_standard_assets_1_1__2_d_1_1_restarter.html", null ]
+        [ "Restarter", "class_unity_standard_assets_1_1__2_d_1_1_restarter.html", "class_unity_standard_assets_1_1__2_d_1_1_restarter" ]
       ] ],
       [ "Cameras", "namespace_unity_standard_assets_1_1_cameras.html", [
         [ "AbstractTargetFollower", "class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower.html", "class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower" ],
@@ -198,7 +198,7 @@ var annotated_dup =
       ] ],
       [ "Characters", "namespace_unity_standard_assets_1_1_characters.html", [
         [ "FirstPerson", "namespace_unity_standard_assets_1_1_characters_1_1_first_person.html", [
-          [ "FirstPersonController", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_first_person_controller.html", null ],
+          [ "FirstPersonController", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_first_person_controller.html", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_first_person_controller" ],
           [ "HeadBob", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob.html", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob" ],
           [ "MouseLook", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look.html", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look" ],
           [ "RigidbodyFirstPersonController", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller.html", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller" ]
@@ -206,12 +206,12 @@ var annotated_dup =
         [ "ThirdPerson", "namespace_unity_standard_assets_1_1_characters_1_1_third_person.html", [
           [ "AICharacterControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_a_i_character_control.html", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_a_i_character_control" ],
           [ "ThirdPersonCharacter", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_character.html", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_character" ],
-          [ "ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control.html", null ]
+          [ "ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control.html", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control" ]
         ] ]
       ] ],
       [ "CrossPlatformInput", "namespace_unity_standard_assets_1_1_cross_platform_input.html", [
         [ "Inspector", "namespace_unity_standard_assets_1_1_cross_platform_input_1_1_inspector.html", [
-          [ "CrossPlatformInitialize", "class_unity_standard_assets_1_1_cross_platform_input_1_1_inspector_1_1_cross_platform_initialize.html", null ]
+          [ "CrossPlatformInitialize", "class_unity_standard_assets_1_1_cross_platform_input_1_1_inspector_1_1_cross_platform_initialize.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_inspector_1_1_cross_platform_initialize" ]
         ] ],
         [ "PlatformSpecific", "namespace_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific.html", [
           [ "MobileInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input" ],
@@ -222,7 +222,7 @@ var annotated_dup =
         [ "CrossPlatformInputManager", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager" ],
         [ "InputAxisScrollbar", "class_unity_standard_assets_1_1_cross_platform_input_1_1_input_axis_scrollbar.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_input_axis_scrollbar" ],
         [ "Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick" ],
-        [ "MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", null ],
+        [ "MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig" ],
         [ "TiltInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input" ],
         [ "TouchPad", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad" ],
         [ "VirtualInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input" ]
@@ -250,20 +250,20 @@ var annotated_dup =
         [ "AutoMoveAndRotate", "class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate.html", "class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate" ],
         [ "CameraRefocus", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus" ],
         [ "CurveControlledBob", "class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob.html", "class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob" ],
-        [ "DragRigidbody", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody.html", null ],
+        [ "DragRigidbody", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody.html", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody" ],
         [ "DynamicShadowSettings", "class_unity_standard_assets_1_1_utility_1_1_dynamic_shadow_settings.html", "class_unity_standard_assets_1_1_utility_1_1_dynamic_shadow_settings" ],
         [ "FollowTarget", "class_unity_standard_assets_1_1_utility_1_1_follow_target.html", "class_unity_standard_assets_1_1_utility_1_1_follow_target" ],
         [ "FOVKick", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick" ],
-        [ "FPSCounter", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter.html", null ],
+        [ "FPSCounter", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter.html", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter" ],
         [ "LerpControlledBob", "class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob.html", "class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob" ],
         [ "ObjectResetter", "class_unity_standard_assets_1_1_utility_1_1_object_resetter.html", "class_unity_standard_assets_1_1_utility_1_1_object_resetter" ],
         [ "ParticleSystemDestroyer", "class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer.html", "class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer" ],
-        [ "PlatformSpecificContent", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content.html", null ],
+        [ "PlatformSpecificContent", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content.html", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content" ],
         [ "SimpleActivatorMenu", "class_unity_standard_assets_1_1_utility_1_1_simple_activator_menu.html", "class_unity_standard_assets_1_1_utility_1_1_simple_activator_menu" ],
         [ "SimpleMouseRotator", "class_unity_standard_assets_1_1_utility_1_1_simple_mouse_rotator.html", "class_unity_standard_assets_1_1_utility_1_1_simple_mouse_rotator" ],
-        [ "SmoothFollow", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow.html", null ],
+        [ "SmoothFollow", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow.html", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow" ],
         [ "TimedObjectActivator", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator.html", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator" ],
-        [ "TimedObjectDestructor", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor.html", null ],
+        [ "TimedObjectDestructor", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor.html", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor" ],
         [ "WaypointCircuit", "class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit.html", "class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit" ],
         [ "WaypointProgressTracker", "class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker.html", "class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker" ]
       ] ],
@@ -273,7 +273,7 @@ var annotated_dup =
           [ "AeroplaneAudio", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_audio.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_audio" ],
           [ "AeroplaneController", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller" ],
           [ "AeroplaneControlSurfaceAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator" ],
-          [ "AeroplanePropellerAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator.html", null ],
+          [ "AeroplanePropellerAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator" ],
           [ "AeroplaneUserControl2Axis", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis" ],
           [ "AeroplaneUserControl4Axis", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control4_axis.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control4_axis" ],
           [ "JetParticleEffect", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_jet_particle_effect.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_jet_particle_effect" ],
@@ -281,17 +281,17 @@ var annotated_dup =
         ] ],
         [ "Ball", "namespace_unity_standard_assets_1_1_vehicles_1_1_ball.html", [
           [ "Ball", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball.html", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball" ],
-          [ "BallUserControl", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control.html", null ]
+          [ "BallUserControl", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control.html", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control" ]
         ] ],
         [ "Car", "namespace_unity_standard_assets_1_1_vehicles_1_1_car.html", [
           [ "BrakeLight", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light" ],
           [ "CarAIControl", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control" ],
           [ "CarAudio", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio" ],
           [ "CarController", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller" ],
-          [ "CarSelfRighting", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting.html", null ],
-          [ "CarUserControl", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control.html", null ],
+          [ "CarSelfRighting", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting" ],
+          [ "CarUserControl", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control" ],
           [ "Mudguard", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard" ],
-          [ "SkidTrail", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_skid_trail.html", null ],
+          [ "SkidTrail", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_skid_trail.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_skid_trail" ],
           [ "Suspension", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension" ],
           [ "WheelEffects", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects" ]
         ] ]
@@ -308,7 +308,7 @@ var annotated_dup =
         [ "Water", "class_unity_standard_assets_1_1_water_1_1_water.html", "class_unity_standard_assets_1_1_water_1_1_water" ],
         [ "WaterBase", "class_unity_standard_assets_1_1_water_1_1_water_base.html", "class_unity_standard_assets_1_1_water_1_1_water_base" ],
         [ "WaterBaseEditor", "class_unity_standard_assets_1_1_water_1_1_water_base_editor.html", "class_unity_standard_assets_1_1_water_1_1_water_base_editor" ],
-        [ "WaterBasic", "class_unity_standard_assets_1_1_water_1_1_water_basic.html", null ],
+        [ "WaterBasic", "class_unity_standard_assets_1_1_water_1_1_water_basic.html", "class_unity_standard_assets_1_1_water_1_1_water_basic" ],
         [ "WaterTile", "class_unity_standard_assets_1_1_water_1_1_water_tile.html", "class_unity_standard_assets_1_1_water_1_1_water_tile" ]
       ] ]
     ] ],
@@ -317,40 +317,38 @@ var annotated_dup =
       [ "VirtualDeviceExample", "class_virtual_device_example_1_1_virtual_device_example.html", "class_virtual_device_example_1_1_virtual_device_example" ]
     ] ],
     [ "AlphaButtonClickMask", "class_alpha_button_click_mask.html", "class_alpha_button_click_mask" ],
-    [ "AnimationToStateMachine", "class_animation_to_state_machine.html", null ],
+    [ "AnimationToStateMachine", "class_animation_to_state_machine.html", "class_animation_to_state_machine" ],
     [ "ApplyProceduralTextureProperties", "class_apply_procedural_texture_properties.html", "class_apply_procedural_texture_properties" ],
     [ "ApplyProceduralTexturePropertiesEditor", "class_apply_procedural_texture_properties_editor.html", "class_apply_procedural_texture_properties_editor" ],
     [ "AttackDetails", "struct_attack_details.html", "struct_attack_details" ],
-    [ "AttackState", "class_attack_state.html", null ],
+    [ "AttackState", "class_attack_state.html", "class_attack_state" ],
     [ "BindingButton", "class_binding_button.html", "class_binding_button" ],
     [ "BindingsMenu", "class_bindings_menu.html", "class_bindings_menu" ],
     [ "CameraSwitch", "class_camera_switch.html", "class_camera_switch" ],
-    [ "CharMove", "class_char_move.html", null ],
-    [ "CharMoveRb", "class_char_move_rb.html", "class_char_move_rb" ],
-    [ "D_Attack", "class_d___attack.html", null ],
-    [ "D_Dead", "class_d___dead.html", null ],
+    [ "CharacterMove", "class_character_move.html", "class_character_move" ],
+    [ "D_Attack", "class_d___attack.html", "class_d___attack" ],
+    [ "D_Dead", "class_d___dead.html", "class_d___dead" ],
     [ "D_Entity", "class_d___entity.html", "class_d___entity" ],
-    [ "D_Idle", "class_d___idle.html", null ],
+    [ "D_Idle", "class_d___idle.html", "class_d___idle" ],
     [ "D_Patrol", "class_d___patrol.html", "class_d___patrol" ],
     [ "D_Roam", "class_d___roam.html", "class_d___roam" ],
-    [ "DeadState", "class_dead_state.html", null ],
+    [ "DeadState", "class_dead_state.html", "class_dead_state" ],
     [ "DoxygenConfig", "class_doxygen_config.html", "class_doxygen_config" ],
     [ "DoxygenWindow", "class_doxygen_window.html", "class_doxygen_window" ],
     [ "DoxyRunner", "class_doxy_runner.html", "class_doxy_runner" ],
     [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", "class_doxy_thread_safe_output" ],
     [ "Enemy1", "class_enemy1.html", "class_enemy1" ],
-    [ "Enemy1_Attack", "class_enemy1___attack.html", null ],
-    [ "Enemy1_Dead", "class_enemy1___dead.html", null ],
-    [ "Enemy1_Idle", "class_enemy1___idle.html", null ],
+    [ "Enemy1_Attack", "class_enemy1___attack.html", "class_enemy1___attack" ],
+    [ "Enemy1_Dead", "class_enemy1___dead.html", "class_enemy1___dead" ],
+    [ "Enemy1_Idle", "class_enemy1___idle.html", "class_enemy1___idle" ],
     [ "Enemy1_Patrol", "class_enemy1___patrol.html", "class_enemy1___patrol" ],
     [ "Enemy1_Roam", "class_enemy1___roam.html", "class_enemy1___roam" ],
     [ "Entity", "class_entity.html", "class_entity" ],
-    [ "EventSystemChecker", "class_event_system_checker.html", null ],
+    [ "EventSystemChecker", "class_event_system_checker.html", "class_event_system_checker" ],
     [ "FiniteStateMachine", "class_finite_state_machine.html", "class_finite_state_machine" ],
-    [ "ForcedReset", "class_forced_reset.html", null ],
+    [ "ForcedReset", "class_forced_reset.html", "class_forced_reset" ],
     [ "GameActions", "class_game_actions.html", "class_game_actions" ],
-    [ "GGun", "class_g_gun.html", null ],
-    [ "Grapple_Base", "class_grapple___base.html", "class_grapple___base" ],
+    [ "GGun", "class_g_gun.html", "class_g_gun" ],
     [ "GrapplingHook", "class_grappling_hook.html", "class_grappling_hook" ],
     [ "Hook", "class_hook.html", "class_hook" ],
     [ "HookDetector", "class_hook_detector.html", "class_hook_detector" ],
@@ -359,8 +357,10 @@ var annotated_dup =
     [ "ICadeManager()", "category_i_cade_manager_07_08.html", "category_i_cade_manager_07_08" ],
     [ "ICadeReaderView", "interface_i_cade_reader_view.html", "interface_i_cade_reader_view" ],
     [ "ICadeReaderView()", "category_i_cade_reader_view_07_08.html", "category_i_cade_reader_view_07_08" ],
-    [ "IdleState", "class_idle_state.html", null ],
+    [ "IdleState", "class_idle_state.html", "class_idle_state" ],
     [ "InputSystem", "class_input_system.html", "class_input_system" ],
+    [ "ItemCollect", "class_item_collect.html", "class_item_collect" ],
+    [ "LevelLoader", "class_level_loader.html", "class_level_loader" ],
     [ "LevelReset", "class_level_reset.html", "class_level_reset" ],
     [ "LuxToonShaderGUI", "class_lux_toon_shader_g_u_i.html", "class_lux_toon_shader_g_u_i" ],
     [ "LuxURPCameraFadeDrawer", "class_lux_u_r_p_camera_fade_drawer.html", "class_lux_u_r_p_camera_fade_drawer" ],
@@ -382,9 +382,9 @@ var annotated_dup =
     [ "MenuActions", "class_menu_actions.html", "class_menu_actions" ],
     [ "MenuManager", "class_menu_manager.html", "class_menu_manager" ],
     [ "MenuSceneLoader", "class_menu_scene_loader.html", "class_menu_scene_loader" ],
-    [ "Move_Base", "class_move___base.html", "class_move___base" ],
     [ "PatrolState", "class_patrol_state.html", "class_patrol_state" ],
     [ "PauseMenu", "class_pause_menu.html", "class_pause_menu" ],
+    [ "Pickup", "class_pickup.html", "class_pickup" ],
     [ "ProceduralTexture2D", "class_procedural_texture2_d.html", "class_procedural_texture2_d" ],
     [ "ProceduralTexture2DEditor", "class_procedural_texture2_d_editor.html", "class_procedural_texture2_d_editor" ],
     [ "RoamState", "class_roam_state.html", "class_roam_state" ],

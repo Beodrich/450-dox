@@ -20,25 +20,25 @@ var dir_c3df90ef6ff9328bb0f51f68181340b8 =
       [ "UnityStandardAssets.Utility.CurveControlledBob", "class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob.html", "class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob" ]
     ] ],
     [ "DragRigidbody.cs", "_drag_rigidbody_8cs.html", [
-      [ "UnityStandardAssets.Utility.DragRigidbody", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody.html", null ]
+      [ "UnityStandardAssets.Utility.DragRigidbody", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody.html", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody" ]
     ] ],
     [ "DynamicShadowSettings.cs", "_dynamic_shadow_settings_8cs.html", [
       [ "UnityStandardAssets.Utility.DynamicShadowSettings", "class_unity_standard_assets_1_1_utility_1_1_dynamic_shadow_settings.html", "class_unity_standard_assets_1_1_utility_1_1_dynamic_shadow_settings" ]
     ] ],
     [ "EventSystemChecker.cs", "_event_system_checker_8cs.html", [
-      [ "EventSystemChecker", "class_event_system_checker.html", null ]
+      [ "EventSystemChecker", "class_event_system_checker.html", "class_event_system_checker" ]
     ] ],
     [ "FollowTarget.cs", "_follow_target_8cs.html", [
       [ "UnityStandardAssets.Utility.FollowTarget", "class_unity_standard_assets_1_1_utility_1_1_follow_target.html", "class_unity_standard_assets_1_1_utility_1_1_follow_target" ]
     ] ],
     [ "ForcedReset.cs", "_forced_reset_8cs.html", [
-      [ "ForcedReset", "class_forced_reset.html", null ]
+      [ "ForcedReset", "class_forced_reset.html", "class_forced_reset" ]
     ] ],
     [ "FOVKick.cs", "_f_o_v_kick_8cs.html", [
       [ "UnityStandardAssets.Utility.FOVKick", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick" ]
     ] ],
     [ "FPSCounter.cs", "_f_p_s_counter_8cs.html", [
-      [ "UnityStandardAssets.Utility.FPSCounter", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter.html", null ]
+      [ "UnityStandardAssets.Utility.FPSCounter", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter.html", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter" ]
     ] ],
     [ "LerpControlledBob.cs", "_lerp_controlled_bob_8cs.html", [
       [ "UnityStandardAssets.Utility.LerpControlledBob", "class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob.html", "class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob" ]
@@ -48,7 +48,7 @@ var dir_c3df90ef6ff9328bb0f51f68181340b8 =
     ] ],
     [ "ParticleSystemDestroyer.cs", "_particle_system_destroyer_8cs.html", "_particle_system_destroyer_8cs" ],
     [ "PlatformSpecificContent.cs", "_platform_specific_content_8cs.html", [
-      [ "UnityStandardAssets.Utility.PlatformSpecificContent", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content.html", null ]
+      [ "UnityStandardAssets.Utility.PlatformSpecificContent", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content.html", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content" ]
     ] ],
     [ "SimpleActivatorMenu.cs", "_simple_activator_menu_8cs.html", [
       [ "UnityStandardAssets.Utility.SimpleActivatorMenu", "class_unity_standard_assets_1_1_utility_1_1_simple_activator_menu.html", "class_unity_standard_assets_1_1_utility_1_1_simple_activator_menu" ]
@@ -57,7 +57,7 @@ var dir_c3df90ef6ff9328bb0f51f68181340b8 =
       [ "UnityStandardAssets.Utility.SimpleMouseRotator", "class_unity_standard_assets_1_1_utility_1_1_simple_mouse_rotator.html", "class_unity_standard_assets_1_1_utility_1_1_simple_mouse_rotator" ]
     ] ],
     [ "SmoothFollow.cs", "_standard_01_assets_2_utility_2_smooth_follow_8cs.html", [
-      [ "UnityStandardAssets.Utility.SmoothFollow", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow.html", null ]
+      [ "UnityStandardAssets.Utility.SmoothFollow", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow.html", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow" ]
     ] ],
     [ "TimedObjectActivator.cs", "_timed_object_activator_8cs.html", [
       [ "UnityStandardAssets.Utility.TimedObjectActivator", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator.html", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator" ],
@@ -65,7 +65,7 @@ var dir_c3df90ef6ff9328bb0f51f68181340b8 =
       [ "UnityStandardAssets.Utility.TimedObjectActivator.Entries", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries.html", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries" ]
     ] ],
     [ "TimedObjectDestructor.cs", "_timed_object_destructor_8cs.html", [
-      [ "UnityStandardAssets.Utility.TimedObjectDestructor", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor.html", null ]
+      [ "UnityStandardAssets.Utility.TimedObjectDestructor", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor.html", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor" ]
     ] ],
     [ "WaypointCircuit.cs", "_waypoint_circuit_8cs.html", [
       [ "UnityStandardAssets.Utility.WaypointCircuit", "class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit.html", "class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit" ],

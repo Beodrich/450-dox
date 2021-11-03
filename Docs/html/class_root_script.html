@@ -85,10 +85,15 @@ $(document).ready(function(){initNavTree('class_root_script.html',''); initResiz
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_root_script-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RootScript Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This is the root script that will hold multiple static classes and easy-to-access references for multiple objects.  
+ <a href="class_root_script.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for RootScript:</div>
 <div class="dyncontent">
@@ -99,28 +104,70 @@ Inheritance diagram for RootScript:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4bc132115d5cefc7c52c61b4a42d3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#ab4bc132115d5cefc7c52c61b4a42d3ab">InitiateInputSystem</a> ()</td></tr>
+<tr class="memdesc:ab4bc132115d5cefc7c52c61b4a42d3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function that configures the default values for the input system.  <a href="class_root_script.html#ab4bc132115d5cefc7c52c61b4a42d3ab">More...</a><br /></td></tr>
 <tr class="separator:ab4bc132115d5cefc7c52c61b4a42d3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74430ab126ef0c8976266d4d2943bc79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#a74430ab126ef0c8976266d4d2943bc79">SetCharMove</a> (<a class="el" href="class_char_move.html">CharMove</a> _charMove)</td></tr>
-<tr class="separator:a74430ab126ef0c8976266d4d2943bc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcc8cabaa3439094f723ec76781b0473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_char_move.html">CharMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#afcc8cabaa3439094f723ec76781b0473">GetCharMove</a> ()</td></tr>
-<tr class="separator:afcc8cabaa3439094f723ec76781b0473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6aa95bb25518cb98806eda3ad422d7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#ab6aa95bb25518cb98806eda3ad422d7c">SetCharMove</a> (<a class="el" href="class_character_move.html">CharacterMove</a> _charMove)</td></tr>
+<tr class="separator:ab6aa95bb25518cb98806eda3ad422d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af462e874128823cfbebe0a684e63aec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_move.html">CharacterMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#af462e874128823cfbebe0a684e63aec9">GetCharacterMove</a> ()</td></tr>
+<tr class="separator:af462e874128823cfbebe0a684e63aec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aadcb2271a921a9597ee4eebecc67ed87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_root_script.html">RootScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#aadcb2271a921a9597ee4eebecc67ed87">Root</a></td></tr>
+<tr class="memdesc:aadcb2271a921a9597ee4eebecc67ed87"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static class for the Root Script which can be called from any script in the game.  <a href="class_root_script.html#aadcb2271a921a9597ee4eebecc67ed87">More...</a><br /></td></tr>
 <tr class="separator:aadcb2271a921a9597ee4eebecc67ed87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d8ecc6b35e4edbe58944a60a8a252cd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_input_system.html">InputSystem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#a1d8ecc6b35e4edbe58944a60a8a252cd">Input</a></td></tr>
+<tr class="memdesc:a1d8ecc6b35e4edbe58944a60a8a252cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static class for the Input System that can be called from any script in the game.  <a href="class_root_script.html#a1d8ecc6b35e4edbe58944a60a8a252cd">More...</a><br /></td></tr>
 <tr class="separator:a1d8ecc6b35e4edbe58944a60a8a252cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a93e86032eba465b95714dd12d4fdf48d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#a93e86032eba465b95714dd12d4fdf48d">Awake</a> ()</td></tr>
+<tr class="separator:a93e86032eba465b95714dd12d4fdf48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c076d5757f6ae0d2cfc83c50ee6474"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#a97c076d5757f6ae0d2cfc83c50ee6474">Update</a> ()</td></tr>
+<tr class="separator:a97c076d5757f6ae0d2cfc83c50ee6474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad30f3737dac03d1939efe9868e988cc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_move.html">CharacterMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_root_script.html#ad30f3737dac03d1939efe9868e988cc6">charMove</a></td></tr>
+<tr class="separator:ad30f3737dac03d1939efe9868e988cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="afcc8cabaa3439094f723ec76781b0473" name="afcc8cabaa3439094f723ec76781b0473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcc8cabaa3439094f723ec76781b0473">&#9670;&nbsp;</a></span>GetCharMove()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >This is the root script that will hold multiple static classes and easy-to-access references for multiple objects. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a93e86032eba465b95714dd12d4fdf48d" name="a93e86032eba465b95714dd12d4fdf48d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e86032eba465b95714dd12d4fdf48d">&#9670;&nbsp;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RootScript.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af462e874128823cfbebe0a684e63aec9" name="af462e874128823cfbebe0a684e63aec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af462e874128823cfbebe0a684e63aec9">&#9670;&nbsp;</a></span>GetCharacterMove()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_char_move.html">CharMove</a> RootScript.GetCharMove </td>
+          <td class="memname"><a class="el" href="class_character_move.html">CharacterMove</a> RootScript.GetCharacterMove </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -145,10 +192,12 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The function that configures the default values for the input system. </p>
+
 </div>
 </div>
-<a id="a74430ab126ef0c8976266d4d2943bc79" name="a74430ab126ef0c8976266d4d2943bc79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74430ab126ef0c8976266d4d2943bc79">&#9670;&nbsp;</a></span>SetCharMove()</h2>
+<a id="ab6aa95bb25518cb98806eda3ad422d7c" name="ab6aa95bb25518cb98806eda3ad422d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6aa95bb25518cb98806eda3ad422d7c">&#9670;&nbsp;</a></span>SetCharMove()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,7 +205,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void RootScript.SetCharMove </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_char_move.html">CharMove</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_character_move.html">CharacterMove</a>&#160;</td>
           <td class="paramname"><em>_charMove</em></td><td>)</td>
           <td></td>
         </tr>
@@ -165,7 +214,54 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a97c076d5757f6ae0d2cfc83c50ee6474" name="a97c076d5757f6ae0d2cfc83c50ee6474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c076d5757f6ae0d2cfc83c50ee6474">&#9670;&nbsp;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RootScript.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad30f3737dac03d1939efe9868e988cc6" name="ad30f3737dac03d1939efe9868e988cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad30f3737dac03d1939efe9868e988cc6">&#9670;&nbsp;</a></span>charMove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_character_move.html">CharacterMove</a> RootScript.charMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1d8ecc6b35e4edbe58944a60a8a252cd" name="a1d8ecc6b35e4edbe58944a60a8a252cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d8ecc6b35e4edbe58944a60a8a252cd">&#9670;&nbsp;</a></span>Input</h2>
 
@@ -185,6 +281,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>A static class for the Input System that can be called from any script in the game. </p>
 
 </div>
 </div>
@@ -208,6 +306,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>A static class for the Root Script which can be called from any script in the game. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -219,7 +319,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_root_script.html">RootScript</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:37 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

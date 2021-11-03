@@ -8,6 +8,8 @@ var class_unity_standard_assets_1_1_utility_1_1_activate_trigger =
       [ "Animate", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#a4e33cb00af0eb967c03fbe756f487b00a059df89028c751bd463422f9c5bfbfd2", null ],
       [ "Deactivate", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#a4e33cb00af0eb967c03fbe756f487b00a109fec06829bd79d222cfc8af52aaaf1", null ]
     ] ],
+    [ "DoActivateTrigger", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#a7d10473278baf38fb9d90bf381517832", null ],
+    [ "OnTriggerEnter", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#abfacc3722cac4f81e3b158529c2e8bcb", null ],
     [ "action", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#a28fc3aac5d0e1054b21199fa04ef251d", null ],
     [ "repeatTrigger", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#a2efeb1eed91a40bce625222c1de6177d", null ],
     [ "source", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html#ab0f64a7f9f1ae14bdd05dd20ba9bc81d", null ],

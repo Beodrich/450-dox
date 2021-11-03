@@ -85,6 +85,8 @@ $(document).ready(function(){initNavTree('class_bindings_menu.html',''); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_bindings_menu-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BindingsMenu Class Reference</div></div>
 </div><!--header-->
@@ -98,7 +100,7 @@ Inheritance diagram for BindingsMenu:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a705ea22e12a73f14d517d383f745b800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a705ea22e12a73f14d517d383f745b800">Show</a> (<a class="el" href="class_in_control_1_1_player_action_set.html">PlayerActionSet</a> actionSet)</td></tr>
+<tr class="memitem:a705ea22e12a73f14d517d383f745b800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a705ea22e12a73f14d517d383f745b800">Show</a> (<a class="el" href="class_in_control_1_1_player_action_set.html">PlayerActionSet</a> <a class="el" href="class_bindings_menu.html#a47ce565ba629a46f67267c307fe37502">actionSet</a>)</td></tr>
 <tr class="separator:a705ea22e12a73f14d517d383f745b800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c826663553ca2b1b1e92a6c81917022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a8c826663553ca2b1b1e92a6c81917022">Hide</a> ()</td></tr>
 <tr class="separator:a8c826663553ca2b1b1e92a6c81917022"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,8 +111,103 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0c9198a39acc004e33281c1b1b87b5d7"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a0c9198a39acc004e33281c1b1b87b5d7">BindingButtonPrefab</a></td></tr>
 <tr class="separator:a0c9198a39acc004e33281c1b1b87b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a23b6f5d09cd999ddc9d1d1fb734c8e68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a23b6f5d09cd999ddc9d1d1fb734c8e68">Awake</a> ()</td></tr>
+<tr class="separator:a23b6f5d09cd999ddc9d1d1fb734c8e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3409611fc33fda1c1c71a674c60e27ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a3409611fc33fda1c1c71a674c60e27ba">CreateBindingButtons</a> ()</td></tr>
+<tr class="separator:a3409611fc33fda1c1c71a674c60e27ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfed1a0387cb2c59967b74923642423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#aecfed1a0387cb2c59967b74923642423">DeleteBindingButtons</a> ()</td></tr>
+<tr class="separator:aecfed1a0387cb2c59967b74923642423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab0bc202b83a1e5088e6f009e910493cd"><td class="memItemLeft" align="right" valign="top">readonly List&lt; <a class="el" href="class_binding_button.html">BindingButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#ab0bc202b83a1e5088e6f009e910493cd">bindingButtons</a> = new List&lt;<a class="el" href="class_binding_button.html">BindingButton</a>&gt;()</td></tr>
+<tr class="separator:ab0bc202b83a1e5088e6f009e910493cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad163acc09ef7b29159d9928404700dfd"><td class="memItemLeft" align="right" valign="top">VerticalLayoutGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#ad163acc09ef7b29159d9928404700dfd">bindingsLayoutGroup</a></td></tr>
+<tr class="separator:ad163acc09ef7b29159d9928404700dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964de69b29599def72bb7d6ca8c00d91"><td class="memItemLeft" align="right" valign="top">CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a964de69b29599def72bb7d6ca8c00d91">canvasGroup</a></td></tr>
+<tr class="separator:a964de69b29599def72bb7d6ca8c00d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ce565ba629a46f67267c307fe37502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_player_action_set.html">PlayerActionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bindings_menu.html#a47ce565ba629a46f67267c307fe37502">actionSet</a></td></tr>
+<tr class="separator:a47ce565ba629a46f67267c307fe37502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a23b6f5d09cd999ddc9d1d1fb734c8e68" name="a23b6f5d09cd999ddc9d1d1fb734c8e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b6f5d09cd999ddc9d1d1fb734c8e68">&#9670;&nbsp;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BindingsMenu.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3409611fc33fda1c1c71a674c60e27ba" name="a3409611fc33fda1c1c71a674c60e27ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3409611fc33fda1c1c71a674c60e27ba">&#9670;&nbsp;</a></span>CreateBindingButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BindingsMenu.CreateBindingButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecfed1a0387cb2c59967b74923642423" name="aecfed1a0387cb2c59967b74923642423"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfed1a0387cb2c59967b74923642423">&#9670;&nbsp;</a></span>DeleteBindingButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BindingsMenu.DeleteBindingButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8c826663553ca2b1b1e92a6c81917022" name="a8c826663553ca2b1b1e92a6c81917022"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c826663553ca2b1b1e92a6c81917022">&#9670;&nbsp;</a></span>Hide()</h2>
 
@@ -164,6 +261,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a47ce565ba629a46f67267c307fe37502" name="a47ce565ba629a46f67267c307fe37502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ce565ba629a46f67267c307fe37502">&#9670;&nbsp;</a></span>actionSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_in_control_1_1_player_action_set.html">PlayerActionSet</a> BindingsMenu.actionSet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0c9198a39acc004e33281c1b1b87b5d7" name="a0c9198a39acc004e33281c1b1b87b5d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c9198a39acc004e33281c1b1b87b5d7">&#9670;&nbsp;</a></span>BindingButtonPrefab</h2>
 
@@ -178,6 +297,72 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab0bc202b83a1e5088e6f009e910493cd" name="ab0bc202b83a1e5088e6f009e910493cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0bc202b83a1e5088e6f009e910493cd">&#9670;&nbsp;</a></span>bindingButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="class_binding_button.html">BindingButton</a>&gt; BindingsMenu.bindingButtons = new List&lt;<a class="el" href="class_binding_button.html">BindingButton</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad163acc09ef7b29159d9928404700dfd" name="ad163acc09ef7b29159d9928404700dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad163acc09ef7b29159d9928404700dfd">&#9670;&nbsp;</a></span>bindingsLayoutGroup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VerticalLayoutGroup BindingsMenu.bindingsLayoutGroup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a964de69b29599def72bb7d6ca8c00d91" name="a964de69b29599def72bb7d6ca8c00d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a964de69b29599def72bb7d6ca8c00d91">&#9670;&nbsp;</a></span>canvasGroup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CanvasGroup BindingsMenu.canvasGroup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Plugins/InControl/Examples/BindingsMenu/Scripts/<a class="el" href="_bindings_menu_8cs.html">BindingsMenu.cs</a></li>
 </ul>
@@ -187,7 +372,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_bindings_menu.html">BindingsMenu</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:36 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

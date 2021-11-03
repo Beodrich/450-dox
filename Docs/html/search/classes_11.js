@@ -15,6 +15,6 @@ var searchData=
   ['specularlightingeditor_12',['SpecularLightingEditor',['../class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor.html',1,'UnityStandardAssets::Water']]],
   ['standaloneinput_13',['StandaloneInput',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input.html',1,'UnityStandardAssets::CrossPlatformInput::PlatformSpecific']]],
   ['state_14',['State',['../class_state.html',1,'']]],
-  ['styles_15',['Styles',['../class_unity_editor_1_1_lux_uber_shader_g_u_i_1_1_styles.html',1,'UnityEditor::LuxUberShaderGUI']]],
+  ['styles_15',['Styles',['../class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles.html',1,'UnityEditor.AI.NavMeshSurfaceEditor.Styles'],['../class_unity_editor_1_1_lux_uber_shader_g_u_i_1_1_styles.html',1,'UnityEditor.LuxUberShaderGUI.Styles']]],
   ['suspension_16',['Suspension',['../class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension.html',1,'UnityStandardAssets::Vehicles::Car']]]
 ];

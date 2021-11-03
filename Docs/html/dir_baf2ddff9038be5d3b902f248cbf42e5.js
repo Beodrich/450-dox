@@ -13,7 +13,7 @@ var dir_baf2ddff9038be5d3b902f248cbf42e5 =
       [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.ControlSurface", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface" ]
     ] ],
     [ "AeroplanePropellerAnimator.cs", "_aeroplane_propeller_animator_8cs.html", [
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator.html", null ]
+      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator" ]
     ] ],
     [ "AeroplaneUserControl2Axis.cs", "_aeroplane_user_control2_axis_8cs.html", [
       [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis.html", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis" ]

@@ -19,11 +19,12 @@ var searchData=
   ['animationtostatemachine_16',['AnimationToStateMachine',['../class_animation_to_state_machine.html',1,'']]],
   ['applyproceduraltextureproperties_17',['ApplyProceduralTextureProperties',['../class_apply_procedural_texture_properties.html',1,'']]],
   ['applyproceduraltexturepropertieseditor_18',['ApplyProceduralTexturePropertiesEditor',['../class_apply_procedural_texture_properties_editor.html',1,'']]],
-  ['attackdetails_19',['AttackDetails',['../struct_attack_details.html',1,'']]],
-  ['attackstate_20',['AttackState',['../class_attack_state.html',1,'']]],
-  ['autocam_21',['AutoCam',['../class_unity_standard_assets_1_1_cameras_1_1_auto_cam.html',1,'UnityStandardAssets::Cameras']]],
-  ['automobileshaderswitch_22',['AutoMobileShaderSwitch',['../class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch.html',1,'UnityStandardAssets::Utility']]],
-  ['automoveandrotate_23',['AutoMoveAndRotate',['../class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate.html',1,'UnityStandardAssets::Utility']]],
-  ['axismapping_24',['AxisMapping',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping.html',1,'UnityStandardAssets::CrossPlatformInput::TiltInput']]],
-  ['axistouchbutton_25',['AxisTouchButton',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_axis_touch_button.html',1,'UnityStandardAssets::CrossPlatformInput']]]
+  ['asyncbakeoperation_19',['AsyncBakeOperation',['../struct_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_async_bake_operation.html',1,'UnityEditor::AI::NavMeshSurfaceEditor']]],
+  ['attackdetails_20',['AttackDetails',['../struct_attack_details.html',1,'']]],
+  ['attackstate_21',['AttackState',['../class_attack_state.html',1,'']]],
+  ['autocam_22',['AutoCam',['../class_unity_standard_assets_1_1_cameras_1_1_auto_cam.html',1,'UnityStandardAssets::Cameras']]],
+  ['automobileshaderswitch_23',['AutoMobileShaderSwitch',['../class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch.html',1,'UnityStandardAssets::Utility']]],
+  ['automoveandrotate_24',['AutoMoveAndRotate',['../class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate.html',1,'UnityStandardAssets::Utility']]],
+  ['axismapping_25',['AxisMapping',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping.html',1,'UnityStandardAssets::CrossPlatformInput::TiltInput']]],
+  ['axistouchbutton_26',['AxisTouchButton',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_axis_touch_button.html',1,'UnityStandardAssets::CrossPlatformInput']]]
 ];

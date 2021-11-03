@@ -15,5 +15,6 @@ var class_input_system =
     [ "MoveLeft", "class_input_system.html#ae2810a92f58667329c359859f105b0c5", null ],
     [ "MoveRight", "class_input_system.html#a1d255b51e82adb130739a87f79ec8271", null ],
     [ "MoveUp", "class_input_system.html#aa628bf0a9130a66624514aee8ca7c7e4", null ],
-    [ "MoveVertical", "class_input_system.html#ae51e97172c2a7979d65092fb88ef6d01", null ]
+    [ "MoveVertical", "class_input_system.html#ae51e97172c2a7979d65092fb88ef6d01", null ],
+    [ "StartHook", "class_input_system.html#a557fb6e11ddc053a51b3371297aa741c", null ]
 ];

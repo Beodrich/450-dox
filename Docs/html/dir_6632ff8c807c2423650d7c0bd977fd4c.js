@@ -7,6 +7,6 @@ var dir_6632ff8c807c2423650d7c0bd977fd4c =
       [ "UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_character.html", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_character" ]
     ] ],
     [ "ThirdPersonUserControl.cs", "_third_person_user_control_8cs.html", [
-      [ "UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control.html", null ]
+      [ "UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control.html", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control" ]
     ] ]
 ];

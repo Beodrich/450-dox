@@ -6,9 +6,11 @@ var class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_inpu
       [ "Hardware", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a4745a6f6fea88c350df29db10de7d4dda3c02a379965ab0dfcd77b1c484450433", null ],
       [ "Touch", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a4745a6f6fea88c350df29db10de7d4ddaf0f31c9700c6b10d8a20dc487b2ae6a8", null ]
     ] ],
+    [ "CrossPlatformInputManager", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#ad84dc10990b823198ba171dd69392364", null ],
     [ "AxisExists", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a2b2ce7bfb83e8cc7f23b9f7fcf6dff5f", null ],
     [ "ButtonExists", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#abaceaf9f4dfd3ddecf0ab364c84c3d2d", null ],
     [ "GetAxis", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#aac45b5560ebbc7c815dc22cba0dc1048", null ],
+    [ "GetAxis", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#ab47114db79b971c925b631db34e7128e", null ],
     [ "GetAxisRaw", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#ad5fefc184e12a2384ac780a7b79c034c", null ],
     [ "GetButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#abdeb5871a5d867418422070b3ff2483a", null ],
     [ "GetButtonDown", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a130706ec909ffbe649c9bc8534da8fa3", null ],
@@ -28,5 +30,8 @@ var class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_inpu
     [ "UnRegisterVirtualAxis", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a1fe0c362a754984b83e2e228b0adf3a6", null ],
     [ "UnRegisterVirtualButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#ae9e694bb5f52ff1311d8c0b3ab644276", null ],
     [ "VirtualAxisReference", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#ab494bb21f494748f2036d20a05d496df", null ],
+    [ "activeInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a2fd062567521339fc67fdb20737bdb42", null ],
+    [ "s_HardwareInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a279aed823018da2da2cc8266d16d6408", null ],
+    [ "s_TouchInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#aa60fa3e720da09db02061e7c9721e25b", null ],
     [ "mousePosition", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html#a38301395eaaa739f3f0794933a188280", null ]
 ];

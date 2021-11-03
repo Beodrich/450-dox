@@ -84,6 +84,10 @@ $(document).ready(function(){initNavTree('class_virtual_device_example_1_1_virtu
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_virtual_device_example_1_1_virtual_device-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VirtualDeviceExample.VirtualDevice Class Reference</div></div>
 </div><!--header-->
@@ -169,6 +173,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a553aed4b4a3a836a9932a7bac32aa34a inherit pub_methods_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_in_control_1_1_unknown_device_control.html">UnknownDeviceControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a553aed4b4a3a836a9932a7bac32aa34a">GetFirstPressedButton</a> ()</td></tr>
 <tr class="separator:a553aed4b4a3a836a9932a7bac32aa34a inherit pub_methods_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5cf57272d128c837d8b1f93862ac8d2e"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#a5cf57272d128c837d8b1f93862ac8d2e">GetVectorFromKeyboard</a> (float deltaTime, bool smoothed)</td></tr>
+<tr class="separator:a5cf57272d128c837d8b1f93862ac8d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25531b59651da7724ae3c7f983256f0"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#af25531b59651da7724ae3c7f983256f0">GetVectorFromMouse</a> (float deltaTime, bool smoothed)</td></tr>
+<tr class="separator:af25531b59651da7724ae3c7f983256f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:add3ac0ff7722c486b8a5935c1a9d9204"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#add3ac0ff7722c486b8a5935c1a9d9204">GetXFromKeyboard</a> ()</td></tr>
+<tr class="separator:add3ac0ff7722c486b8a5935c1a9d9204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633e4e42b8334c9e3ffc19f5e925f11e"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#a633e4e42b8334c9e3ffc19f5e925f11e">GetYFromKeyboard</a> ()</td></tr>
+<tr class="separator:a633e4e42b8334c9e3ffc19f5e925f11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc9ed8bcdccb1e84197b26db61f9c0d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#afdc9ed8bcdccb1e84197b26db61f9c0d">ApplySmoothing</a> (float lastValue, float thisValue, float deltaTime, float sensitivity)</td></tr>
+<tr class="separator:afdc9ed8bcdccb1e84197b26db61f9c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a380fbc35f6ecf95095f49d29bd55e439"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#a380fbc35f6ecf95095f49d29bd55e439">kx</a></td></tr>
+<tr class="separator:a380fbc35f6ecf95095f49d29bd55e439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae360f6d7be8168610cdf6b6063704c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#afae360f6d7be8168610cdf6b6063704c">ky</a></td></tr>
+<tr class="separator:afae360f6d7be8168610cdf6b6063704c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307efc9ef0ce725e73872ceb1109e733"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#a307efc9ef0ce725e73872ceb1109e733">mx</a></td></tr>
+<tr class="separator:a307efc9ef0ce725e73872ceb1109e733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a45bdf3b90dd87fa8d82ff6af3b4fa8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#a1a45bdf3b90dd87fa8d82ff6af3b4fa8">my</a></td></tr>
+<tr class="separator:a1a45bdf3b90dd87fa8d82ff6af3b4fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a7df8f6bbde8be24d981b46a7dec82584"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#a7df8f6bbde8be24d981b46a7dec82584">Sensitivity</a> = 0.1f</td></tr>
+<tr class="separator:a7df8f6bbde8be24d981b46a7dec82584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba18e6904952ed882ca8ad69f7702f9b"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html#aba18e6904952ed882ca8ad69f7702f9b">MouseScale</a> = 0.05f</td></tr>
+<tr class="separator:aba18e6904952ed882ca8ad69f7702f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_in_control_1_1_input_device"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_in_control_1_1_input_device')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_in_control_1_1_input_device.html">InControl.InputDevice</a></td></tr>
@@ -199,29 +237,29 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a15de0a1bb0d85882b27aa5d409dc8774 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512664c24ed7c9cd9fcce89da52a8aa2 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_in_control.html#a13b7f216b54cd6b6699ed61c35491de5">InputDeviceStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a512664c24ed7c9cd9fcce89da52a8aa2">DeviceStyle</a><code> [getprotected set]</code></td></tr>
 <tr class="separator:a512664c24ed7c9cd9fcce89da52a8aa2 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7171b92462ba0b798d1433ea71bd39d2 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a7171b92462ba0b798d1433ea71bd39d2">GUID</a><code> [get]</code></td></tr>
+<tr class="memitem:a7171b92462ba0b798d1433ea71bd39d2 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a7171b92462ba0b798d1433ea71bd39d2">GUID</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a7171b92462ba0b798d1433ea71bd39d2 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25f71d6d2199aea78513eb11789508a5 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a25f71d6d2199aea78513eb11789508a5">LastInputTick</a><code> [get]</code></td></tr>
+<tr class="memitem:a25f71d6d2199aea78513eb11789508a5 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a25f71d6d2199aea78513eb11789508a5">LastInputTick</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a25f71d6d2199aea78513eb11789508a5 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31f04c251833ec56f3501cc67fc2abd inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#af31f04c251833ec56f3501cc67fc2abd">IsActive</a><code> [get]</code></td></tr>
+<tr class="memitem:af31f04c251833ec56f3501cc67fc2abd inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#af31f04c251833ec56f3501cc67fc2abd">IsActive</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:af31f04c251833ec56f3501cc67fc2abd inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7c70795b65e02d9d2b061c71a448ec0 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#ae7c70795b65e02d9d2b061c71a448ec0">IsAttached</a><code> [get]</code></td></tr>
+<tr class="memitem:ae7c70795b65e02d9d2b061c71a448ec0 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#ae7c70795b65e02d9d2b061c71a448ec0">IsAttached</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:ae7c70795b65e02d9d2b061c71a448ec0 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe6cd341162ca2f10e631050a5ad833 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#adfe6cd341162ca2f10e631050a5ad833">RawSticks</a><code> [get]</code></td></tr>
+<tr class="memitem:adfe6cd341162ca2f10e631050a5ad833 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#adfe6cd341162ca2f10e631050a5ad833">RawSticks</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:adfe6cd341162ca2f10e631050a5ad833 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4268f12783d582d2e2cb46b62587e2bf inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top">ReadOnlyCollection&lt; <a class="el" href="class_in_control_1_1_input_control.html">InputControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a4268f12783d582d2e2cb46b62587e2bf">Controls</a><code> [getprotected set]</code></td></tr>
 <tr class="separator:a4268f12783d582d2e2cb46b62587e2bf inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa91bda72edeeabdfc52a4c68da8869e inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_input_control.html">InputControl</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#afa91bda72edeeabdfc52a4c68da8869e">ControlsByTarget</a><code> [get]</code></td></tr>
+<tr class="memitem:afa91bda72edeeabdfc52a4c68da8869e inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_input_control.html">InputControl</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#afa91bda72edeeabdfc52a4c68da8869e">ControlsByTarget</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:afa91bda72edeeabdfc52a4c68da8869e inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a734002b1ab2eb62587df450daba23a61 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_two_axis_input_control.html">TwoAxisInputControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a734002b1ab2eb62587df450daba23a61">LeftStick</a><code> [get]</code></td></tr>
+<tr class="memitem:a734002b1ab2eb62587df450daba23a61 inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_two_axis_input_control.html">TwoAxisInputControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a734002b1ab2eb62587df450daba23a61">LeftStick</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a734002b1ab2eb62587df450daba23a61 inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3ec8559208f319a804caa530fe3015d inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_two_axis_input_control.html">TwoAxisInputControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#aa3ec8559208f319a804caa530fe3015d">RightStick</a><code> [get]</code></td></tr>
+<tr class="memitem:aa3ec8559208f319a804caa530fe3015d inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_two_axis_input_control.html">TwoAxisInputControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#aa3ec8559208f319a804caa530fe3015d">RightStick</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:aa3ec8559208f319a804caa530fe3015d inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dc83d2a9fd0d351b88fcc815a12026b inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_two_axis_input_control.html">TwoAxisInputControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a0dc83d2a9fd0d351b88fcc815a12026b">DPad</a><code> [get]</code></td></tr>
+<tr class="memitem:a0dc83d2a9fd0d351b88fcc815a12026b inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_in_control_1_1_two_axis_input_control.html">TwoAxisInputControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a0dc83d2a9fd0d351b88fcc815a12026b">DPad</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a0dc83d2a9fd0d351b88fcc815a12026b inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abea4c3d6692ba93a2c91d75eed456a4e inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3a">InputControlType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#abea4c3d6692ba93a2c91d75eed456a4e">LeftCommandControl</a><code> [get]</code></td></tr>
+<tr class="memitem:abea4c3d6692ba93a2c91d75eed456a4e inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3a">InputControlType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#abea4c3d6692ba93a2c91d75eed456a4e">LeftCommandControl</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:abea4c3d6692ba93a2c91d75eed456a4e inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a330b4045152d6af8714540d198446fbd inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3a">InputControlType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a330b4045152d6af8714540d198446fbd">RightCommandControl</a><code> [get]</code></td></tr>
+<tr class="memitem:a330b4045152d6af8714540d198446fbd inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3a">InputControlType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#a330b4045152d6af8714540d198446fbd">RightCommandControl</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a330b4045152d6af8714540d198446fbd inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab051cecf530b78787de236e9cb90607a inherit properties_class_in_control_1_1_input_device"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_in_control_1_1_input_device_1_1_analog_snapshot_entry.html">AnalogSnapshotEntry</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_input_device.html#ab051cecf530b78787de236e9cb90607a">AnalogSnapshot</a><code> [getset]</code></td></tr>
 <tr class="separator:ab051cecf530b78787de236e9cb90607a inherit properties_class_in_control_1_1_input_device"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,6 +380,176 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afdc9ed8bcdccb1e84197b26db61f9c0d" name="afdc9ed8bcdccb1e84197b26db61f9c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc9ed8bcdccb1e84197b26db61f9c0d">&#9670;&nbsp;</a></span>ApplySmoothing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float VirtualDeviceExample.VirtualDevice.ApplySmoothing </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lastValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>thisValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>sensitivity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cf57272d128c837d8b1f93862ac8d2e" name="a5cf57272d128c837d8b1f93862ac8d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf57272d128c837d8b1f93862ac8d2e">&#9670;&nbsp;</a></span>GetVectorFromKeyboard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 VirtualDeviceExample.VirtualDevice.GetVectorFromKeyboard </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>smoothed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af25531b59651da7724ae3c7f983256f0" name="af25531b59651da7724ae3c7f983256f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25531b59651da7724ae3c7f983256f0">&#9670;&nbsp;</a></span>GetVectorFromMouse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 VirtualDeviceExample.VirtualDevice.GetVectorFromMouse </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>smoothed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add3ac0ff7722c486b8a5935c1a9d9204" name="add3ac0ff7722c486b8a5935c1a9d9204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add3ac0ff7722c486b8a5935c1a9d9204">&#9670;&nbsp;</a></span>GetXFromKeyboard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float VirtualDeviceExample.VirtualDevice.GetXFromKeyboard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a633e4e42b8334c9e3ffc19f5e925f11e" name="a633e4e42b8334c9e3ffc19f5e925f11e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633e4e42b8334c9e3ffc19f5e925f11e">&#9670;&nbsp;</a></span>GetYFromKeyboard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float VirtualDeviceExample.VirtualDevice.GetYFromKeyboard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6847ef9b616c379a1d5a15e37134ccf9" name="a6847ef9b616c379a1d5a15e37134ccf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6847ef9b616c379a1d5a15e37134ccf9">&#9670;&nbsp;</a></span>Update()</h2>
 
@@ -380,6 +588,139 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a380fbc35f6ecf95095f49d29bd55e439" name="a380fbc35f6ecf95095f49d29bd55e439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380fbc35f6ecf95095f49d29bd55e439">&#9670;&nbsp;</a></span>kx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VirtualDeviceExample.VirtualDevice.kx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afae360f6d7be8168610cdf6b6063704c" name="afae360f6d7be8168610cdf6b6063704c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae360f6d7be8168610cdf6b6063704c">&#9670;&nbsp;</a></span>ky</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VirtualDeviceExample.VirtualDevice.ky</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba18e6904952ed882ca8ad69f7702f9b" name="aba18e6904952ed882ca8ad69f7702f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba18e6904952ed882ca8ad69f7702f9b">&#9670;&nbsp;</a></span>MouseScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float VirtualDeviceExample.VirtualDevice.MouseScale = 0.05f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a307efc9ef0ce725e73872ceb1109e733" name="a307efc9ef0ce725e73872ceb1109e733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307efc9ef0ce725e73872ceb1109e733">&#9670;&nbsp;</a></span>mx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VirtualDeviceExample.VirtualDevice.mx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a45bdf3b90dd87fa8d82ff6af3b4fa8" name="a1a45bdf3b90dd87fa8d82ff6af3b4fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a45bdf3b90dd87fa8d82ff6af3b4fa8">&#9670;&nbsp;</a></span>my</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VirtualDeviceExample.VirtualDevice.my</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7df8f6bbde8be24d981b46a7dec82584" name="a7df8f6bbde8be24d981b46a7dec82584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df8f6bbde8be24d981b46a7dec82584">&#9670;&nbsp;</a></span>Sensitivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float VirtualDeviceExample.VirtualDevice.Sensitivity = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Plugins/InControl/Examples/VirtualDevice/<a class="el" href="_virtual_device_8cs.html">VirtualDevice.cs</a></li>
 </ul>
@@ -389,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_virtual_device_example.html">VirtualDeviceExample</a></li><li class="navelem"><a class="el" href="class_virtual_device_example_1_1_virtual_device.html">VirtualDevice</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -21,7 +21,7 @@ var searchData=
   ['isattached_18',['IsAttached',['../class_in_control_1_1_input_device.html#ae7c70795b65e02d9d2b061c71a448ec0',1,'InControl::InputDevice']]],
   ['isbutton_19',['IsButton',['../class_in_control_1_1_input_control.html#accbacb4aaee2a5022d7b9a578ab6103a',1,'InControl::InputControl']]],
   ['isconnected_20',['IsConnected',['../class_in_control_1_1_ouya_everywhere_device.html#a9a8af79a842e950c46190b5c4513ce95',1,'InControl::OuyaEverywhereDevice']]],
-  ['isgrounded_21',['IsGrounded',['../class_char_move_rb.html#a86e11ed3ff349cd59ca15b4bfc946b9b',1,'CharMoveRb']]],
+  ['isgrounded_21',['isGrounded',['../class_character_move.html#ad7cc3579924567d22e2ce22bc5b63c7f',1,'CharacterMove']]],
   ['ishidden_22',['IsHidden',['../class_in_control_1_1_input_device_profile.html#a3028c74f63433a3744ad3a01476fb544',1,'InControl::InputDeviceProfile']]],
   ['isknown_23',['IsKnown',['../class_in_control_1_1_input_device.html#a891824cf015ee325c6c7f355e9ea8aab',1,'InControl.InputDevice.IsKnown()'],['../class_in_control_1_1_native_input_device.html#a2ba426467d94dc69f097663179346585',1,'InControl.NativeInputDevice.IsKnown()'],['../class_in_control_1_1_unity_input_device.html#a83263cc7101b29f1610da5a43476fe8f',1,'InControl.UnityInputDevice.IsKnown()']]],
   ['islisteningforbinding_24',['IsListeningForBinding',['../class_in_control_1_1_player_action.html#aebe720a077d93a43f1e24b55d5d04727',1,'InControl.PlayerAction.IsListeningForBinding()'],['../class_in_control_1_1_player_action_set.html#a6c6d0a537148cd66c0b15c8d64ede5df',1,'InControl.PlayerActionSet.IsListeningForBinding()']]],

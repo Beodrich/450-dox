@@ -1,6 +1,7 @@
 var class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick =
 [
     [ "ChangeCamera", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html#af766e2f62e847c9e3e0a62bb9ea0b6ae", null ],
+    [ "CheckStatus", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html#a700613edd3afc9152b520551ada60a77", null ],
     [ "FOVKickDown", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html#a1f286392456ee5b0a63f506c80f2e101", null ],
     [ "FOVKickUp", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html#abb86a74e68394ce9cdeff6864d30009f", null ],
     [ "Setup", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html#a26b683b3b8e10bcb541c77743e2cc199", null ],

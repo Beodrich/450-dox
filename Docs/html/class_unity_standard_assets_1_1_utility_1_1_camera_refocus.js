@@ -7,5 +7,7 @@ var class_unity_standard_assets_1_1_utility_1_1_camera_refocus =
     [ "SetFocusPoint", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html#a96116de559e0039593ceda8a97574b6c", null ],
     [ "Camera", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html#af2e66852407defac8d42928618ac667f", null ],
     [ "Lookatpoint", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html#a1befa53fb7728dcc2fa0e4862dd60543", null ],
+    [ "m_OrigCameraPos", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html#abb8d88872967a25a234d1346faacbd32", null ],
+    [ "m_Refocus", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html#adcb001c5f052732aaae29e3744c25801", null ],
     [ "Parent", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html#ab5d9f1645e7f5f07c617be54fe20bd14", null ]
 ];

@@ -10,5 +10,6 @@ var searchData=
   ['busysprite_7',['BusySprite',['../class_in_control_1_1_touch_sprite.html#afa4e9c9930dd1b74ccd48c259a2821f3',1,'InControl::TouchSprite']]],
   ['buttoncount_8',['ButtonCount',['../class_in_control_1_1_input_device_profile.html#a987b7547b70cb1fe0a4e1c63ef9b6c41',1,'InControl::InputDeviceProfile']]],
   ['buttonmappings_9',['ButtonMappings',['../class_in_control_1_1_input_device_profile.html#aae3597995570addfbfb7f4e004678c83',1,'InControl::InputDeviceProfile']]],
-  ['buttonposition_10',['ButtonPosition',['../class_in_control_1_1_touch_button_control.html#aa9281832b24fa635eaa1464870f7be39',1,'InControl::TouchButtonControl']]]
+  ['buttonposition_10',['ButtonPosition',['../class_in_control_1_1_touch_button_control.html#aa9281832b24fa635eaa1464870f7be39',1,'InControl::TouchButtonControl']]],
+  ['buttonstate_11',['ButtonState',['../class_in_control_1_1_touch_button_control.html#a4089385ed78f95b3cc23ee7404ff96fe',1,'InControl::TouchButtonControl']]]
 ];

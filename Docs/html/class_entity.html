@@ -87,6 +87,8 @@ $(document).ready(function(){initNavTree('class_entity.html',''); initResizable(
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_entity-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Entity Class Reference</div></div>
 </div><!--header-->
@@ -104,14 +106,19 @@ Inheritance diagram for Entity:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38985eb127db7177b924f32615f44209"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a38985eb127db7177b924f32615f44209">Start</a> ()</td></tr>
+<tr class="memdesc:a38985eb127db7177b924f32615f44209"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates variables used at the start of its construction  <a href="class_entity.html#a38985eb127db7177b924f32615f44209">More...</a><br /></td></tr>
 <tr class="separator:a38985eb127db7177b924f32615f44209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2813f460ee354c72290c81a83348ee4f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a2813f460ee354c72290c81a83348ee4f">Update</a> ()</td></tr>
+<tr class="memdesc:a2813f460ee354c72290c81a83348ee4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks logic update every frame  <a href="class_entity.html#a2813f460ee354c72290c81a83348ee4f">More...</a><br /></td></tr>
 <tr class="separator:a2813f460ee354c72290c81a83348ee4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12decd4e7ad597cf4ced91d50569ae18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a12decd4e7ad597cf4ced91d50569ae18">FixedUpdate</a> ()</td></tr>
+<tr class="memdesc:a12decd4e7ad597cf4ced91d50569ae18"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks physics update using a fixedUpdate  <a href="class_entity.html#a12decd4e7ad597cf4ced91d50569ae18">More...</a><br /></td></tr>
 <tr class="separator:a12decd4e7ad597cf4ced91d50569ae18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24e49923552466e6868f6e32a4723091"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a24e49923552466e6868f6e32a4723091">GetIfDamaged</a> ()</td></tr>
+<tr class="memdesc:a24e49923552466e6868f6e32a4723091"><td class="mdescLeft">&#160;</td><td class="mdescRight">if damaged returns true and sets damaged back to false  <a href="class_entity.html#a24e49923552466e6868f6e32a4723091">More...</a><br /></td></tr>
 <tr class="separator:a24e49923552466e6868f6e32a4723091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88fe4171c51d6428d26c755217a8c26c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a88fe4171c51d6428d26c755217a8c26c">Damage</a> (<a class="el" href="struct_attack_details.html">AttackDetails</a> attackDetails)</td></tr>
+<tr class="memdesc:a88fe4171c51d6428d26c755217a8c26c"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is the function that gets played once the player hits the enemy  <a href="class_entity.html#a88fe4171c51d6428d26c755217a8c26c">More...</a><br /></td></tr>
 <tr class="separator:a88fe4171c51d6428d26c755217a8c26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -138,12 +145,33 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a5f307b2e087e75f23dbf96820ac11595"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a5f307b2e087e75f23dbf96820ac11595">entityPos</a><code> [get]</code></td></tr>
+<tr class="memitem:a5f307b2e087e75f23dbf96820ac11595"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a5f307b2e087e75f23dbf96820ac11595">entityPos</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a5f307b2e087e75f23dbf96820ac11595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4343178d4ace64ac6f5e71e5eaefe20e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a4343178d4ace64ac6f5e71e5eaefe20e">aliveGO</a><code> [get]</code></td></tr>
+<tr class="memitem:a4343178d4ace64ac6f5e71e5eaefe20e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a4343178d4ace64ac6f5e71e5eaefe20e">aliveGO</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a4343178d4ace64ac6f5e71e5eaefe20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaa1c03fe99a0d36a5b22a1bed756172"><td class="memItemLeft" align="right" valign="top">MeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#aeaa1c03fe99a0d36a5b22a1bed756172">mRend</a><code> [get]</code></td></tr>
+<tr class="memitem:aeaa1c03fe99a0d36a5b22a1bed756172"><td class="memItemLeft" align="right" valign="top">MeshRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#aeaa1c03fe99a0d36a5b22a1bed756172">mRend</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:aeaa1c03fe99a0d36a5b22a1bed756172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1c03b3511b3c9ca6a3feb75b71e3a809"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a1c03b3511b3c9ca6a3feb75b71e3a809">Flash</a> ()</td></tr>
+<tr class="memdesc:a1c03b3511b3c9ca6a3feb75b71e3a809"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flashes a distinct color upon an enemy getting hit  <a href="class_entity.html#a1c03b3511b3c9ca6a3feb75b71e3a809">More...</a><br /></td></tr>
+<tr class="separator:a1c03b3511b3c9ca6a3feb75b71e3a809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afc9554e2f5bd68b2d2a0486ab0f1c8a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#afc9554e2f5bd68b2d2a0486ab0f1c8a4">currentHealth</a></td></tr>
+<tr class="separator:afc9554e2f5bd68b2d2a0486ab0f1c8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9213cb7e9d14ecffa299bf35689f8ad6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a9213cb7e9d14ecffa299bf35689f8ad6">currentStamina</a></td></tr>
+<tr class="separator:a9213cb7e9d14ecffa299bf35689f8ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eedf344da9f6069b38aaf0153dfeba5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a3eedf344da9f6069b38aaf0153dfeba5">lastDamageTime</a></td></tr>
+<tr class="separator:a3eedf344da9f6069b38aaf0153dfeba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5664266a482e0d73b3a20804510beddf"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a5664266a482e0d73b3a20804510beddf">flickerColor</a> = new Color(255, 255, 255, 255)</td></tr>
+<tr class="separator:a5664266a482e0d73b3a20804510beddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f57b8fa0c69e378463469dcb1bc0b2"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#af9f57b8fa0c69e378463469dcb1bc0b2">originalColor</a> = Color.white</td></tr>
+<tr class="separator:af9f57b8fa0c69e378463469dcb1bc0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebecba6ae358cb140915e739e46db99"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#adebecba6ae358cb140915e739e46db99">flickerTimer</a> = 0.1f</td></tr>
+<tr class="separator:adebecba6ae358cb140915e739e46db99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a88fe4171c51d6428d26c755217a8c26c" name="a88fe4171c51d6428d26c755217a8c26c"></a>
@@ -170,6 +198,14 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>this is the function that gets played once the player hits the enemy </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attackDetails</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a12decd4e7ad597cf4ced91d50569ae18" name="a12decd4e7ad597cf4ced91d50569ae18"></a>
@@ -194,6 +230,36 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>checks physics update using a fixedUpdate </p>
+
+</div>
+</div>
+<a id="a1c03b3511b3c9ca6a3feb75b71e3a809" name="a1c03b3511b3c9ca6a3feb75b71e3a809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c03b3511b3c9ca6a3feb75b71e3a809">&#9670;&nbsp;</a></span>Flash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator Entity.Flash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flashes a distinct color upon an enemy getting hit </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -220,6 +286,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>if damaged returns true and sets damaged back to false </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
 </div>
 </div>
 <a id="a38985eb127db7177b924f32615f44209" name="a38985eb127db7177b924f32615f44209"></a>
@@ -244,6 +313,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>creates variables used at the start of its construction </p>
 
 <p>Reimplemented in <a class="el" href="class_enemy1.html#adc899d30a0d4bc5e562dfe2a13f80c66">Enemy1</a>.</p>
 
@@ -272,9 +343,55 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>checks logic update every frame </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afc9554e2f5bd68b2d2a0486ab0f1c8a4" name="afc9554e2f5bd68b2d2a0486ab0f1c8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc9554e2f5bd68b2d2a0486ab0f1c8a4">&#9670;&nbsp;</a></span>currentHealth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Entity.currentHealth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9213cb7e9d14ecffa299bf35689f8ad6" name="a9213cb7e9d14ecffa299bf35689f8ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9213cb7e9d14ecffa299bf35689f8ad6">&#9670;&nbsp;</a></span>currentStamina</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Entity.currentStamina</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a388e52adf0cfc89200904e2a55221bb1" name="a388e52adf0cfc89200904e2a55221bb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a388e52adf0cfc89200904e2a55221bb1">&#9670;&nbsp;</a></span>damaged</h2>
 
@@ -333,6 +450,50 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a5664266a482e0d73b3a20804510beddf" name="a5664266a482e0d73b3a20804510beddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5664266a482e0d73b3a20804510beddf">&#9670;&nbsp;</a></span>flickerColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color Entity.flickerColor = new Color(255, 255, 255, 255)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adebecba6ae358cb140915e739e46db99" name="adebecba6ae358cb140915e739e46db99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adebecba6ae358cb140915e739e46db99">&#9670;&nbsp;</a></span>flickerTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Entity.flickerTimer = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6addedd9c51e92df42552d88e1b03e4d" name="a6addedd9c51e92df42552d88e1b03e4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6addedd9c51e92df42552d88e1b03e4d">&#9670;&nbsp;</a></span>isDead</h2>
 
@@ -371,6 +532,50 @@ Properties</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3eedf344da9f6069b38aaf0153dfeba5" name="a3eedf344da9f6069b38aaf0153dfeba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eedf344da9f6069b38aaf0153dfeba5">&#9670;&nbsp;</a></span>lastDamageTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Entity.lastDamageTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9f57b8fa0c69e378463469dcb1bc0b2" name="af9f57b8fa0c69e378463469dcb1bc0b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f57b8fa0c69e378463469dcb1bc0b2">&#9670;&nbsp;</a></span>originalColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color Entity.originalColor = Color.white</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -435,7 +640,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -457,7 +662,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -479,7 +684,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -495,7 +700,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_entity.html">Entity</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:37 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

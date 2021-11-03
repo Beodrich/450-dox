@@ -13,6 +13,8 @@ var dir_50a5c933cc4ace770adac20319c55acc =
       [ "UnityEditor.AI.NavMeshModifierVolumeEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" ]
     ] ],
     [ "NavMeshSurfaceEditor.cs", "_nav_mesh_surface_editor_8cs.html", [
-      [ "UnityEditor.AI.NavMeshSurfaceEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor" ]
+      [ "UnityEditor.AI.NavMeshSurfaceEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor" ],
+      [ "UnityEditor.AI.NavMeshSurfaceEditor.Styles", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles" ],
+      [ "UnityEditor.AI.NavMeshSurfaceEditor.AsyncBakeOperation", "struct_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_async_bake_operation.html", "struct_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_async_bake_operation" ]
     ] ]
 ];

@@ -7,7 +7,7 @@ var namespace_unity_standard_assets_1_1_cross_platform_input =
     [ "CrossPlatformInputManager", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager" ],
     [ "InputAxisScrollbar", "class_unity_standard_assets_1_1_cross_platform_input_1_1_input_axis_scrollbar.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_input_axis_scrollbar" ],
     [ "Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick" ],
-    [ "MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", null ],
+    [ "MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig" ],
     [ "TiltInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input" ],
     [ "TouchPad", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad" ],
     [ "VirtualInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input.html", "class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input" ]

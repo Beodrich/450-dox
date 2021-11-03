@@ -96,26 +96,38 @@ Inheritance diagram for State:</div>
  <div class="center">
   <img src="class_state.png" usemap="#State_map" alt=""/>
   <map id="State_map" name="State_map">
-<area href="class_patrol_state.html" alt="PatrolState" shape="rect" coords="0,56,97,80"/>
-<area href="class_roam_state.html" alt="RoamState" shape="rect" coords="107,56,204,80"/>
-<area href="class_enemy1___patrol.html" alt="Enemy1_Patrol" shape="rect" coords="0,112,97,136"/>
-<area href="class_enemy1___roam.html" alt="Enemy1_Roam" shape="rect" coords="107,112,204,136"/>
+<area href="class_attack_state.html" alt="AttackState" shape="rect" coords="0,56,99,80"/>
+<area href="class_dead_state.html" alt="DeadState" shape="rect" coords="109,56,208,80"/>
+<area href="class_idle_state.html" alt="IdleState" shape="rect" coords="218,56,317,80"/>
+<area href="class_patrol_state.html" alt="PatrolState" shape="rect" coords="327,56,426,80"/>
+<area href="class_roam_state.html" alt="RoamState" shape="rect" coords="436,56,535,80"/>
+<area href="class_enemy1___attack.html" alt="Enemy1_Attack" shape="rect" coords="0,112,99,136"/>
+<area href="class_enemy1___dead.html" alt="Enemy1_Dead" shape="rect" coords="109,112,208,136"/>
+<area href="class_enemy1___idle.html" alt="Enemy1_Idle" shape="rect" coords="218,112,317,136"/>
+<area href="class_enemy1___patrol.html" alt="Enemy1_Patrol" shape="rect" coords="327,112,426,136"/>
+<area href="class_enemy1___roam.html" alt="Enemy1_Roam" shape="rect" coords="436,112,535,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a83a24e59ee230e77b0fcf05ec3cd48de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">State</a> (<a class="el" href="class_entity.html">Entity</a> <a class="el" href="class_state.html#ab5f24d40c9969b3abdf63dc2885e6b10">entity</a>, <a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a> <a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a>, string <a class="el" href="class_state.html#a40b2d6807563eeb9f6a93ab63e84b0ff">animBoolName</a>)</td></tr>
+<tr class="memdesc:a83a24e59ee230e77b0fcf05ec3cd48de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_state.html">State</a>, contains entity which refers to the enemy game object, statemachine which handles switching between states, and animBoolName, wich contains the string of which animation to use for the current state  <a href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">More...</a><br /></td></tr>
 <tr class="separator:a83a24e59ee230e77b0fcf05ec3cd48de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ff526b7a0b992ae01dd9c9ece5a882"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#ab9ff526b7a0b992ae01dd9c9ece5a882">Enter</a> ()</td></tr>
+<tr class="memdesc:ab9ff526b7a0b992ae01dd9c9ece5a882"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes code upon entering the state  <a href="class_state.html#ab9ff526b7a0b992ae01dd9c9ece5a882">More...</a><br /></td></tr>
 <tr class="separator:ab9ff526b7a0b992ae01dd9c9ece5a882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae384c5d8253cc8671290231c84fdb703"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#ae384c5d8253cc8671290231c84fdb703">Exit</a> ()</td></tr>
+<tr class="memdesc:ae384c5d8253cc8671290231c84fdb703"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes code upon exiting the state  <a href="class_state.html#ae384c5d8253cc8671290231c84fdb703">More...</a><br /></td></tr>
 <tr class="separator:ae384c5d8253cc8671290231c84fdb703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11b6613adae4bf93ec674ed4216d1e34"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a11b6613adae4bf93ec674ed4216d1e34">LogicUpdate</a> ()</td></tr>
+<tr class="memdesc:a11b6613adae4bf93ec674ed4216d1e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps track of checks for changing states  <a href="class_state.html#a11b6613adae4bf93ec674ed4216d1e34">More...</a><br /></td></tr>
 <tr class="separator:a11b6613adae4bf93ec674ed4216d1e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7604b4c93b02d04cd058523f70fce2ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a7604b4c93b02d04cd058523f70fce2ce">PhysicsUpdate</a> ()</td></tr>
+<tr class="memdesc:a7604b4c93b02d04cd058523f70fce2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps track of in-game checks  <a href="class_state.html#a7604b4c93b02d04cd058523f70fce2ce">More...</a><br /></td></tr>
 <tr class="separator:a7604b4c93b02d04cd058523f70fce2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc990b8a83319e5b5a6d589f1219b09"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a9fc990b8a83319e5b5a6d589f1219b09">DoChecks</a> ()</td></tr>
+<tr class="memdesc:a9fc990b8a83319e5b5a6d589f1219b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to check other logic based variables  <a href="class_state.html#a9fc990b8a83319e5b5a6d589f1219b09">More...</a><br /></td></tr>
 <tr class="separator:a9fc990b8a83319e5b5a6d589f1219b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -165,6 +177,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor for <a class="el" href="class_state.html">State</a>, contains entity which refers to the enemy game object, statemachine which handles switching between states, and animBoolName, wich contains the string of which animation to use for the current state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td></td></tr>
+    <tr><td class="paramname">stateMachine</td><td></td></tr>
+    <tr><td class="paramname">animBoolName</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -191,7 +213,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_enemy1___patrol.html#a4936d000962e15fd0a0b2f4cad08410a">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a00c107a258ce5351d5d16c09146da0c5">Enemy1_Roam</a>, <a class="el" href="class_patrol_state.html#afb661d2a4bfeed03bbe223dea91955b4">PatrolState</a>, and <a class="el" href="class_roam_state.html#a23005fb755f503d663f8757f249912da">RoamState</a>.</p>
+<p>used to check other logic based variables </p>
+
+<p>Reimplemented in <a class="el" href="class_attack_state.html#a3a3a9421c1a3b34a0bce903ee8d47d71">AttackState</a>, <a class="el" href="class_dead_state.html#ad05ea659c9bff36cdf50c5ffb535bd44">DeadState</a>, <a class="el" href="class_enemy1___attack.html#a99b36d5083e060a4d8f18cbea9ea1f5a">Enemy1_Attack</a>, <a class="el" href="class_enemy1___dead.html#aa573424a964773bf72cb019ac40d6a34">Enemy1_Dead</a>, <a class="el" href="class_enemy1___idle.html#a2c91a56a8b30669073fce9e7be0312e0">Enemy1_Idle</a>, <a class="el" href="class_enemy1___patrol.html#a4936d000962e15fd0a0b2f4cad08410a">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a00c107a258ce5351d5d16c09146da0c5">Enemy1_Roam</a>, <a class="el" href="class_idle_state.html#a6531ea5eba7dbf3951fb5a07cb55c5e0">IdleState</a>, <a class="el" href="class_patrol_state.html#afb661d2a4bfeed03bbe223dea91955b4">PatrolState</a>, and <a class="el" href="class_roam_state.html#a23005fb755f503d663f8757f249912da">RoamState</a>.</p>
 
 </div>
 </div>
@@ -218,7 +242,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_enemy1___patrol.html#a734c4ab41cfd443c74cb8150860c1be8">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a4c309ea14d582375bd616acf160831dd">Enemy1_Roam</a>, <a class="el" href="class_patrol_state.html#a276a0e71654e51677d829742e85ba9af">PatrolState</a>, and <a class="el" href="class_roam_state.html#abc197748d043b85df256300b0fcfeee0">RoamState</a>.</p>
+<p>executes code upon entering the state </p>
+
+<p>Reimplemented in <a class="el" href="class_attack_state.html#acae9aba7eaa6032c1a8f00c86da9ebb8">AttackState</a>, <a class="el" href="class_dead_state.html#a7c06982ff159406bf8f447ad305be2df">DeadState</a>, <a class="el" href="class_enemy1___attack.html#ae6455b3629019d910bdc7ce3dd25d248">Enemy1_Attack</a>, <a class="el" href="class_enemy1___dead.html#a261b16997a22dba6318d9a5cf97a1809">Enemy1_Dead</a>, <a class="el" href="class_enemy1___idle.html#a79d21f716e198725dfe0a58c6de57c47">Enemy1_Idle</a>, <a class="el" href="class_enemy1___patrol.html#a734c4ab41cfd443c74cb8150860c1be8">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a4c309ea14d582375bd616acf160831dd">Enemy1_Roam</a>, <a class="el" href="class_idle_state.html#a8a6aa83ca83b3eb69a5b66cfb352e2f6">IdleState</a>, <a class="el" href="class_patrol_state.html#a276a0e71654e51677d829742e85ba9af">PatrolState</a>, and <a class="el" href="class_roam_state.html#abc197748d043b85df256300b0fcfeee0">RoamState</a>.</p>
 
 </div>
 </div>
@@ -245,7 +271,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_enemy1___patrol.html#a6a91e608f9fb93bab240ab784d4a3f00">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a6c362b0c2f87778486f4781f7c4e8384">Enemy1_Roam</a>, <a class="el" href="class_patrol_state.html#a93f0785b90a91e066d14bfc2e1452f6f">PatrolState</a>, and <a class="el" href="class_roam_state.html#aa88de1e15d250b6de417327341658a61">RoamState</a>.</p>
+<p>executes code upon exiting the state </p>
+
+<p>Reimplemented in <a class="el" href="class_attack_state.html#a7b9ff5628368b9bf8143d9496979c461">AttackState</a>, <a class="el" href="class_dead_state.html#a4624b81abba9824c63dfb927638d8e87">DeadState</a>, <a class="el" href="class_enemy1___attack.html#a5ded4f10ffd5cd7e8d9d594b55a751cb">Enemy1_Attack</a>, <a class="el" href="class_enemy1___dead.html#a7fa5598399f9767929717eb0ea13fc36">Enemy1_Dead</a>, <a class="el" href="class_enemy1___idle.html#a43ec3e3d9fcc8c291851c05356df3b50">Enemy1_Idle</a>, <a class="el" href="class_enemy1___patrol.html#a6a91e608f9fb93bab240ab784d4a3f00">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a6c362b0c2f87778486f4781f7c4e8384">Enemy1_Roam</a>, <a class="el" href="class_idle_state.html#a4a87993351b4662ae41a82e6df13da19">IdleState</a>, <a class="el" href="class_patrol_state.html#a93f0785b90a91e066d14bfc2e1452f6f">PatrolState</a>, and <a class="el" href="class_roam_state.html#aa88de1e15d250b6de417327341658a61">RoamState</a>.</p>
 
 </div>
 </div>
@@ -272,7 +300,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_enemy1___patrol.html#a03ca40b90b1a41c720d764fb0954b392">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a7ec5c23c8773fe441c3c227a406e20b4">Enemy1_Roam</a>, <a class="el" href="class_patrol_state.html#aac4b040bce4d21ef9a8bb59e2efdde07">PatrolState</a>, and <a class="el" href="class_roam_state.html#a31f7952394529df1bf719d9c8c2a4ade">RoamState</a>.</p>
+<p>Keeps track of checks for changing states </p>
+
+<p>Reimplemented in <a class="el" href="class_attack_state.html#a2b56b86d05790f311a07075139e78040">AttackState</a>, <a class="el" href="class_dead_state.html#ae90dec2da2c37b1a11de8ee46bfd2b40">DeadState</a>, <a class="el" href="class_enemy1___attack.html#a866dc16fd5fce268bf9e4b05613d7a42">Enemy1_Attack</a>, <a class="el" href="class_enemy1___dead.html#a81c79bd55c0d470e77bc2e94be7bfed6">Enemy1_Dead</a>, <a class="el" href="class_enemy1___idle.html#af12a865fd06d97d99aba1886fcb0cdf9">Enemy1_Idle</a>, <a class="el" href="class_enemy1___patrol.html#a03ca40b90b1a41c720d764fb0954b392">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#a7ec5c23c8773fe441c3c227a406e20b4">Enemy1_Roam</a>, <a class="el" href="class_idle_state.html#a836b32afd131f8ef16f6ad2cff52d507">IdleState</a>, <a class="el" href="class_patrol_state.html#aac4b040bce4d21ef9a8bb59e2efdde07">PatrolState</a>, and <a class="el" href="class_roam_state.html#a31f7952394529df1bf719d9c8c2a4ade">RoamState</a>.</p>
 
 </div>
 </div>
@@ -299,7 +329,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_enemy1___patrol.html#a2621492fb51f1612dbe253ac007dc814">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#aeb4cd71b8e41326f321abbd2788f975a">Enemy1_Roam</a>, <a class="el" href="class_patrol_state.html#aa84d78d0bc464e900c77971b9ad19545">PatrolState</a>, and <a class="el" href="class_roam_state.html#a2b9cf9bf5b4be5cd6d1a78da861b8092">RoamState</a>.</p>
+<p>keeps track of in-game checks </p>
+
+<p>Reimplemented in <a class="el" href="class_attack_state.html#a37e94e37d78b58479af8d56e21ac21cd">AttackState</a>, <a class="el" href="class_dead_state.html#a44e6fce0ddf3819f9398a9f2c08c0502">DeadState</a>, <a class="el" href="class_enemy1___attack.html#a95c577bbd12133ac1a62c9c0209ae84d">Enemy1_Attack</a>, <a class="el" href="class_enemy1___dead.html#a870c178fb2963f7ea9b6709e68579dca">Enemy1_Dead</a>, <a class="el" href="class_enemy1___idle.html#a646a0e96b8387d0e32aea4b7a6fc3535">Enemy1_Idle</a>, <a class="el" href="class_enemy1___patrol.html#a2621492fb51f1612dbe253ac007dc814">Enemy1_Patrol</a>, <a class="el" href="class_enemy1___roam.html#aeb4cd71b8e41326f321abbd2788f975a">Enemy1_Roam</a>, <a class="el" href="class_idle_state.html#afd22a31a378affd162b81334de168581">IdleState</a>, <a class="el" href="class_patrol_state.html#aa84d78d0bc464e900c77971b9ad19545">PatrolState</a>, and <a class="el" href="class_roam_state.html#a2b9cf9bf5b4be5cd6d1a78da861b8092">RoamState</a>.</p>
 
 </div>
 </div>
@@ -402,7 +434,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_state.html">State</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:37 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

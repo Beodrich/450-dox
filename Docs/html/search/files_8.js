@@ -53,5 +53,6 @@ var searchData=
   ['ipegapg9055androidunityprofile_2ecs_50',['IpegaPG9055AndroidUnityProfile.cs',['../_ipega_p_g9055_android_unity_profile_8cs.html',1,'']]],
   ['ipegapg9068androidunityprofile_2ecs_51',['IpegaPG9068AndroidUnityProfile.cs',['../_ipega_p_g9068_android_unity_profile_8cs.html',1,'']]],
   ['ipegapg9129androidunityprofile_2ecs_52',['IpegaPG9129AndroidUnityProfile.cs',['../_ipega_p_g9129_android_unity_profile_8cs.html',1,'']]],
-  ['iupdateable_2ecs_53',['IUpdateable.cs',['../_i_updateable_8cs.html',1,'']]]
+  ['itemcollect_2ecs_53',['ItemCollect.cs',['../_item_collect_8cs.html',1,'']]],
+  ['iupdateable_2ecs_54',['IUpdateable.cs',['../_i_updateable_8cs.html',1,'']]]
 ];

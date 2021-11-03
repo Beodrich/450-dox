@@ -84,6 +84,8 @@ $(document).ready(function(){initNavTree('class_in_control_1_1_internal_1_1_code
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_in_control_1_1_internal_1_1_code_writer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">InControl.Internal.CodeWriter Class Reference</div></div>
 </div><!--header-->
@@ -111,6 +113,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a638ff22c36290471c139d7575fd471a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516f41f84ef2817881c76906d50ab88f"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_internal_1_1_code_writer.html#a516f41f84ef2817881c76906d50ab88f">ToString</a> ()</td></tr>
 <tr class="separator:a516f41f84ef2817881c76906d50ab88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa6023ebadd32abd2de5db579b1196860"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_internal_1_1_code_writer.html#aa6023ebadd32abd2de5db579b1196860">indent</a></td></tr>
+<tr class="separator:aa6023ebadd32abd2de5db579b1196860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc471b5275349e1cd9f59caa11f6340"><td class="memItemLeft" align="right" valign="top">readonly StringBuilder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_internal_1_1_code_writer.html#a0fc471b5275349e1cd9f59caa11f6340">stringBuilder</a></td></tr>
+<tr class="separator:a0fc471b5275349e1cd9f59caa11f6340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a92834835ad1b3c5870eb663106ac7fc9"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_in_control_1_1_internal_1_1_code_writer.html#a92834835ad1b3c5870eb663106ac7fc9">newLine</a> = '\n'</td></tr>
+<tr class="separator:a92834835ad1b3c5870eb663106ac7fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a159926e1f782d6f3338690d8b6c49ff5" name="a159926e1f782d6f3338690d8b6c49ff5"></a>
@@ -320,6 +334,73 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa6023ebadd32abd2de5db579b1196860" name="aa6023ebadd32abd2de5db579b1196860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6023ebadd32abd2de5db579b1196860">&#9670;&nbsp;</a></span>indent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InControl.Internal.CodeWriter.indent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92834835ad1b3c5870eb663106ac7fc9" name="a92834835ad1b3c5870eb663106ac7fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92834835ad1b3c5870eb663106ac7fc9">&#9670;&nbsp;</a></span>newLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char InControl.Internal.CodeWriter.newLine = '\n'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fc471b5275349e1cd9f59caa11f6340" name="a0fc471b5275349e1cd9f59caa11f6340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc471b5275349e1cd9f59caa11f6340">&#9670;&nbsp;</a></span>stringBuilder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly StringBuilder InControl.Internal.CodeWriter.stringBuilder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Plugins/InControl/Source/Utility/<a class="el" href="_code_writer_8cs.html">CodeWriter.cs</a></li>
 </ul>
@@ -329,7 +410,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_in_control.html">InControl</a></li><li class="navelem"><a class="el" href="namespace_in_control_1_1_internal.html">Internal</a></li><li class="navelem"><a class="el" href="class_in_control_1_1_internal_1_1_code_writer.html">CodeWriter</a></li>
-    <li class="footer">Generated on Sun Oct 24 2021 11:36:39 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Nov 2 2021 20:59:38 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

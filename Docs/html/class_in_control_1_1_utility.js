@@ -36,5 +36,6 @@ var class_in_control_1_1_utility =
     [ "Sign", "class_in_control_1_1_utility.html#a0ce40ae91d047a6766f03a587fc442f2", null ],
     [ "VectorToAngle", "class_in_control_1_1_utility.html#aa9823828e859c84c46d92ebbd685b646", null ],
     [ "WriteToFile", "class_in_control_1_1_utility.html#a00b9489216517c1d5d2228f8b54889a9", null ],
+    [ "circleVertexList", "class_in_control_1_1_utility.html#a393ad54bb7fe646890ab30999cafa244", null ],
     [ "Epsilon", "class_in_control_1_1_utility.html#ad9817ff9db1a30600465aa0d27b9ec27", null ]
 ];

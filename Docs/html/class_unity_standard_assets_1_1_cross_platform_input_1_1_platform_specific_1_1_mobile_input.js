@@ -1,5 +1,7 @@
 var class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input =
 [
+    [ "AddAxes", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html#ad537a4231ca85796d080772313166e96", null ],
+    [ "AddButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html#aa707553f1d49951cde3480903dcf7f19", null ],
     [ "GetAxis", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html#a021064294312ef214f3219f87bfd10b8", null ],
     [ "GetButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html#a02d4acfbb8bac5f80d9d7ce07fd72dd0", null ],
     [ "GetButtonDown", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html#a8bf6e39ee25d772a7ee72ab9ea04b50b", null ],

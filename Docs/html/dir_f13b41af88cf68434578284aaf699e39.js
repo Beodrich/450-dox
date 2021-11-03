@@ -8,5 +8,11 @@ var dir_f13b41af88cf68434578284aaf699e39 =
     ] ],
     [ "HookDetector.cs", "_hook_detector_8cs.html", [
       [ "HookDetector", "class_hook_detector.html", "class_hook_detector" ]
+    ] ],
+    [ "ItemCollect.cs", "_item_collect_8cs.html", [
+      [ "ItemCollect", "class_item_collect.html", "class_item_collect" ]
+    ] ],
+    [ "LevelLoader.cs", "_level_loader_8cs.html", [
+      [ "LevelLoader", "class_level_loader.html", "class_level_loader" ]
     ] ]
 ];

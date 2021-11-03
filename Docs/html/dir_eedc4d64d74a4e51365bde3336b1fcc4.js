@@ -1,7 +1,7 @@
 var dir_eedc4d64d74a4e51365bde3336b1fcc4 =
 [
     [ "GGun.cs", "_g_gun_8cs.html", [
-      [ "GGun", "class_g_gun.html", null ]
+      [ "GGun", "class_g_gun.html", "class_g_gun" ]
     ] ],
     [ "GrapplingHook.cs", "_grappling_hook_8cs.html", [
       [ "GrapplingHook", "class_grappling_hook.html", "class_grappling_hook" ]
