@@ -152,11 +152,6 @@ var annotated_dup =
         [ "GrapplingHook2", "class_shadowed_souls_1_1_items_1_1_grappling_hook2.html", "class_shadowed_souls_1_1_items_1_1_grappling_hook2" ]
       ] ]
     ] ],
-    [ "Sirenix", "namespace_sirenix.html", [
-      [ "OdinInspector", "namespace_sirenix_1_1_odin_inspector.html", [
-        [ "SerializedNetworkBehaviour", "class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour.html", "class_sirenix_1_1_odin_inspector_1_1_serialized_network_behaviour" ]
-      ] ]
-    ] ],
     [ "TouchExample", "namespace_touch_example.html", [
       [ "CubeController", "class_touch_example_1_1_cube_controller.html", "class_touch_example_1_1_cube_controller" ]
     ] ],
@@ -322,9 +317,11 @@ var annotated_dup =
     [ "ApplyProceduralTexturePropertiesEditor", "class_apply_procedural_texture_properties_editor.html", "class_apply_procedural_texture_properties_editor" ],
     [ "AttackDetails", "struct_attack_details.html", "struct_attack_details" ],
     [ "AttackState", "class_attack_state.html", "class_attack_state" ],
+    [ "Billboard", "class_billboard.html", "class_billboard" ],
     [ "BindingButton", "class_binding_button.html", "class_binding_button" ],
     [ "BindingsMenu", "class_bindings_menu.html", "class_bindings_menu" ],
     [ "CameraSwitch", "class_camera_switch.html", "class_camera_switch" ],
+    [ "CharacterCombatScript", "class_character_combat_script.html", "class_character_combat_script" ],
     [ "CharacterMove", "class_character_move.html", "class_character_move" ],
     [ "D_Attack", "class_d___attack.html", "class_d___attack" ],
     [ "D_Dead", "class_d___dead.html", "class_d___dead" ],
@@ -337,6 +334,7 @@ var annotated_dup =
     [ "DoxygenWindow", "class_doxygen_window.html", "class_doxygen_window" ],
     [ "DoxyRunner", "class_doxy_runner.html", "class_doxy_runner" ],
     [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", "class_doxy_thread_safe_output" ],
+    [ "Enemy", "class_enemy.html", "class_enemy" ],
     [ "Enemy1", "class_enemy1.html", "class_enemy1" ],
     [ "Enemy1_Attack", "class_enemy1___attack.html", "class_enemy1___attack" ],
     [ "Enemy1_Dead", "class_enemy1___dead.html", "class_enemy1___dead" ],
@@ -382,9 +380,11 @@ var annotated_dup =
     [ "MenuActions", "class_menu_actions.html", "class_menu_actions" ],
     [ "MenuManager", "class_menu_manager.html", "class_menu_manager" ],
     [ "MenuSceneLoader", "class_menu_scene_loader.html", "class_menu_scene_loader" ],
+    [ "NPC", "class_n_p_c.html", "class_n_p_c" ],
     [ "PatrolState", "class_patrol_state.html", "class_patrol_state" ],
     [ "PauseMenu", "class_pause_menu.html", "class_pause_menu" ],
     [ "Pickup", "class_pickup.html", "class_pickup" ],
+    [ "PlatformMover", "class_platform_mover.html", "class_platform_mover" ],
     [ "ProceduralTexture2D", "class_procedural_texture2_d.html", "class_procedural_texture2_d" ],
     [ "ProceduralTexture2DEditor", "class_procedural_texture2_d_editor.html", "class_procedural_texture2_d_editor" ],
     [ "RoamState", "class_roam_state.html", "class_roam_state" ],
@@ -394,5 +394,7 @@ var annotated_dup =
     [ "State", "class_state.html", "class_state" ],
     [ "TestRayCastHit", "class_test_ray_cast_hit.html", "class_test_ray_cast_hit" ],
     [ "TP_Cam", "class_t_p___cam.html", "class_t_p___cam" ],
-    [ "WaterEditorUtility", "class_water_editor_utility.html", "class_water_editor_utility" ]
+    [ "UI", "class_u_i.html", "class_u_i" ],
+    [ "WaterEditorUtility", "class_water_editor_utility.html", "class_water_editor_utility" ],
+    [ "Wind", "class_wind.html", "class_wind" ]
 ];
