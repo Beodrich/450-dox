@@ -1,5 +1,6 @@
 var class_enemy1 =
 [
+    [ "SetAnimBool", "class_enemy1.html#af0a5b188970a4cc96ca6c529f398e2f2", null ],
     [ "Start", "class_enemy1.html#adc899d30a0d4bc5e562dfe2a13f80c66", null ],
     [ "attackStateData", "class_enemy1.html#aa333e9e317a376f916d63ea817f60afa", null ],
     [ "deadStateData", "class_enemy1.html#a7b0d5ed2ec71c3c90f65b75682ab8e55", null ],

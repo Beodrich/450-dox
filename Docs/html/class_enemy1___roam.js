@@ -7,6 +7,7 @@ var class_enemy1___roam =
     [ "GenerateNewDestination", "class_enemy1___roam.html#a8215a85247e609e269a04cfb34f25656", null ],
     [ "LogicUpdate", "class_enemy1___roam.html#a7ec5c23c8773fe441c3c227a406e20b4", null ],
     [ "PhysicsUpdate", "class_enemy1___roam.html#aeb4cd71b8e41326f321abbd2788f975a", null ],
-    [ "endState", "class_enemy1___roam.html#af02e2d88473478bbca38755839b4b7b9", null ],
-    [ "enemy", "class_enemy1___roam.html#af603a8e0fedf44873390e2fb55cf68f0", null ]
+    [ "enemy", "class_enemy1___roam.html#af603a8e0fedf44873390e2fb55cf68f0", null ],
+    [ "playerDistance", "class_enemy1___roam.html#aaaf8c7472bba6b04ae3393825449cd41", null ],
+    [ "WALK_BOOL", "class_enemy1___roam.html#a584690efcd33c9802d7a8f7aa5e84fbe", null ]
 ];

@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('class_enemy1___patrol.html',''); initR
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_enemy1___patrol-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Enemy1_Patrol Class Reference</div></div>
 </div><!--header-->
@@ -150,8 +151,13 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:acee592c161569aaae3157545917753a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_enemy1.html">Enemy1</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___patrol.html#acee592c161569aaae3157545917753a8">enemy</a></td></tr>
 <tr class="separator:acee592c161569aaae3157545917753a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b574614ed6e3f46b5cc6ee1b2348dfe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___patrol.html#a5b574614ed6e3f46b5cc6ee1b2348dfe">endState</a></td></tr>
-<tr class="separator:a5b574614ed6e3f46b5cc6ee1b2348dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473ba17c5fdbd3ed04f865dd33b2685e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___patrol.html#a473ba17c5fdbd3ed04f865dd33b2685e">playerDistance</a></td></tr>
+<tr class="separator:a473ba17c5fdbd3ed04f865dd33b2685e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a87ef27c402cae6a870ce5064b70e04b2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___patrol.html#a87ef27c402cae6a870ce5064b70e04b2">WALK_BOOL</a> =&quot;isWalk&quot;</td></tr>
+<tr class="separator:a87ef27c402cae6a870ce5064b70e04b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -406,28 +412,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5b574614ed6e3f46b5cc6ee1b2348dfe" name="a5b574614ed6e3f46b5cc6ee1b2348dfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b574614ed6e3f46b5cc6ee1b2348dfe">&#9670;&nbsp;</a></span>endState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Enemy1_Patrol.endState</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="acee592c161569aaae3157545917753a8" name="acee592c161569aaae3157545917753a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acee592c161569aaae3157545917753a8">&#9670;&nbsp;</a></span>enemy</h2>
 
@@ -450,8 +434,52 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a473ba17c5fdbd3ed04f865dd33b2685e" name="a473ba17c5fdbd3ed04f865dd33b2685e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473ba17c5fdbd3ed04f865dd33b2685e">&#9670;&nbsp;</a></span>playerDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Enemy1_Patrol.playerDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87ef27c402cae6a870ce5064b70e04b2" name="a87ef27c402cae6a870ce5064b70e04b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ef27c402cae6a870ce5064b70e04b2">&#9670;&nbsp;</a></span>WALK_BOOL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Enemy1_Patrol.WALK_BOOL =&quot;isWalk&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Unity Projects/450/Assets/Scripts/AI/State machine/States/Enemy Specific/<a class="el" href="_enemy1___patrol_8cs.html">Enemy1_Patrol.cs</a></li>
+<li>D:/Unity Projects/450/Assets/Scripts/AI/State machine/States/Enemy Specific/Enemy1/<a class="el" href="_enemy1___patrol_8cs.html">Enemy1_Patrol.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +487,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_enemy1___patrol.html">Enemy1_Patrol</a></li>
-    <li class="footer">Generated on Thu Dec 2 2021 09:22:12 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

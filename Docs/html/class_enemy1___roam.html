@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('class_enemy1___roam.html',''); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_enemy1___roam-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Enemy1_Roam Class Reference</div></div>
 </div><!--header-->
@@ -150,8 +151,13 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af603a8e0fedf44873390e2fb55cf68f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_enemy1.html">Enemy1</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___roam.html#af603a8e0fedf44873390e2fb55cf68f0">enemy</a></td></tr>
 <tr class="separator:af603a8e0fedf44873390e2fb55cf68f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af02e2d88473478bbca38755839b4b7b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___roam.html#af02e2d88473478bbca38755839b4b7b9">endState</a></td></tr>
-<tr class="separator:af02e2d88473478bbca38755839b4b7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf8c7472bba6b04ae3393825449cd41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___roam.html#aaaf8c7472bba6b04ae3393825449cd41">playerDistance</a></td></tr>
+<tr class="separator:aaaf8c7472bba6b04ae3393825449cd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a584690efcd33c9802d7a8f7aa5e84fbe"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_enemy1___roam.html#a584690efcd33c9802d7a8f7aa5e84fbe">WALK_BOOL</a> =&quot;isWalk&quot;</td></tr>
+<tr class="separator:a584690efcd33c9802d7a8f7aa5e84fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -162,6 +168,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a06917d60f55cc55ae8051b5ae70ae064 inherit pro_attribs_class_roam_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aad6ecc5dfe4074bb970a632aa1dfa9 inherit pro_attribs_class_roam_state"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_roam_state.html#a6aad6ecc5dfe4074bb970a632aa1dfa9">pointCount</a></td></tr>
 <tr class="separator:a6aad6ecc5dfe4074bb970a632aa1dfa9 inherit pro_attribs_class_roam_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c859961643bcaaf962c2935b58da52 inherit pro_attribs_class_roam_state"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_roam_state.html#aa0c859961643bcaaf962c2935b58da52">backToIdle</a></td></tr>
+<tr class="separator:aa0c859961643bcaaf962c2935b58da52 inherit pro_attribs_class_roam_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_state"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_state')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_state.html">State</a></td></tr>
 <tr class="memitem:a46c2eaa63bd3caf970a2b6964dc68d7e inherit pro_attribs_class_state"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a></td></tr>
 <tr class="separator:a46c2eaa63bd3caf970a2b6964dc68d7e inherit pro_attribs_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -406,28 +414,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af02e2d88473478bbca38755839b4b7b9" name="af02e2d88473478bbca38755839b4b7b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af02e2d88473478bbca38755839b4b7b9">&#9670;&nbsp;</a></span>endState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Enemy1_Roam.endState</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af603a8e0fedf44873390e2fb55cf68f0" name="af603a8e0fedf44873390e2fb55cf68f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af603a8e0fedf44873390e2fb55cf68f0">&#9670;&nbsp;</a></span>enemy</h2>
 
@@ -450,8 +436,52 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aaaf8c7472bba6b04ae3393825449cd41" name="aaaf8c7472bba6b04ae3393825449cd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf8c7472bba6b04ae3393825449cd41">&#9670;&nbsp;</a></span>playerDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Enemy1_Roam.playerDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a584690efcd33c9802d7a8f7aa5e84fbe" name="a584690efcd33c9802d7a8f7aa5e84fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584690efcd33c9802d7a8f7aa5e84fbe">&#9670;&nbsp;</a></span>WALK_BOOL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string Enemy1_Roam.WALK_BOOL =&quot;isWalk&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Unity Projects/450/Assets/Scripts/AI/State machine/States/Enemy Specific/<a class="el" href="_enemy1___roam_8cs.html">Enemy1_Roam.cs</a></li>
+<li>D:/Unity Projects/450/Assets/Scripts/AI/State machine/States/Enemy Specific/Enemy1/<a class="el" href="_enemy1___roam_8cs.html">Enemy1_Roam.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +489,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_enemy1___roam.html">Enemy1_Roam</a></li>
-    <li class="footer">Generated on Thu Dec 2 2021 09:22:12 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -16,11 +16,11 @@ var class_grappling_hook =
     [ "characterController", "class_grappling_hook.html#aa024d13d3b7ddf198ac4b273d41315d9", null ],
     [ "grappleLineRenderer", "class_grappling_hook.html#afbb2f21a3be0b15de97e6a1a9b226e32", null ],
     [ "grappleTravelSpeed", "class_grappling_hook.html#a064b76f5679f0a21bd374a37e71acb25", null ],
-    [ "gravity", "class_grappling_hook.html#a508cc1e83bf878cf313ef52213ff6463", null ],
     [ "hit", "class_grappling_hook.html#aab45ef48083a8843ffe8f4309f537981", null ],
     [ "hookInstantiated", "class_grappling_hook.html#a08f517df33d3fbdfe7d1c244c09e9ee4", null ],
     [ "hookPrefab", "class_grappling_hook.html#aa82d1762304551fa266cd3a012a8ff54", null ],
     [ "isPlayerGrappling", "class_grappling_hook.html#a11876bb02508b05e2c1d509d93daa7c7", null ],
+    [ "lerpSpeed", "class_grappling_hook.html#a0e2ffbda5a93ff4c08ce1cdab15c1968", null ],
     [ "lineStart", "class_grappling_hook.html#abf8a0fb94f0bf87ff16805e4287a552b", null ],
     [ "maxGrappleRange", "class_grappling_hook.html#a260196820f1962ae740b32dbe5e89e46", null ],
     [ "playerRb", "class_grappling_hook.html#aa087a75b20befd6cc48e3754ea57c929", null ]

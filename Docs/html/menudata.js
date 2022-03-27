@@ -106,6 +106,7 @@ var menudata={children:[
 {text:"n",url:"functions_vars_n.html#index_n"},
 {text:"o",url:"functions_vars_o.html#index_o"},
 {text:"p",url:"functions_vars_p.html#index_p"},
+{text:"q",url:"functions_vars_q.html#index_q"},
 {text:"r",url:"functions_vars_r.html#index_r"},
 {text:"s",url:"functions_vars_s.html#index_s"},
 {text:"t",url:"functions_vars_t.html#index_t"},
@@ -115,21 +116,7 @@ var menudata={children:[
 {text:"x",url:"functions_vars_x.html#index_x"},
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]},
-{text:"Enumerations",url:"functions_enum.html",children:[
-{text:"a",url:"functions_enum.html#index_a"},
-{text:"b",url:"functions_enum.html#index_b"},
-{text:"c",url:"functions_enum.html#index_c"},
-{text:"d",url:"functions_enum.html#index_d"},
-{text:"e",url:"functions_enum.html#index_e"},
-{text:"g",url:"functions_enum.html#index_g"},
-{text:"l",url:"functions_enum.html#index_l"},
-{text:"m",url:"functions_enum.html#index_m"},
-{text:"p",url:"functions_enum.html#index_p"},
-{text:"r",url:"functions_enum.html#index_r"},
-{text:"s",url:"functions_enum.html#index_s"},
-{text:"t",url:"functions_enum.html#index_t"},
-{text:"u",url:"functions_enum.html#index_u"},
-{text:"w",url:"functions_enum.html#index_w"}]},
+{text:"Enumerations",url:"functions_enum.html"},
 {text:"Properties",url:"functions_prop.html",children:[
 {text:"a",url:"functions_prop.html#index_a"},
 {text:"b",url:"functions_prop_b.html#index_b"},
@@ -164,4 +151,5 @@ var menudata={children:[
 {text:"Variables",url:"globals_vars.html"},
 {text:"Typedefs",url:"globals_type.html"},
 {text:"Enumerations",url:"globals_enum.html"},
-{text:"Enumerator",url:"globals_eval.html"}]}]}]}
+{text:"Enumerator",url:"globals_eval.html"}]}]},
+{text:"Examples",url:"examples.html"}]}

@@ -6,5 +6,6 @@ var searchData=
   ['keycombo_2ecs_3',['KeyCombo.cs',['../_key_combo_8cs.html',1,'']]],
   ['keyinfo_2ecs_4',['KeyInfo.cs',['../_key_info_8cs.html',1,'']]],
   ['kiwitataneswindowsnativeprofile_2ecs_5',['KiwitataNESWindowsNativeProfile.cs',['../_kiwitata_n_e_s_windows_native_profile_8cs.html',1,'']]],
-  ['konamidancepadmacnativeprofile_2ecs_6',['KonamiDancePadMacNativeProfile.cs',['../_konami_dance_pad_mac_native_profile_8cs.html',1,'']]]
+  ['knockbacktest_2ecs_6',['KnockBackTest.cs',['../_knock_back_test_8cs.html',1,'']]],
+  ['konamidancepadmacnativeprofile_2ecs_7',['KonamiDancePadMacNativeProfile.cs',['../_konami_dance_pad_mac_native_profile_8cs.html',1,'']]]
 ];

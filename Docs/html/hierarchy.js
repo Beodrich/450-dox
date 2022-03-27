@@ -1,7 +1,5 @@
 var hierarchy =
 [
-    [ "UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.AdvancedSettings", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_advanced_settings.html", null ],
-    [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAudio.AdvancedSetttings", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_audio_1_1_advanced_setttings.html", null ],
     [ "InControl.InputDevice.AnalogSnapshotEntry", "struct_in_control_1_1_input_device_1_1_analog_snapshot_entry.html", null ],
     [ "UnityEditor.AI.NavMeshSurfaceEditor.AsyncBakeOperation", "struct_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_async_bake_operation.html", null ],
     [ "AttackDetails", "struct_attack_details.html", null ],
@@ -10,7 +8,6 @@ var hierarchy =
       [ "InControl.PreserveAttribute", "class_in_control_1_1_preserve_attribute.html", null ],
       [ "InControl.UnityInputDeviceProfileAttribute", "class_in_control_1_1_unity_input_device_profile_attribute.html", null ]
     ] ],
-    [ "UnityStandardAssets.CrossPlatformInput.TiltInput.AxisMapping", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping.html", null ],
     [ "InControl.BindingListenOptions", "class_in_control_1_1_binding_listen_options.html", null ],
     [ "InControl.BindingSourceListener", "interface_in_control_1_1_binding_source_listener.html", [
       [ "InControl.DeviceBindingSourceListener", "class_in_control_1_1_device_binding_source_listener.html", null ],
@@ -18,15 +15,8 @@ var hierarchy =
       [ "InControl.MouseBindingSourceListener", "class_in_control_1_1_mouse_binding_source_listener.html", null ],
       [ "InControl.UnknownDeviceBindingSourceListener", "class_in_control_1_1_unknown_device_binding_source_listener.html", null ]
     ] ],
-    [ "UnityStandardAssets.Utility.CameraRefocus", "class_unity_standard_assets_1_1_utility_1_1_camera_refocus.html", null ],
     [ "InControl.Internal.CodeWriter", "class_in_control_1_1_internal_1_1_code_writer.html", null ],
-    [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator.ControlSurface", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator_1_1_control_surface.html", null ],
-    [ "UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize", "class_unity_standard_assets_1_1_cross_platform_input_1_1_inspector_1_1_cross_platform_initialize.html", null ],
-    [ "UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager.html", null ],
-    [ "UnityStandardAssets.Utility.CurveControlledBob", "class_unity_standard_assets_1_1_utility_1_1_curve_controlled_bob.html", null ],
     [ "InControl.DeadZone", "class_in_control_1_1_dead_zone.html", null ],
-    [ "UnityStandardAssets.SceneUtils.ParticleSceneControls.DemoParticleSystem", "class_unity_standard_assets_1_1_scene_utils_1_1_particle_scene_controls_1_1_demo_particle_system.html", null ],
-    [ "UnityStandardAssets.SceneUtils.ParticleSceneControls.DemoParticleSystemList", "class_unity_standard_assets_1_1_scene_utils_1_1_particle_scene_controls_1_1_demo_particle_system_list.html", null ],
     [ "DoxygenConfig", "class_doxygen_config.html", null ],
     [ "DoxyRunner", "class_doxy_runner.html", null ],
     [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", null ],
@@ -38,35 +28,19 @@ var hierarchy =
       [ "UnityEditor.AI.NavMeshLinkEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor.html", null ],
       [ "UnityEditor.AI.NavMeshModifierEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor.html", null ],
       [ "UnityEditor.AI.NavMeshModifierVolumeEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor.html", null ],
-      [ "UnityEditor.AI.NavMeshSurfaceEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor.html", null ],
-      [ "UnityStandardAssets.Water.GerstnerDisplaceEditor", "class_unity_standard_assets_1_1_water_1_1_gerstner_displace_editor.html", null ],
-      [ "UnityStandardAssets.Water.PlanarReflectionEditor", "class_unity_standard_assets_1_1_water_1_1_planar_reflection_editor.html", null ],
-      [ "UnityStandardAssets.Water.SpecularLightingEditor", "class_unity_standard_assets_1_1_water_1_1_specular_lighting_editor.html", null ],
-      [ "UnityStandardAssets.Water.WaterBaseEditor", "class_unity_standard_assets_1_1_water_1_1_water_base_editor.html", null ]
+      [ "UnityEditor.AI.NavMeshSurfaceEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor.html", null ]
     ] ],
     [ "EditorWindow", null, [
       [ "DoxygenWindow", "class_doxygen_window.html", null ]
     ] ],
-    [ "UnityStandardAssets.Utility.TimedObjectActivator.Entries", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entries.html", null ],
-    [ "UnityStandardAssets.Utility.TimedObjectActivator.Entry", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator_1_1_entry.html", null ],
     [ "Exception", null, [
       [ "InControl.InControlException", "class_in_control_1_1_in_control_exception.html", null ]
     ] ],
     [ "FiniteStateMachine", "class_finite_state_machine.html", null ],
-    [ "UnityStandardAssets.Utility.FOVKick", "class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html", null ],
     [ "Lux_SRP_GrassDisplacement.GrassDisplacementRenderFeature.GrassDisplacementSettings", "class_lux___s_r_p___grass_displacement_1_1_grass_displacement_render_feature_1_1_grass_displacement_settings.html", null ],
     [ "ICadeReaderView()", "category_i_cade_reader_view_07_08.html", null ],
-    [ "ICanvasRaycastFilter", null, [
-      [ "AlphaButtonClickMask", "class_alpha_button_click_mask.html", null ]
-    ] ],
     [ "IComparable", null, [
       [ "InControl.VersionInfo", "struct_in_control_1_1_version_info.html", null ]
-    ] ],
-    [ "IComparer", null, [
-      [ "UnityStandardAssets.Cameras.ProtectCameraFromWallClip.RayHitComparer", "class_unity_standard_assets_1_1_cameras_1_1_protect_camera_from_wall_clip_1_1_ray_hit_comparer.html", null ]
-    ] ],
-    [ "IDragHandler", null, [
-      [ "UnityStandardAssets.CrossPlatformInput.Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", null ]
     ] ],
     [ "IEquatable", null, [
       [ "InControl.BindingSource", "class_in_control_1_1_binding_source.html", [
@@ -114,25 +88,25 @@ var hierarchy =
     [ "InControl.InputDeviceStyleExtensions", "class_in_control_1_1_input_device_style_extensions.html", null ],
     [ "InControl.InputManager", "class_in_control_1_1_input_manager.html", null ],
     [ "InControl.InputRange", "struct_in_control_1_1_input_range.html", null ],
-    [ "IPointerClickHandler", null, [
-      [ "LevelReset", "class_level_reset.html", null ]
-    ] ],
-    [ "IPointerDownHandler", null, [
-      [ "UnityStandardAssets.CrossPlatformInput.AxisTouchButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_axis_touch_button.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.TouchPad", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html", null ]
-    ] ],
-    [ "IPointerUpHandler", null, [
-      [ "UnityStandardAssets.CrossPlatformInput.AxisTouchButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_axis_touch_button.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.TouchPad", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html", null ]
-    ] ],
     [ "InControl.IUpdateable", "interface_in_control_1_1_i_updateable.html", null ],
     [ "InControl.KeyCombo", "struct_in_control_1_1_key_combo.html", null ],
     [ "InControl.UnityKeyboardProvider.KeyMapping", "struct_in_control_1_1_unity_keyboard_provider_1_1_key_mapping.html", null ],
-    [ "UnityStandardAssets.Utility.LerpControlledBob", "class_unity_standard_assets_1_1_utility_1_1_lerp_controlled_bob.html", null ],
+    [ "LeanAudioStream", "class_lean_audio_stream.html", null ],
+    [ "DentedPixel.LeanDummy", "class_dented_pixel_1_1_lean_dummy.html", null ],
+    [ "LeanSmooth", "class_lean_smooth.html", null ],
+    [ "LeanTweenExt", "class_lean_tween_ext.html", null ],
+    [ "LeanTweenType", "class_lean_tween_type.html", null ],
     [ "InControl.Logger", "class_in_control_1_1_logger.html", null ],
     [ "InControl.LogMessage", "struct_in_control_1_1_log_message.html", null ],
+    [ "LTBezier", "class_l_t_bezier.html", null ],
+    [ "LTBezierPath", "class_l_t_bezier_path.html", null ],
+    [ "LTDescr", "class_l_t_descr.html", null ],
+    [ "LTDescrOptional", "class_l_t_descr_optional.html", null ],
+    [ "LTEvent", "class_l_t_event.html", null ],
+    [ "LTGUI", "class_l_t_g_u_i.html", null ],
+    [ "LTSeq", "class_l_t_seq.html", null ],
+    [ "LTSpline", "class_l_t_spline.html", null ],
+    [ "LTUtility", "class_l_t_utility.html", null ],
     [ "InControl.MarshalUtility", "class_in_control_1_1_marshal_utility.html", null ],
     [ "MaterialPropertyDrawer", null, [
       [ "LuxURPCameraFadeDrawer", "class_lux_u_r_p_camera_fade_drawer.html", null ],
@@ -147,30 +121,52 @@ var hierarchy =
       [ "LuxURPWindFoliageDrawer", "class_lux_u_r_p_wind_foliage_drawer.html", null ],
       [ "LuxURPWindGrassDrawer", "class_lux_u_r_p_wind_grass_drawer.html", null ]
     ] ],
-    [ "UnityStandardAssets.Water.MeshContainer", "class_unity_standard_assets_1_1_water_1_1_mesh_container.html", null ],
     [ "MonoBehaviour", null, [
-      [ "AlphaButtonClickMask", "class_alpha_button_click_mask.html", null ],
+      [ "AISensor", "class_a_i_sensor.html", null ],
       [ "AnimationToStateMachine", "class_animation_to_state_machine.html", null ],
+      [ "AnimationTriggerPlayer", "class_animation_trigger_player.html", null ],
       [ "AnimatorController", "class_animator_controller.html", null ],
       [ "ApplyProceduralTextureProperties", "class_apply_procedural_texture_properties.html", null ],
+      [ "BarkTrigger", "class_bark_trigger.html", null ],
+      [ "BarkTriggerOrbs", "class_bark_trigger_orbs.html", null ],
       [ "BasicExample.BasicExample", "class_basic_example_1_1_basic_example.html", null ],
       [ "Billboard", "class_billboard.html", null ],
       [ "BindingButton", "class_binding_button.html", null ],
       [ "BindingsExample.BindingsExample", "class_bindings_example_1_1_bindings_example.html", null ],
       [ "BindingsMenu", "class_bindings_menu.html", null ],
-      [ "CameraSwitch", "class_camera_switch.html", null ],
-      [ "CharacterCombatScript", "class_character_combat_script.html", null ],
+      [ "BitBotLoadingScreen", "class_bit_bot_loading_screen.html", null ],
+      [ "CharacterGroundedTrigger", "class_character_grounded_trigger.html", null ],
       [ "CharacterMove", "class_character_move.html", null ],
-      [ "D_Attack", "class_d___attack.html", null ],
-      [ "Enemy", "class_enemy.html", null ],
+      [ "ConstantRotation", "class_constant_rotation.html", null ],
+      [ "CreditScroll", "class_credit_scroll.html", null ],
+      [ "DentedPixel.LTExamples.PathBezier", "class_dented_pixel_1_1_l_t_examples_1_1_path_bezier.html", null ],
+      [ "DentedPixel.LTExamples.TestingUnitTests", "class_dented_pixel_1_1_l_t_examples_1_1_testing_unit_tests.html", null ],
+      [ "DialogueManager", "class_dialogue_manager.html", null ],
+      [ "DialogueTrigger", "class_dialogue_trigger.html", null ],
+      [ "EndCreditLogic", "class_end_credit_logic.html", null ],
       [ "Entity", "class_entity.html", [
-        [ "Enemy1", "class_enemy1.html", null ]
+        [ "Charger", "class_charger.html", null ],
+        [ "Enemy1", "class_enemy1.html", null ],
+        [ "Flyer", "class_flyer.html", null ],
+        [ "Villager", "class_villager.html", null ]
       ] ],
-      [ "EventSystemChecker", "class_event_system_checker.html", null ],
+      [ "ExampleSpline", "class_example_spline.html", null ],
       [ "FallingObject", "class_falling_object.html", null ],
-      [ "ForcedReset", "class_forced_reset.html", null ],
+      [ "FinalPickUp", "class_final_pick_up.html", null ],
+      [ "Following", "class_following.html", null ],
       [ "GGun", "class_g_gun.html", null ],
+      [ "GameManager", "class_game_manager.html", null ],
+      [ "GeneralAdvancedTechniques", "class_general_advanced_techniques.html", null ],
+      [ "GeneralBasic", "class_general_basic.html", null ],
+      [ "GeneralBasics2d", "class_general_basics2d.html", null ],
+      [ "GeneralCameraShake", "class_general_camera_shake.html", null ],
+      [ "GeneralEasingTypes", "class_general_easing_types.html", null ],
+      [ "GeneralEventsListeners", "class_general_events_listeners.html", null ],
+      [ "GeneralSequencer", "class_general_sequencer.html", null ],
+      [ "GeneralSimpleUI", "class_general_simple_u_i.html", null ],
+      [ "GeneralUISpace", "class_general_u_i_space.html", null ],
       [ "GrapplingHook", "class_grappling_hook.html", null ],
+      [ "HUDControl", "class_h_u_d_control.html", null ],
       [ "HealthManager", "class_health_manager.html", null ],
       [ "Hook", "class_hook.html", null ],
       [ "HookDetector", "class_hook_detector.html", null ],
@@ -186,8 +182,14 @@ var hierarchy =
       [ "InterfaceMovement.ButtonFocus", "class_interface_movement_1_1_button_focus.html", null ],
       [ "InterfaceMovement.ButtonManager", "class_interface_movement_1_1_button_manager.html", null ],
       [ "ItemCollect", "class_item_collect.html", null ],
+      [ "KnockBackTest", "class_knock_back_test.html", null ],
+      [ "LeanTester", "class_lean_tester.html", null ],
+      [ "LeanTween", "class_lean_tween.html", null ],
+      [ "LevelEndTrigger", "class_level_end_trigger.html", null ],
       [ "LevelLoader", "class_level_loader.html", null ],
-      [ "LevelReset", "class_level_reset.html", null ],
+      [ "LoadScene", "class_load_scene.html", null ],
+      [ "LogoCinematic", "class_logo_cinematic.html", null ],
+      [ "Look", "class_look.html", null ],
       [ "LuxLWRPEssentials.Demo.AnimateSphere", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_animate_sphere.html", null ],
       [ "LuxLWRPEssentials.Demo.CheckSettings", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_check_settings.html", null ],
       [ "LuxLWRPEssentials.Demo.ExtendedFlycam", "class_lux_l_w_r_p_essentials_1_1_demo_1_1_extended_flycam.html", null ],
@@ -202,128 +204,46 @@ var hierarchy =
       [ "Lux_SRP_GrassDisplacement.DebugGrassDisplacementTex", "class_lux___s_r_p___grass_displacement_1_1_debug_grass_displacement_tex.html", null ],
       [ "Lux_SRP_GrassDisplacement.RotateAndMove", "class_lux___s_r_p___grass_displacement_1_1_rotate_and_move.html", null ],
       [ "Lux_SRP_GrassDisplacement.SmoothFollow", "class_lux___s_r_p___grass_displacement_1_1_smooth_follow.html", null ],
+      [ "MenuLogic", "class_menu_logic.html", null ],
       [ "MenuManager", "class_menu_manager.html", null ],
-      [ "MenuSceneLoader", "class_menu_scene_loader.html", null ],
       [ "MultiplayerBasicExample.Player", "class_multiplayer_basic_example_1_1_player.html", null ],
       [ "MultiplayerBasicExample.PlayerManager", "class_multiplayer_basic_example_1_1_player_manager.html", null ],
       [ "MultiplayerWithBindingsExample.Player", "class_multiplayer_with_bindings_example_1_1_player.html", null ],
       [ "MultiplayerWithBindingsExample.PlayerManager", "class_multiplayer_with_bindings_example_1_1_player_manager.html", null ],
-      [ "NPC", "class_n_p_c.html", null ],
-      [ "PauseMenu", "class_pause_menu.html", null ],
+      [ "OldGUIExamplesCS", "class_old_g_u_i_examples_c_s.html", null ],
+      [ "PathBezier2d", "class_path_bezier2d.html", null ],
+      [ "PathSpline2d", "class_path_spline2d.html", null ],
+      [ "PathSplineEndless", "class_path_spline_endless.html", null ],
+      [ "PathSplinePerformance", "class_path_spline_performance.html", null ],
+      [ "PathSplineTrack", "class_path_spline_track.html", null ],
+      [ "PathSplines", "class_path_splines.html", null ],
       [ "Pickup", "class_pickup.html", null ],
       [ "PlatformMover", "class_platform_mover.html", null ],
       [ "PlayerAnimatorController", "class_player_animator_controller.html", null ],
       [ "RainFollow", "class_rain_follow.html", null ],
       [ "RootScript", "class_root_script.html", null ],
       [ "RotateSeeker", "class_rotate_seeker.html", null ],
-      [ "SceneAndURLLoader", "class_scene_and_u_r_l_loader.html", null ],
-      [ "ShadowedSouls.Items.GrapplingHook2", "class_shadowed_souls_1_1_items_1_1_grappling_hook2.html", null ],
+      [ "RotationTest", "class_rotation_test.html", null ],
+      [ "SoundSystem", "class_sound_system.html", null ],
       [ "TP_Cam", "class_t_p___cam.html", null ],
       [ "TestRayCastHit", "class_test_ray_cast_hit.html", null ],
+      [ "TestingPunch", "class_testing_punch.html", null ],
+      [ "TestingRigidbodyCS", "class_testing_rigidbody_c_s.html", null ],
+      [ "TestingZLegacy", "class_testing_z_legacy.html", null ],
+      [ "TestingZLegacyExt", "class_testing_z_legacy_ext.html", null ],
+      [ "TimeQueue", "class_time_queue.html", null ],
       [ "TouchExample.CubeController", "class_touch_example_1_1_cube_controller.html", null ],
       [ "Trap", "class_trap.html", null ],
-      [ "UI", "class_u_i.html", null ],
       [ "UIControl", "class_u_i_control.html", null ],
       [ "UnityEngine.AI.NavMeshLink", "class_unity_engine_1_1_a_i_1_1_nav_mesh_link.html", null ],
       [ "UnityEngine.AI.NavMeshModifier", "class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier.html", null ],
       [ "UnityEngine.AI.NavMeshModifierVolume", "class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume.html", null ],
       [ "UnityEngine.AI.NavMeshSurface", "class_unity_engine_1_1_a_i_1_1_nav_mesh_surface.html", null ],
-      [ "UnityStandardAssets.Cameras.AbstractTargetFollower", "class_unity_standard_assets_1_1_cameras_1_1_abstract_target_follower.html", [
-        [ "UnityStandardAssets.Cameras.LookatTarget", "class_unity_standard_assets_1_1_cameras_1_1_lookat_target.html", [
-          [ "UnityStandardAssets.Cameras.HandHeldCam", "class_unity_standard_assets_1_1_cameras_1_1_hand_held_cam.html", null ]
-        ] ],
-        [ "UnityStandardAssets.Cameras.PivotBasedCameraRig", "class_unity_standard_assets_1_1_cameras_1_1_pivot_based_camera_rig.html", [
-          [ "UnityStandardAssets.Cameras.AutoCam", "class_unity_standard_assets_1_1_cameras_1_1_auto_cam.html", null ],
-          [ "UnityStandardAssets.Cameras.FreeLookCam", "class_unity_standard_assets_1_1_cameras_1_1_free_look_cam.html", null ]
-        ] ],
-        [ "UnityStandardAssets.Cameras.TargetFieldOfView", "class_unity_standard_assets_1_1_cameras_1_1_target_field_of_view.html", null ]
-      ] ],
-      [ "UnityStandardAssets.Cameras.ProtectCameraFromWallClip", "class_unity_standard_assets_1_1_cameras_1_1_protect_camera_from_wall_clip.html", null ],
-      [ "UnityStandardAssets.Characters.FirstPerson.FirstPersonController", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_first_person_controller.html", null ],
-      [ "UnityStandardAssets.Characters.FirstPerson.HeadBob", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_head_bob.html", null ],
-      [ "UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller.html", null ],
-      [ "UnityStandardAssets.Characters.ThirdPerson.AICharacterControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_a_i_character_control.html", null ],
-      [ "UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_character.html", null ],
-      [ "UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl", "class_unity_standard_assets_1_1_characters_1_1_third_person_1_1_third_person_user_control.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.AxisTouchButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_axis_touch_button.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.ButtonHandler", "class_unity_standard_assets_1_1_cross_platform_input_1_1_button_handler.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar", "class_unity_standard_assets_1_1_cross_platform_input_1_1_input_axis_scrollbar.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.Joystick", "class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.MobileControlRig", "class_unity_standard_assets_1_1_cross_platform_input_1_1_mobile_control_rig.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.TiltInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.TouchPad", "class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html", null ],
-      [ "UnityStandardAssets.Effects.AfterburnerPhysicsForce", "class_unity_standard_assets_1_1_effects_1_1_afterburner_physics_force.html", null ],
-      [ "UnityStandardAssets.Effects.ExplosionFireAndDebris", "class_unity_standard_assets_1_1_effects_1_1_explosion_fire_and_debris.html", null ],
-      [ "UnityStandardAssets.Effects.ExplosionPhysicsForce", "class_unity_standard_assets_1_1_effects_1_1_explosion_physics_force.html", null ],
-      [ "UnityStandardAssets.Effects.Explosive", "class_unity_standard_assets_1_1_effects_1_1_explosive.html", null ],
-      [ "UnityStandardAssets.Effects.ExtinguishableParticleSystem", "class_unity_standard_assets_1_1_effects_1_1_extinguishable_particle_system.html", null ],
-      [ "UnityStandardAssets.Effects.FireLight", "class_unity_standard_assets_1_1_effects_1_1_fire_light.html", null ],
-      [ "UnityStandardAssets.Effects.Hose", "class_unity_standard_assets_1_1_effects_1_1_hose.html", null ],
-      [ "UnityStandardAssets.Effects.ParticleSystemMultiplier", "class_unity_standard_assets_1_1_effects_1_1_particle_system_multiplier.html", null ],
-      [ "UnityStandardAssets.Effects.SmokeParticles", "class_unity_standard_assets_1_1_effects_1_1_smoke_particles.html", null ],
-      [ "UnityStandardAssets.Effects.WaterHoseParticles", "class_unity_standard_assets_1_1_effects_1_1_water_hose_particles.html", null ],
-      [ "UnityStandardAssets.SceneUtils.ParticleSceneControls", "class_unity_standard_assets_1_1_scene_utils_1_1_particle_scene_controls.html", null ],
-      [ "UnityStandardAssets.SceneUtils.PlaceTargetWithMouse", "class_unity_standard_assets_1_1_scene_utils_1_1_place_target_with_mouse.html", null ],
-      [ "UnityStandardAssets.SceneUtils.SlowMoButton", "class_unity_standard_assets_1_1_scene_utils_1_1_slow_mo_button.html", null ],
-      [ "UnityStandardAssets.Utility.ActivateTrigger", "class_unity_standard_assets_1_1_utility_1_1_activate_trigger.html", null ],
-      [ "UnityStandardAssets.Utility.AutoMobileShaderSwitch", "class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch.html", null ],
-      [ "UnityStandardAssets.Utility.AutoMoveAndRotate", "class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate.html", null ],
-      [ "UnityStandardAssets.Utility.DragRigidbody", "class_unity_standard_assets_1_1_utility_1_1_drag_rigidbody.html", null ],
-      [ "UnityStandardAssets.Utility.DynamicShadowSettings", "class_unity_standard_assets_1_1_utility_1_1_dynamic_shadow_settings.html", null ],
-      [ "UnityStandardAssets.Utility.FPSCounter", "class_unity_standard_assets_1_1_utility_1_1_f_p_s_counter.html", null ],
-      [ "UnityStandardAssets.Utility.FollowTarget", "class_unity_standard_assets_1_1_utility_1_1_follow_target.html", null ],
-      [ "UnityStandardAssets.Utility.ObjectResetter", "class_unity_standard_assets_1_1_utility_1_1_object_resetter.html", null ],
-      [ "UnityStandardAssets.Utility.ParticleSystemDestroyer", "class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer.html", null ],
-      [ "UnityStandardAssets.Utility.PlatformSpecificContent", "class_unity_standard_assets_1_1_utility_1_1_platform_specific_content.html", null ],
-      [ "UnityStandardAssets.Utility.SimpleActivatorMenu", "class_unity_standard_assets_1_1_utility_1_1_simple_activator_menu.html", null ],
-      [ "UnityStandardAssets.Utility.SimpleMouseRotator", "class_unity_standard_assets_1_1_utility_1_1_simple_mouse_rotator.html", null ],
-      [ "UnityStandardAssets.Utility.SmoothFollow", "class_unity_standard_assets_1_1_utility_1_1_smooth_follow.html", null ],
-      [ "UnityStandardAssets.Utility.TimedObjectActivator", "class_unity_standard_assets_1_1_utility_1_1_timed_object_activator.html", null ],
-      [ "UnityStandardAssets.Utility.TimedObjectDestructor", "class_unity_standard_assets_1_1_utility_1_1_timed_object_destructor.html", null ],
-      [ "UnityStandardAssets.Utility.WaypointCircuit", "class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit.html", null ],
-      [ "UnityStandardAssets.Utility.WaypointProgressTracker", "class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAiControl", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_ai_control.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAudio", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_audio.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_control_surface_animator.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_controller.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_propeller_animator.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control2_axis.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl4Axis", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_aeroplane_user_control4_axis.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.JetParticleEffect", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_jet_particle_effect.html", null ],
-      [ "UnityStandardAssets.Vehicles.Aeroplane.LandingGear", "class_unity_standard_assets_1_1_vehicles_1_1_aeroplane_1_1_landing_gear.html", null ],
-      [ "UnityStandardAssets.Vehicles.Ball.Ball", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball.html", null ],
-      [ "UnityStandardAssets.Vehicles.Ball.BallUserControl", "class_unity_standard_assets_1_1_vehicles_1_1_ball_1_1_ball_user_control.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.BrakeLight", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_brake_light.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.CarAIControl", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_a_i_control.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.CarAudio", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_audio.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.CarController", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_controller.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.CarSelfRighting", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_self_righting.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.CarUserControl", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_car_user_control.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.Mudguard", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_mudguard.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.SkidTrail", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_skid_trail.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.Suspension", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_suspension.html", null ],
-      [ "UnityStandardAssets.Vehicles.Car.WheelEffects", "class_unity_standard_assets_1_1_vehicles_1_1_car_1_1_wheel_effects.html", null ],
-      [ "UnityStandardAssets.Water.Displace", "class_unity_standard_assets_1_1_water_1_1_displace.html", [
-        [ "UnityStandardAssets.Water.GerstnerDisplace", "class_unity_standard_assets_1_1_water_1_1_gerstner_displace.html", null ]
-      ] ],
-      [ "UnityStandardAssets.Water.PlanarReflection", "class_unity_standard_assets_1_1_water_1_1_planar_reflection.html", null ],
-      [ "UnityStandardAssets.Water.SpecularLighting", "class_unity_standard_assets_1_1_water_1_1_specular_lighting.html", null ],
-      [ "UnityStandardAssets.Water.Water", "class_unity_standard_assets_1_1_water_1_1_water.html", null ],
-      [ "UnityStandardAssets.Water.WaterBase", "class_unity_standard_assets_1_1_water_1_1_water_base.html", null ],
-      [ "UnityStandardAssets.Water.WaterBasic", "class_unity_standard_assets_1_1_water_1_1_water_basic.html", null ],
-      [ "UnityStandardAssets.Water.WaterTile", "class_unity_standard_assets_1_1_water_1_1_water_tile.html", null ],
-      [ "UnityStandardAssets._2D.Camera2DFollow", "class_unity_standard_assets_1_1__2_d_1_1_camera2_d_follow.html", null ],
-      [ "UnityStandardAssets._2D.CameraFollow", "class_unity_standard_assets_1_1__2_d_1_1_camera_follow.html", null ],
-      [ "UnityStandardAssets._2D.Platformer2DUserControl", "class_unity_standard_assets_1_1__2_d_1_1_platformer2_d_user_control.html", null ],
-      [ "UnityStandardAssets._2D.PlatformerCharacter2D", "class_unity_standard_assets_1_1__2_d_1_1_platformer_character2_d.html", null ],
-      [ "UnityStandardAssets._2D.Restarter", "class_unity_standard_assets_1_1__2_d_1_1_restarter.html", null ],
       [ "VirtualDeviceExample.VirtualDeviceExample", "class_virtual_device_example_1_1_virtual_device_example.html", null ],
       [ "Wind", "class_wind.html", null ],
       [ "testDamage", "classtest_damage.html", null ],
       [ "testHealth", "classtest_health.html", null ]
     ] ],
-    [ "UnityStandardAssets.Characters.FirstPerson.MouseLook", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look.html", null ],
-    [ "UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.MovementSettings", "class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings.html", null ],
     [ "InControl.NativeInputOptions", "struct_in_control_1_1_native_input_options.html", null ],
     [ "InControl.NativeVersionInfo", "struct_in_control_1_1_native_version_info.html", null ],
     [ "UnityEditor.AI.NavMeshComponentsGUIUtility", "class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility.html", null ],
@@ -332,6 +252,14 @@ var hierarchy =
         [ "ICadeManager()", "category_i_cade_manager_07_08.html", null ]
       ] ],
       [ "ICadeManager", "interface_i_cade_manager.html", null ]
+    ] ],
+    [ "object", null, [
+      [ "LeanAudio", "class_lean_audio.html", null ],
+      [ "LeanAudioOptions", "class_lean_audio_options.html", null ],
+      [ "LeanTest", "class_lean_test.html", null ]
+    ] ],
+    [ "System.Object", null, [
+      [ "LTRect", "class_l_t_rect.html", null ]
     ] ],
     [ "InControl.OptionalFloat", "struct_in_control_1_1_optional_float.html", null ],
     [ "InControl.OptionalInputDeviceDriverType", "struct_in_control_1_1_optional_input_device_driver_type.html", null ],
@@ -364,17 +292,18 @@ var hierarchy =
       [ "InControl.OptionalUInt16PropertyDrawer", "class_in_control_1_1_optional_u_int16_property_drawer.html", null ],
       [ "InControl.OptionalUInt32PropertyDrawer", "class_in_control_1_1_optional_u_int32_property_drawer.html", null ]
     ] ],
+    [ "TimeQueue.QueueInfo", "struct_time_queue_1_1_queue_info.html", null ],
     [ "InControl.Reflector", "class_in_control_1_1_reflector.html", null ],
-    [ "UnityStandardAssets.Utility.AutoMobileShaderSwitch.ReplacementDefinition", "class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_definition.html", null ],
-    [ "UnityStandardAssets.Utility.AutoMobileShaderSwitch.ReplacementList", "class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_list.html", null ],
     [ "InControl.Internal.RingBuffer< T >", "class_in_control_1_1_internal_1_1_ring_buffer.html", null ],
-    [ "UnityStandardAssets.Utility.WaypointCircuit.RoutePoint", "struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point.html", null ],
     [ "ScriptableObject", null, [
+      [ "CharacterMoveStats", "class_character_move_stats.html", null ],
+      [ "D_Attack", "class_d___attack.html", null ],
       [ "D_Dead", "class_d___dead.html", null ],
       [ "D_Entity", "class_d___entity.html", null ],
       [ "D_Idle", "class_d___idle.html", null ],
       [ "D_Patrol", "class_d___patrol.html", null ],
       [ "D_Roam", "class_d___roam.html", null ],
+      [ "Dialogue", "class_dialogue.html", null ],
       [ "InControl.NativeInputDeviceProfileList", "class_in_control_1_1_native_input_device_profile_list.html", null ],
       [ "InControl.UnityInputDeviceProfileList", "class_in_control_1_1_unity_input_device_profile_list.html", null ],
       [ "ProceduralTexture2D", "class_procedural_texture2_d.html", null ]
@@ -402,21 +331,34 @@ var hierarchy =
     [ "InControl.SingletonMonoBehavior< TouchManager >", "class_in_control_1_1_singleton_mono_behavior.html", [
       [ "InControl.TouchManager", "class_in_control_1_1_touch_manager.html", null ]
     ] ],
+    [ "SoundSystem.SoundType", "class_sound_system_1_1_sound_type.html", null ],
     [ "State", "class_state.html", [
       [ "AttackState", "class_attack_state.html", [
-        [ "Enemy1_Attack", "class_enemy1___attack.html", null ]
+        [ "Charger_Attack", "class_charger___attack.html", null ],
+        [ "Enemy1_Attack", "class_enemy1___attack.html", null ],
+        [ "Flyer_Attack", "class_flyer___attack.html", null ],
+        [ "Villager_Attack", "class_villager___attack.html", null ]
       ] ],
       [ "DeadState", "class_dead_state.html", [
-        [ "Enemy1_Dead", "class_enemy1___dead.html", null ]
+        [ "Enemy1_Dead", "class_enemy1___dead.html", null ],
+        [ "Villager_Death", "class_villager___death.html", null ]
       ] ],
       [ "IdleState", "class_idle_state.html", [
-        [ "Enemy1_Idle", "class_enemy1___idle.html", null ]
+        [ "Charger_Idle", "class_charger___idle.html", null ],
+        [ "Enemy1_Idle", "class_enemy1___idle.html", null ],
+        [ "Flyer_Idle", "class_flyer___idle.html", null ],
+        [ "Villager_Idle", "class_villager___idle.html", null ]
       ] ],
       [ "PatrolState", "class_patrol_state.html", [
-        [ "Enemy1_Patrol", "class_enemy1___patrol.html", null ]
+        [ "Charger_Patrol", "class_charger___patrol.html", null ],
+        [ "Enemy1_Patrol", "class_enemy1___patrol.html", null ],
+        [ "Flyer_Patrol", "class_flyer___patrol.html", null ],
+        [ "Villager_Patrol", "class_villager___patrol.html", null ]
       ] ],
       [ "RoamState", "class_roam_state.html", [
-        [ "Enemy1_Roam", "class_enemy1___roam.html", null ]
+        [ "Charger_Roam", "class_charger___roam.html", null ],
+        [ "Enemy1_Roam", "class_enemy1___roam.html", null ],
+        [ "Villager_Roam", "class_villager___roam.html", null ]
       ] ]
     ] ],
     [ "UnityEditor.AI.NavMeshSurfaceEditor.Styles", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles.html", null ],
@@ -435,14 +377,5 @@ var hierarchy =
     [ "UIView", null, [
       [ "ICadeReaderView", "interface_i_cade_reader_view.html", null ]
     ] ],
-    [ "InControl.Utility", "class_in_control_1_1_utility.html", null ],
-    [ "UnityStandardAssets.Utility.AutoMoveAndRotate.Vector3andSpace", "class_unity_standard_assets_1_1_utility_1_1_auto_move_and_rotate_1_1_vector3and_space.html", null ],
-    [ "UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.VirtualAxis", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_axis.html", null ],
-    [ "UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.VirtualButton", "class_unity_standard_assets_1_1_cross_platform_input_1_1_cross_platform_input_manager_1_1_virtual_button.html", null ],
-    [ "UnityStandardAssets.CrossPlatformInput.VirtualInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_virtual_input.html", [
-      [ "UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_mobile_input.html", null ],
-      [ "UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput", "class_unity_standard_assets_1_1_cross_platform_input_1_1_platform_specific_1_1_standalone_input.html", null ]
-    ] ],
-    [ "WaterEditorUtility", "class_water_editor_utility.html", null ],
-    [ "UnityStandardAssets.Utility.WaypointCircuit.WaypointList", "class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list.html", null ]
+    [ "InControl.Utility", "class_in_control_1_1_utility.html", null ]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['ball_2ecs_0',['Ball.cs',['../_ball_8cs.html',1,'']]],
-  ['ballusercontrol_2ecs_1',['BallUserControl.cs',['../_ball_user_control_8cs.html',1,'']]],
+  ['barktrigger_2ecs_0',['BarkTrigger.cs',['../_bark_trigger_8cs.html',1,'']]],
+  ['barktriggerorbs_2ecs_1',['BarkTriggerOrbs.cs',['../_bark_trigger_orbs_8cs.html',1,'']]],
   ['basicexample_2ecs_2',['BasicExample.cs',['../_basic_example_8cs.html',1,'']]],
   ['batarangcontrollermacnativeprofile_2ecs_3',['BatarangControllerMacNativeProfile.cs',['../_batarang_controller_mac_native_profile_8cs.html',1,'']]],
   ['beboncoolda015caandroidunityprofile_2ecs_4',['BeboncoolDA015CAAndroidUnityProfile.cs',['../_beboncool_d_a015_c_a_android_unity_profile_8cs.html',1,'']]],
@@ -19,7 +19,7 @@ var searchData=
   ['bindingsourcelistener_2ecs_16',['BindingSourceListener.cs',['../_binding_source_listener_8cs.html',1,'']]],
   ['bindingsourcerejectiontype_2ecs_17',['BindingSourceRejectionType.cs',['../_binding_source_rejection_type_8cs.html',1,'']]],
   ['bindingsourcetype_2ecs_18',['BindingSourceType.cs',['../_binding_source_type_8cs.html',1,'']]],
-  ['brakelight_2ecs_19',['BrakeLight.cs',['../_brake_light_8cs.html',1,'']]],
+  ['bitbotloadingscreen_2ecs_19',['BitBotLoadingScreen.cs',['../_bit_bot_loading_screen_8cs.html',1,'']]],
   ['brookneogeoconvertermacnativeprofile_2ecs_20',['BrookNeoGeoConverterMacNativeProfile.cs',['../_brook_neo_geo_converter_mac_native_profile_8cs.html',1,'']]],
   ['brookps2convertermacnativeprofile_2ecs_21',['BrookPS2ConverterMacNativeProfile.cs',['../_brook_p_s2_converter_mac_native_profile_8cs.html',1,'']]],
   ['btc938androidunityprofile_2ecs_22',['BTC938AndroidUnityProfile.cs',['../_b_t_c938_android_unity_profile_8cs.html',1,'']]],
@@ -30,6 +30,5 @@ var searchData=
   ['buffaloclassicwindowsunityprofile_2ecs_27',['BuffaloClassicWindowsUnityProfile.cs',['../_buffalo_classic_windows_unity_profile_8cs.html',1,'']]],
   ['button_2ecs_28',['Button.cs',['../_button_8cs.html',1,'']]],
   ['buttonfocus_2ecs_29',['ButtonFocus.cs',['../_button_focus_8cs.html',1,'']]],
-  ['buttonhandler_2ecs_30',['ButtonHandler.cs',['../_button_handler_8cs.html',1,'']]],
-  ['buttonmanager_2ecs_31',['ButtonManager.cs',['../_button_manager_8cs.html',1,'']]]
+  ['buttonmanager_2ecs_30',['ButtonManager.cs',['../_button_manager_8cs.html',1,'']]]
 ];

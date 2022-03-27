@@ -1,8 +1,11 @@
 var class_input_system =
 [
     [ "InputSystem", "class_input_system.html#a18b6c54f3852ef86d5057db2da5c9301", null ],
+    [ "GetInputDeviceClass", "class_input_system.html#ad80feb393d68a3d01c71a73c3332fe35", null ],
     [ "Dash", "class_input_system.html#a632ab9a4b3e3c4c962f9b75a4301edb1", null ],
     [ "Hook", "class_input_system.html#ac1f1befc1311dfba28801fc2436437ee", null ],
+    [ "Hud", "class_input_system.html#a1bb7c3b15345aff9a17bcd72f4b42a3f", null ],
+    [ "Interact", "class_input_system.html#aa5905e3c08a1b3b64873d4f6d9b3534c", null ],
     [ "Jump", "class_input_system.html#ab7b3ab284eeaf53323057efdbe91e530", null ],
     [ "Look", "class_input_system.html#a408968df41874ac518c81419ac6d1b91", null ],
     [ "LookDown", "class_input_system.html#a136845b2c281206189d419327146e243", null ],

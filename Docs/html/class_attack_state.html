@@ -84,7 +84,7 @@ $(document).ready(function(){initNavTree('class_attack_state.html',''); initResi
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_attack_state-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AttackState Class Reference</div></div>
 </div><!--header-->
@@ -95,8 +95,11 @@ Inheritance diagram for AttackState:</div>
  <div class="center">
   <img src="class_attack_state.png" usemap="#AttackState_map" alt=""/>
   <map id="AttackState_map" name="AttackState_map">
-<area href="class_state.html" alt="State" shape="rect" coords="0,0,99,24"/>
-<area href="class_enemy1___attack.html" alt="Enemy1_Attack" shape="rect" coords="0,112,99,136"/>
+<area href="class_state.html" alt="State" shape="rect" coords="166,0,267,24"/>
+<area href="class_charger___attack.html" alt="Charger_Attack" shape="rect" coords="0,112,101,136"/>
+<area href="class_enemy1___attack.html" alt="Enemy1_Attack" shape="rect" coords="111,112,212,136"/>
+<area href="class_flyer___attack.html" alt="Flyer_Attack" shape="rect" coords="222,112,323,136"/>
+<area href="class_villager___attack.html" alt="Villager_Attack" shape="rect" coords="333,112,434,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -119,18 +122,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37e94e37d78b58479af8d56e21ac21cd"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#a37e94e37d78b58479af8d56e21ac21cd">PhysicsUpdate</a> ()</td></tr>
 <tr class="memdesc:a37e94e37d78b58479af8d56e21ac21cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps track of in-game checks  <a href="class_attack_state.html#a37e94e37d78b58479af8d56e21ac21cd">More...</a><br /></td></tr>
 <tr class="separator:a37e94e37d78b58479af8d56e21ac21cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7b48be161294d9a5c56bd7d41fd94b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#a6f7b48be161294d9a5c56bd7d41fd94b">GoToPlayer</a> ()</td></tr>
+<tr class="separator:a6f7b48be161294d9a5c56bd7d41fd94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_state"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_state')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_state.html">State</a></td></tr>
 <tr class="memitem:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">State</a> (<a class="el" href="class_entity.html">Entity</a> <a class="el" href="class_state.html#ab5f24d40c9969b3abdf63dc2885e6b10">entity</a>, <a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a> <a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a>, string <a class="el" href="class_state.html#a40b2d6807563eeb9f6a93ab63e84b0ff">animBoolName</a>)</td></tr>
 <tr class="memdesc:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_state.html">State</a>, contains entity which refers to the enemy game object, statemachine which handles switching between states, and animBoolName, wich contains the string of which animation to use for the current state  <a href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">More...</a><br /></td></tr>
 <tr class="separator:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:a0b0a53cada85085d15f60b6a02251db4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d___attack.html">D_Attack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#a0b0a53cada85085d15f60b6a02251db4">stateData</a></td></tr>
 <tr class="separator:a0b0a53cada85085d15f60b6a02251db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="memitem:aea3e571b29d55a1e8d02f9af7fde73da"><td class="memItemLeft" align="right" valign="top">NavMeshAgent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#aea3e571b29d55a1e8d02f9af7fde73da">agent</a></td></tr>
+<tr class="separator:aea3e571b29d55a1e8d02f9af7fde73da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f144adaf3602804b9c94803ba65b646"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#a7f144adaf3602804b9c94803ba65b646">reachedPlayer</a></td></tr>
+<tr class="separator:a7f144adaf3602804b9c94803ba65b646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_state"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_state')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_state.html">State</a></td></tr>
 <tr class="memitem:a46c2eaa63bd3caf970a2b6964dc68d7e inherit pro_attribs_class_state"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a></td></tr>
 <tr class="separator:a46c2eaa63bd3caf970a2b6964dc68d7e inherit pro_attribs_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +144,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ab5f24d40c9969b3abdf63dc2885e6b10 inherit pro_attribs_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b2d6807563eeb9f6a93ab63e84b0ff inherit pro_attribs_class_state"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a40b2d6807563eeb9f6a93ab63e84b0ff">animBoolName</a></td></tr>
 <tr class="separator:a40b2d6807563eeb9f6a93ab63e84b0ff inherit pro_attribs_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header properties_class_state"><td colspan="2" onclick="javascript:toggleInherit('properties_class_state')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_state.html">State</a></td></tr>
 <tr class="memitem:a733b0c23043dd300651cbe618a513a63 inherit properties_class_state"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a733b0c23043dd300651cbe618a513a63">startTime</a><code> [getprotected set]</code></td></tr>
 <tr class="separator:a733b0c23043dd300651cbe618a513a63 inherit properties_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_state.html#a9fc990b8a83319e5b5a6d589f1219b09">State</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_enemy1___attack.html#a99b36d5083e060a4d8f18cbea9ea1f5a">Enemy1_Attack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_charger___attack.html#aac6b26304fd0647ff2541eff7fba408b">Charger_Attack</a>, <a class="el" href="class_enemy1___attack.html#a99b36d5083e060a4d8f18cbea9ea1f5a">Enemy1_Attack</a>, <a class="el" href="class_flyer___attack.html#af57262a8a6ef04cbd42d644d036732ab">Flyer_Attack</a>, and <a class="el" href="class_villager___attack.html#aa3f3944b5e105bcdbf3f5f8eeb3934eb">Villager_Attack</a>.</p>
 
 </div>
 </div>
@@ -242,7 +251,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_state.html#ab9ff526b7a0b992ae01dd9c9ece5a882">State</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_enemy1___attack.html#ae6455b3629019d910bdc7ce3dd25d248">Enemy1_Attack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_charger___attack.html#af6d19bdcda762b7498ec9db09dde8cbf">Charger_Attack</a>, <a class="el" href="class_enemy1___attack.html#ae6455b3629019d910bdc7ce3dd25d248">Enemy1_Attack</a>, <a class="el" href="class_flyer___attack.html#a219fc42b58150a0c9ce811d4d65731c7">Flyer_Attack</a>, and <a class="el" href="class_villager___attack.html#a45cb735b56cdbcd2e206905a05d96af6">Villager_Attack</a>.</p>
 
 </div>
 </div>
@@ -273,7 +282,34 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_state.html#ae384c5d8253cc8671290231c84fdb703">State</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_enemy1___attack.html#a5ded4f10ffd5cd7e8d9d594b55a751cb">Enemy1_Attack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_charger___attack.html#aca21fdbb1b49fa518fa900859b47b993">Charger_Attack</a>, <a class="el" href="class_enemy1___attack.html#a5ded4f10ffd5cd7e8d9d594b55a751cb">Enemy1_Attack</a>, <a class="el" href="class_flyer___attack.html#a74a887f69a1f81414e8f844ccd1b144f">Flyer_Attack</a>, and <a class="el" href="class_villager___attack.html#ad730906921672d64449e5ed856120954">Villager_Attack</a>.</p>
+
+</div>
+</div>
+<a id="a6f7b48be161294d9a5c56bd7d41fd94b" name="a6f7b48be161294d9a5c56bd7d41fd94b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f7b48be161294d9a5c56bd7d41fd94b">&#9670;&nbsp;</a></span>GoToPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AttackState.GoToPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_charger___attack.html#a2e38aa6ea5f329d5320d7695568d6d1b">Charger_Attack</a>, <a class="el" href="class_enemy1___attack.html#af69c2a30edeac033227bd5c6e3671733">Enemy1_Attack</a>, and <a class="el" href="class_villager___attack.html#a7eb02b938c38deed1b58b7bf41d74598">Villager_Attack</a>.</p>
 
 </div>
 </div>
@@ -304,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_state.html#a11b6613adae4bf93ec674ed4216d1e34">State</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_enemy1___attack.html#a866dc16fd5fce268bf9e4b05613d7a42">Enemy1_Attack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_charger___attack.html#a9fba157324cfa7611c5013f377d9775b">Charger_Attack</a>, <a class="el" href="class_enemy1___attack.html#a866dc16fd5fce268bf9e4b05613d7a42">Enemy1_Attack</a>, <a class="el" href="class_flyer___attack.html#acd8da96e7640a2a5821305cbfc38c485">Flyer_Attack</a>, and <a class="el" href="class_villager___attack.html#a58cce48bef11ce16b04a6b5a50365ef9">Villager_Attack</a>.</p>
 
 </div>
 </div>
@@ -335,21 +371,73 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_state.html#a7604b4c93b02d04cd058523f70fce2ce">State</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_enemy1___attack.html#a95c577bbd12133ac1a62c9c0209ae84d">Enemy1_Attack</a>.</p>
+<p>Reimplemented in <a class="el" href="class_charger___attack.html#a85f631f25bdeb9039d4d666ca44a76aa">Charger_Attack</a>, <a class="el" href="class_enemy1___attack.html#a95c577bbd12133ac1a62c9c0209ae84d">Enemy1_Attack</a>, <a class="el" href="class_flyer___attack.html#ac6a95ae8da054bf09eda4887f1d7e221">Flyer_Attack</a>, and <a class="el" href="class_villager___attack.html#ae7cfc7e49eccb4547205b8e6e2e52b1f">Villager_Attack</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aea3e571b29d55a1e8d02f9af7fde73da" name="aea3e571b29d55a1e8d02f9af7fde73da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea3e571b29d55a1e8d02f9af7fde73da">&#9670;&nbsp;</a></span>agent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavMeshAgent AttackState.agent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f144adaf3602804b9c94803ba65b646" name="a7f144adaf3602804b9c94803ba65b646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f144adaf3602804b9c94803ba65b646">&#9670;&nbsp;</a></span>reachedPlayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AttackState.reachedPlayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0b0a53cada85085d15f60b6a02251db4" name="a0b0a53cada85085d15f60b6a02251db4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b0a53cada85085d15f60b6a02251db4">&#9670;&nbsp;</a></span>stateData</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_d___attack.html">D_Attack</a> AttackState.stateData</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -363,7 +451,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_attack_state.html">AttackState</a></li>
-    <li class="footer">Generated on Thu Dec 2 2021 09:22:12 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Mar 27 2022 14:02:01 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

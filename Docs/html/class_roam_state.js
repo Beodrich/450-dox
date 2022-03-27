@@ -8,6 +8,7 @@ var class_roam_state =
     [ "LogicUpdate", "class_roam_state.html#a31f7952394529df1bf719d9c8c2a4ade", null ],
     [ "PhysicsUpdate", "class_roam_state.html#a2b9cf9bf5b4be5cd6d1a78da861b8092", null ],
     [ "agent", "class_roam_state.html#a14a86c8931831d92211877d554eddcc9", null ],
+    [ "backToIdle", "class_roam_state.html#aa0c859961643bcaaf962c2935b58da52", null ],
     [ "keepRoaming", "class_roam_state.html#a06917d60f55cc55ae8051b5ae70ae064", null ],
     [ "pointCount", "class_roam_state.html#a6aad6ecc5dfe4074bb970a632aa1dfa9", null ],
     [ "stateData", "class_roam_state.html#a1d3f367bd813b072090ccf30cd376472", null ]
