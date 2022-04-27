@@ -14,6 +14,7 @@ var class_game_manager =
     [ "HealthAction", "class_game_manager.html#adfb809121c6a5b76d519ffd4ce201167", null ],
     [ "RemoveHP", "class_game_manager.html#af195a99ed7407fe6e1bdbc9da592d11f", null ],
     [ "RemoveOrbs", "class_game_manager.html#ad958f01dd595c7c1a18b38b8c99482df", null ],
+    [ "ResetBatterys", "class_game_manager.html#a9494fcb40edd815a177a2867cac164eb", null ],
     [ "ResetHP", "class_game_manager.html#a4e411172b9724f3ecba33da6da7804bd", null ],
     [ "ResetOrbs", "class_game_manager.html#ae9648a020f6a7ffbec3eda3cb6225044", null ],
     [ "SetMaxOrbs", "class_game_manager.html#ab2be0a12adc51d401334d1df94fb272e", null ],

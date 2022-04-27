@@ -1,0 +1,25 @@
+var class_settings_control =
+[
+    [ "AddResAtStart", "class_settings_control.html#a9381279d710b12463ad7f9978b34d5b6", null ],
+    [ "ApplyGraphics", "class_settings_control.html#a3ca4093bcee8df00e89fc56aa1aab1f1", null ],
+    [ "ChangeAudioText", "class_settings_control.html#abde752fc48e05d02b4d74e3a9265180b", null ],
+    [ "ChangeFullScreenToogle", "class_settings_control.html#a6ebf8ce26144f0ad1f1a409944758f55", null ],
+    [ "ChangeResLeft", "class_settings_control.html#a0f2b61653e7be328ac38fd61708af798", null ],
+    [ "ChangeResRight", "class_settings_control.html#a38c27039d9911c63dae8922335f15bb3", null ],
+    [ "ChangeVolume", "class_settings_control.html#ad4db8d67ef9c317b647f469c9795eb8a", null ],
+    [ "Load", "class_settings_control.html#a45b08b0e6db598e2e346fa6809900ab5", null ],
+    [ "Save", "class_settings_control.html#a6ac04f490b601fcc2dbe45fef1e3d360", null ],
+    [ "Start", "class_settings_control.html#ac2e13320fc0a519476cc3dbe77d37d1a", null ],
+    [ "TooglePauseUI", "class_settings_control.html#a6e837b0e2ffdaa3cc7ef54e0affe70ea", null ],
+    [ "ToogleSettingsUI", "class_settings_control.html#a4a91482dd2eceeccf3a2e921c11dbe3a", null ],
+    [ "UpdateResText", "class_settings_control.html#a887803474bf3931609d1705a88646a62", null ],
+    [ "audioText", "class_settings_control.html#a5c9b21d07ad35cf7a6865e1875450477", null ],
+    [ "currentRes", "class_settings_control.html#a01fd009835cf3fab0e23189a4e2fb47d", null ],
+    [ "fullScreenToogle", "class_settings_control.html#a4adf5e871254f6b85f47e9ec4ea1a981", null ],
+    [ "isFullScreen", "class_settings_control.html#a5901dcf79906c3aa4647200b902bfb8d", null ],
+    [ "pauseMenuUI", "class_settings_control.html#aeef1cc1a97dbb403274f3f44a9f23c1b", null ],
+    [ "resoultions", "class_settings_control.html#a57936e3618a9fe9c1e1d842971e263cb", null ],
+    [ "resText", "class_settings_control.html#a57ac3826647fcc111781e88e2fec3b7b", null ],
+    [ "settingsUI", "class_settings_control.html#a7bdb99ffd0ecdc5a32ba82cbc2ce213c", null ],
+    [ "volumeSlider", "class_settings_control.html#a4f4c88c7e215a7d760bb29557675a274", null ]
+];

@@ -10,6 +10,7 @@ var class_a_i_sensor =
     [ "Start", "class_a_i_sensor.html#a7ed876bc65c2de0c76bcc05349fc192f", null ],
     [ "Update", "class_a_i_sensor.html#a4d4ed6763caafd28716d740f0dd99936", null ],
     [ "angle", "class_a_i_sensor.html#a80aa2a0840870df0f3e2860ae4ed957d", null ],
+    [ "bottom", "class_a_i_sensor.html#aa0e951789fe17f75d1cd823ef0aac11b", null ],
     [ "distance", "class_a_i_sensor.html#a8b8dea5289b5c890b14b1265d188761d", null ],
     [ "height", "class_a_i_sensor.html#aeb6e3974463fa872f240f399fc0e4b7e", null ],
     [ "mesh", "class_a_i_sensor.html#ab854850a6c2f38c0a458d539b1c5b66b", null ],

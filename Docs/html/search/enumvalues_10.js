@@ -51,5 +51,6 @@ var searchData=
   ['povup_48',['POVUp',['../namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3aa11a502ec269cc041abd3556ad3fc2af5',1,'InControl']]],
   ['power_49',['Power',['../namespace_in_control.html#a182fc07c0fa4922faa248b81f403fb3aadd4fe0cc913f704600b97d1f5dd285de',1,'InControl']]],
   ['premultiply_50',['Premultiply',['../class_unity_editor_1_1_lux_uber_shader_g_u_i.html#ac56a8201da72d544cd2257b7dce559e7aa50753605fc5e7d59b79eb5fbf6bc301',1,'UnityEditor.LuxUberShaderGUI.Premultiply()'],['../class_lux_u_r_p_universal_custom_shader_g_u_i.html#a084b36b7993774ef3c722b009989b51baa50753605fc5e7d59b79eb5fbf6bc301',1,'LuxURPUniversalCustomShaderGUI.Premultiply()']]],
-  ['punch_51',['punch',['../_lean_tween_8cs.html#ae6a0c72adb9ba3424115180aa378cd1fa86b5cc59aefdeeebf86bd8eef7f08593',1,'LeanTween.cs']]]
+  ['preventoverwriting_51',['PreventOverwriting',['../class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1edf9cf64a1a2042ab3b3c30434f5d2da43066e4bf95d27f9c82e8e9918ebb843',1,'ProjectorForLWRP::ProjectorForLWRP']]],
+  ['punch_52',['punch',['../_lean_tween_8cs.html#ae6a0c72adb9ba3424115180aa378cd1fa86b5cc59aefdeeebf86bd8eef7f08593',1,'LeanTween.cs']]]
 ];

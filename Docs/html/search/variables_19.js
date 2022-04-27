@@ -4,5 +4,7 @@ var searchData=
   ['yawmagnitude_1',['yawMagnitude',['../class_bit_bot_loading_screen.html#a2bd3c83e17b506ca714ba96c7cf9c724',1,'BitBotLoadingScreen']]],
   ['yawtime_2',['yawTime',['../class_bit_bot_loading_screen.html#a56d69d0652aebd82f1700e2569e4fe29',1,'BitBotLoadingScreen']]],
   ['yellow_3',['Yellow',['../class_multiplayer_with_bindings_example_1_1_player_actions.html#a130000a38891c0edfd9e93694f024293',1,'MultiplayerWithBindingsExample::PlayerActions']]],
-  ['ypos_4',['yPos',['../class_lux_l_w_r_p_essentials_1_1_demo_1_1_animate_sphere.html#a9332c4c55881fdaea5c713490f877024',1,'LuxLWRPEssentials::Demo::AnimateSphere']]]
+  ['yend_4',['yEnd',['../class_collect_move.html#aedc045225f566bc1148cf94d29f7ea86',1,'CollectMove']]],
+  ['ypos_5',['yPos',['../class_lux_l_w_r_p_essentials_1_1_demo_1_1_animate_sphere.html#a9332c4c55881fdaea5c713490f877024',1,'LuxLWRPEssentials::Demo::AnimateSphere']]],
+  ['ystart_6',['yStart',['../class_collect_move.html#a2103810a5c72d7ea46962919ea2f03d8',1,'CollectMove']]]
 ];

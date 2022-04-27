@@ -30,7 +30,7 @@ var class_charger___attack =
     [ "playerDistance", "class_charger___attack.html#afd438979a8e201d7a27d9e27c43f91fd", null ],
     [ "playerRigidbody", "class_charger___attack.html#a8aeb6d1bb9bc564b5b40c9a447d85bf3", null ],
     [ "ROAR", "class_charger___attack.html#abf4f75ed616de61121fe9cf88b78764f", null ],
-    [ "roarDur", "class_charger___attack.html#a88140cb46add71ed09bb1007194965b0", null ],
+    [ "roarDur", "class_charger___attack.html#a4234cb65175cf537e475239364e2bfdf", null ],
     [ "rStartTime", "class_charger___attack.html#acc773d7873ee8634a741e0d6443dfff9", null ],
     [ "startTime", "class_charger___attack.html#aeda75498335528d70c3d4cfe490653a2", null ]
 ];

@@ -3,10 +3,12 @@ var class_menu_logic =
     [ "ChangeActiveButton", "class_menu_logic.html#ae9ae9dd3f6e51d277b0edcd7003cb9d7", null ],
     [ "LoadLevel", "class_menu_logic.html#ab3b1ccd42baec83c957d38c9ad77e009", null ],
     [ "Quit", "class_menu_logic.html#ab62d171b518a4aee1831676c6975d15f", null ],
+    [ "ReturnToMainMenu", "class_menu_logic.html#a59b7dafb6e80569c5477153c52d48fde", null ],
     [ "SetControls", "class_menu_logic.html#a41e0b90a8f8469d41d7e66dcd776f720", null ],
     [ "SetCredits", "class_menu_logic.html#a87b07bec934f0d5fd824f7bb8e78bdab", null ],
     [ "SetLevelSelect", "class_menu_logic.html#a637f6daf43bde93b534c9e63000fb7e1", null ],
     [ "SetMainMenu", "class_menu_logic.html#a4ec27d9f48a4ce3c3bf22c66c26932ad", null ],
+    [ "SetSettings", "class_menu_logic.html#ab027decd87599801681ebdf71cafa58b", null ],
     [ "SetTargetLevel", "class_menu_logic.html#a606f13779bb68e0085f8edc2bf88647e", null ],
     [ "Start", "class_menu_logic.html#a3fc335f1ed5a4ab94ece01cf113a741c", null ],
     [ "cameraEnd", "class_menu_logic.html#a5df51c0f08242e5513fdcc5fb09eab1d", null ],
@@ -21,5 +23,8 @@ var class_menu_logic =
     [ "levelSelectMenuFirstButton", "class_menu_logic.html#a503bf4b8471803e4e8493e8db75955b8", null ],
     [ "mainMenu", "class_menu_logic.html#a5b560848e09f57c8bec5c6a373cce7d9", null ],
     [ "mainMenuFirstButton", "class_menu_logic.html#a18a17bd586ff735950b9592cf4ae1b24", null ],
+    [ "menuMusic", "class_menu_logic.html#a49407373dbcad9c185793532e50a95e7", null ],
+    [ "settingsMenu", "class_menu_logic.html#a40937dcb9cb74abd73391bdbc3b73a13", null ],
+    [ "settingsSelectMenuFirstButton", "class_menu_logic.html#ab157b24b24dd294fa9f12dde147db60c", null ],
     [ "targetLevel", "class_menu_logic.html#adb3cc424d92c3d7c44a1bd470cfec603", null ]
 ];

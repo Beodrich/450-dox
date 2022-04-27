@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('class_animation_trigger_player.html','
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_animation_trigger_player-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AnimationTriggerPlayer Class Reference</div></div>
 </div><!--header-->
@@ -106,13 +107,26 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:acf8c694e7ccd44b000d7bae0d4881acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#acf8c694e7ccd44b000d7bae0d4881acc">Start</a> ()</td></tr>
 <tr class="separator:acf8c694e7ccd44b000d7bae0d4881acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d85209f7bd951ea8eb9dce79e9d03da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#a3d85209f7bd951ea8eb9dce79e9d03da">Update</a> ()</td></tr>
+<tr class="separator:a3d85209f7bd951ea8eb9dce79e9d03da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a7bce394a0301fc2e1cf9e07c81c213a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_move.html">CharacterMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#a7bce394a0301fc2e1cf9e07c81c213a3">characterMove</a></td></tr>
 <tr class="separator:a7bce394a0301fc2e1cf9e07c81c213a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2b628640532c5643beb204aaf172d1"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#a1f2b628640532c5643beb204aaf172d1">playerAnimator</a></td></tr>
+<tr class="separator:a1f2b628640532c5643beb204aaf172d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a809c31c7d9e4a7a3a988a50b7115c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sound_system_1_1_sound_type.html">SoundSystem.SoundType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#a8a809c31c7d9e4a7a3a988a50b7115c8">stepSound</a></td></tr>
 <tr class="separator:a8a809c31c7d9e4a7a3a988a50b7115c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad55224de81991e1d7311c9222c711920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sound_system_1_1_sound_type.html">SoundSystem.SoundType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#ad55224de81991e1d7311c9222c711920">stepMetalSound</a></td></tr>
+<tr class="separator:ad55224de81991e1d7311c9222c711920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:afe325ebc09acb681d7d0dc1cd51731f7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#afe325ebc09acb681d7d0dc1cd51731f7">STRETCH</a> =&quot;stretch&quot;</td></tr>
+<tr class="separator:afe325ebc09acb681d7d0dc1cd51731f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b56072eb30d3208de5629dc1be25b4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_trigger_player.html#ac6b56072eb30d3208de5629dc1be25b4">LOOK_AROUND</a> =&quot;look_around&quot;</td></tr>
+<tr class="separator:ac6b56072eb30d3208de5629dc1be25b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="acf8c694e7ccd44b000d7bae0d4881acc" name="acf8c694e7ccd44b000d7bae0d4881acc"></a>
@@ -157,6 +171,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3d85209f7bd951ea8eb9dce79e9d03da" name="a3d85209f7bd951ea8eb9dce79e9d03da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d85209f7bd951ea8eb9dce79e9d03da">&#9670;&nbsp;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnimationTriggerPlayer.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7bce394a0301fc2e1cf9e07c81c213a3" name="a7bce394a0301fc2e1cf9e07c81c213a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7bce394a0301fc2e1cf9e07c81c213a3">&#9670;&nbsp;</a></span>characterMove</h2>
@@ -169,6 +208,72 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_character_move.html">CharacterMove</a> AnimationTriggerPlayer.characterMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6b56072eb30d3208de5629dc1be25b4" name="ac6b56072eb30d3208de5629dc1be25b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6b56072eb30d3208de5629dc1be25b4">&#9670;&nbsp;</a></span>LOOK_AROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string AnimationTriggerPlayer.LOOK_AROUND =&quot;look_around&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f2b628640532c5643beb204aaf172d1" name="a1f2b628640532c5643beb204aaf172d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2b628640532c5643beb204aaf172d1">&#9670;&nbsp;</a></span>playerAnimator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animator AnimationTriggerPlayer.playerAnimator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad55224de81991e1d7311c9222c711920" name="ad55224de81991e1d7311c9222c711920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55224de81991e1d7311c9222c711920">&#9670;&nbsp;</a></span>stepMetalSound</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_sound_system_1_1_sound_type.html">SoundSystem.SoundType</a> AnimationTriggerPlayer.stepMetalSound</td>
         </tr>
       </table>
   </td>
@@ -202,6 +307,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afe325ebc09acb681d7d0dc1cd51731f7" name="afe325ebc09acb681d7d0dc1cd51731f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe325ebc09acb681d7d0dc1cd51731f7">&#9670;&nbsp;</a></span>STRETCH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string AnimationTriggerPlayer.STRETCH =&quot;stretch&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Scripts/Controller/<a class="el" href="_animation_trigger_player_8cs.html">AnimationTriggerPlayer.cs</a></li>
 </ul>
@@ -211,7 +338,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_animation_trigger_player.html">AnimationTriggerPlayer</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:01 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

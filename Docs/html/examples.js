@@ -1,8 +1,8 @@
 var examples =
 [
-    [ "D:/Unity Projects/450/Assets/LeanTween/Framework/LeanAudio.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_lean_tween_2_framework_2_lean_audio_8cs-example.html", null ],
-    [ "D:/Unity Projects/450/Assets/LeanTween/Framework/LeanSmooth.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_lean_tween_2_framework_2_lean_smooth_8cs-example.html", null ],
-    [ "D:/Unity Projects/450/Assets/LeanTween/Framework/LeanTween.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_lean_tween_2_framework_2_lean_tween_8cs-example.html", null ],
+    [ "D:/Unity Projects/450/Assets/Scripts/LeanTween/Framework/LeanAudio.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_scripts_2_lean_tween_2_framework_2_lean_audio_8cs-example.html", null ],
+    [ "D:/Unity Projects/450/Assets/Scripts/LeanTween/Framework/LeanSmooth.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_scripts_2_lean_tween_2_framework_2_lean_smooth_8cs-example.html", null ],
+    [ "D:/Unity Projects/450/Assets/Scripts/LeanTween/Framework/LeanTween.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_scripts_2_lean_tween_2_framework_2_lean_tween_8cs-example.html", null ],
     [ "LeanTween.cancelAll", "_lean_tween_8cancel_all-example.html", null ],
     [ "LeanTween.move", "_lean_tween_8move-example.html", null ],
     [ "int", "int-example.html", null ],
@@ -17,6 +17,6 @@ var examples =
     [ "LeanTween.size", "_lean_tween_8size-example.html", null ],
     [ "LeanTween.alpha", "_lean_tween_8alpha-example.html", null ],
     [ "LeanTween.color", "_lean_tween_8color-example.html", null ],
-    [ "D:/Unity Projects/450/Assets/LeanTween/Framework/LTDescr.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_lean_tween_2_framework_2_l_t_descr_8cs-example.html", null ],
-    [ "D:/Unity Projects/450/Assets/LeanTween/Framework/LTSeq.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_lean_tween_2_framework_2_l_t_seq_8cs-example.html", null ]
+    [ "D:/Unity Projects/450/Assets/Scripts/LeanTween/Framework/LTDescr.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_scripts_2_lean_tween_2_framework_2_l_t_descr_8cs-example.html", null ],
+    [ "D:/Unity Projects/450/Assets/Scripts/LeanTween/Framework/LTSeq.cs", "_d_1_2_unity_01_projects_2450_2_assets_2_scripts_2_lean_tween_2_framework_2_l_t_seq_8cs-example.html", null ]
 ];

@@ -1,5 +1,8 @@
 var dir_aa23bca5f149d5309c75a1211640051e =
 [
+    [ "BarkPool.cs", "_bark_pool_8cs.html", [
+      [ "BarkPool", "class_bark_pool.html", "class_bark_pool" ]
+    ] ],
     [ "BarkTrigger.cs", "_bark_trigger_8cs.html", [
       [ "BarkTrigger", "class_bark_trigger.html", "class_bark_trigger" ]
     ] ],

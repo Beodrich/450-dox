@@ -7,7 +7,6 @@ var class_enemy1___attack =
     [ "GoToPlayer", "class_enemy1___attack.html#af69c2a30edeac033227bd5c6e3671733", null ],
     [ "LogicUpdate", "class_enemy1___attack.html#a866dc16fd5fce268bf9e4b05613d7a42", null ],
     [ "PhysicsUpdate", "class_enemy1___attack.html#a95c577bbd12133ac1a62c9c0209ae84d", null ],
-    [ "ATTACK_BOOL", "class_enemy1___attack.html#a1a3a917a8143b69f40be6bbe2e7673c3", null ],
     [ "cooldownTime", "class_enemy1___attack.html#a37ad98bc8b4aaeb083a5b297778429af", null ],
     [ "enemy", "class_enemy1___attack.html#a3b47863f4f78e4dff678f43eabbbf5d7", null ],
     [ "explosionPos", "class_enemy1___attack.html#aeb6af3091f7d93dac89b47e6fd365660", null ],

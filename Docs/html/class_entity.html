@@ -115,6 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7a348a345b7ca30451d2df41d507cdc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fb8d5fe0d9cc13bbfd96c52aa92ae49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a1fb8d5fe0d9cc13bbfd96c52aa92ae49">StartAttackCoroutine</a> (float durr, string attackAnimName)</td></tr>
 <tr class="separator:a1fb8d5fe0d9cc13bbfd96c52aa92ae49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e19c75fff0ec92210ec9b7f60d5705c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a2e19c75fff0ec92210ec9b7f60d5705c">GetIfPlayerIsDisabled</a> ()</td></tr>
+<tr class="separator:a2e19c75fff0ec92210ec9b7f60d5705c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b397fe23e9d9cace96d3e0f717b91f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a0b397fe23e9d9cace96d3e0f717b91f8">GetIsCloseToPlayer</a> ()</td></tr>
 <tr class="memdesc:a0b397fe23e9d9cace96d3e0f717b91f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">funny distance is close enough to player function  <a href="class_entity.html#a0b397fe23e9d9cace96d3e0f717b91f8">More...</a><br /></td></tr>
 <tr class="separator:a0b397fe23e9d9cace96d3e0f717b91f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +179,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a0e5d30ceae8c7b676c390484ef0021ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a0e5d30ceae8c7b676c390484ef0021ec">isInAttackAnim</a> =false</td></tr>
 <tr class="separator:a0e5d30ceae8c7b676c390484ef0021ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a6b4ea2c8fd2f439f9ba4a3f9c6ced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dialogue_manager.html">DialogueManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#a63a6b4ea2c8fd2f439f9ba4a3f9c6ced">dialogueManager</a></td></tr>
+<tr class="separator:a63a6b4ea2c8fd2f439f9ba4a3f9c6ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a105a6a0846ac95c117911fb911b5cfba" name="a105a6a0846ac95c117911fb911b5cfba"></a>
@@ -239,6 +243,23 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>checks physics update using a fixedUpdate </p>
+
+</div>
+</div>
+<a id="a2e19c75fff0ec92210ec9b7f60d5705c" name="a2e19c75fff0ec92210ec9b7f60d5705c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e19c75fff0ec92210ec9b7f60d5705c">&#9670;&nbsp;</a></span>GetIfPlayerIsDisabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Entity.GetIfPlayerIsDisabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -438,6 +459,8 @@ Private Attributes</h2></td></tr>
 
 <p>checks logic update every frame </p>
 
+<p>Reimplemented in <a class="el" href="class_flyer.html#a42f7e5b7f8284c6f3116a94accfb5cfd">Flyer</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -487,6 +510,28 @@ Private Attributes</h2></td></tr>
           <td class="memname">bool Entity.debugMode = false</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63a6b4ea2c8fd2f439f9ba4a3f9c6ced" name="a63a6b4ea2c8fd2f439f9ba4a3f9c6ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63a6b4ea2c8fd2f439f9ba4a3f9c6ced">&#9670;&nbsp;</a></span>dialogueManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_dialogue_manager.html">DialogueManager</a> Entity.dialogueManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -741,7 +786,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_entity.html">Entity</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

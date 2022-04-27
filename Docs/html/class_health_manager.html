@@ -109,6 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a86f385fa6b9f48ba1a586c97e7f6664f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_health_manager.html#a86f385fa6b9f48ba1a586c97e7f6664f">gainHealth</a> (int health)</td></tr>
 <tr class="memdesc:a86f385fa6b9f48ba1a586c97e7f6664f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the player's current health by a specified amount  <a href="class_health_manager.html#a86f385fa6b9f48ba1a586c97e7f6664f">More...</a><br /></td></tr>
 <tr class="separator:a86f385fa6b9f48ba1a586c97e7f6664f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d953019515dde77dd75428eba6f1e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_health_manager.html#a15d953019515dde77dd75428eba6f1e4">ResetHealth</a> ()</td></tr>
+<tr class="separator:a15d953019515dde77dd75428eba6f1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b5da28bc38647c34da31d3898a9ba7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_health_manager.html#a16b5da28bc38647c34da31d3898a9ba7">getCurrentHealth</a> ()</td></tr>
 <tr class="separator:a16b5da28bc38647c34da31d3898a9ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -154,6 +156,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:adc049be324965bb4de8ec73274500624"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_move.html">CharacterMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_health_manager.html#adc049be324965bb4de8ec73274500624">playerMove</a></td></tr>
 <tr class="memdesc:adc049be324965bb4de8ec73274500624"><td class="mdescLeft">&#160;</td><td class="mdescRight">player move script ref  <a href="class_health_manager.html#adc049be324965bb4de8ec73274500624">More...</a><br /></td></tr>
 <tr class="separator:adc049be324965bb4de8ec73274500624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9aa3046f373ceb9cc9235cee4c7d3bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sound_effect_type.html">SoundEffectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_health_manager.html#aa9aa3046f373ceb9cc9235cee4c7d3bb">damageSound</a></td></tr>
+<tr class="separator:aa9aa3046f373ceb9cc9235cee4c7d3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad411b4de79f29ee8ffd9fb7cd7ab9e30"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_health_manager.html#ad411b4de79f29ee8ffd9fb7cd7ab9e30">timer</a> = 1.5f</td></tr>
 <tr class="memdesc:ad411b4de79f29ee8ffd9fb7cd7ab9e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of time that the player will be invincible.  <a href="class_health_manager.html#ad411b4de79f29ee8ffd9fb7cd7ab9e30">More...</a><br /></td></tr>
 <tr class="separator:ad411b4de79f29ee8ffd9fb7cd7ab9e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +268,23 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a15d953019515dde77dd75428eba6f1e4" name="a15d953019515dde77dd75428eba6f1e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d953019515dde77dd75428eba6f1e4">&#9670;&nbsp;</a></span>ResetHealth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HealthManager.ResetHealth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae636571dc0b4a1f16f5d430a63d328d5" name="ae636571dc0b4a1f16f5d430a63d328d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae636571dc0b4a1f16f5d430a63d328d5">&#9670;&nbsp;</a></span>Start()</h2>
 
@@ -341,6 +362,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa9aa3046f373ceb9cc9235cee4c7d3bb" name="aa9aa3046f373ceb9cc9235cee4c7d3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9aa3046f373ceb9cc9235cee4c7d3bb">&#9670;&nbsp;</a></span>damageSound</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_sound_effect_type.html">SoundEffectType</a> HealthManager.damageSound</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a45c6f8473e6ed3e9eb5c3f4196ebe991" name="a45c6f8473e6ed3e9eb5c3f4196ebe991"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45c6f8473e6ed3e9eb5c3f4196ebe991">&#9670;&nbsp;</a></span>healthEmpty</h2>
 
@@ -586,7 +629,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_health_manager.html">HealthManager</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

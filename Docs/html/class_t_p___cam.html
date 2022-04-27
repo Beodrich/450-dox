@@ -128,6 +128,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a4144eef45495ff45636449f7b072725d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fe7e735a2075891e6dcb1a10b4fccc0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_p___cam.html#a4fe7e735a2075891e6dcb1a10b4fccc0">NormalizeAngle</a> (float a)</td></tr>
 <tr class="separator:a4fe7e735a2075891e6dcb1a10b4fccc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9aa4d9e13eacb1c23ef2d48c2c8bca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_p___cam.html#af9aa4d9e13eacb1c23ef2d48c2c8bca4">HandleFieldOfView</a> ()</td></tr>
+<tr class="separator:af9aa4d9e13eacb1c23ef2d48c2c8bca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa65afd14a1930a6828a64da4c5bc5442"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_p___cam.html#aa65afd14a1930a6828a64da4c5bc5442">ModularClamp</a> (float val, float min, float max, float rangemin=-180f, float rangemax=180f)</td></tr>
 <tr class="separator:aa65afd14a1930a6828a64da4c5bc5442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,6 +151,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7846410f8407bc7e27aa57c0abb6a554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4710c0a621b1dd4ce53306321e057f0"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_p___cam.html#ad4710c0a621b1dd4ce53306321e057f0">Player</a></td></tr>
 <tr class="separator:ad4710c0a621b1dd4ce53306321e057f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af78d618c0b9df46a127b2a69f73dc9f0"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_p___cam.html#af78d618c0b9df46a127b2a69f73dc9f0">thisCamera</a></td></tr>
+<tr class="separator:af78d618c0b9df46a127b2a69f73dc9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a86d0c314e54669d3e4db9078193da4b6" name="a86d0c314e54669d3e4db9078193da4b6"></a>
@@ -164,6 +168,31 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9aa4d9e13eacb1c23ef2d48c2c8bca4" name="af9aa4d9e13eacb1c23ef2d48c2c8bca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9aa4d9e13eacb1c23ef2d48c2c8bca4">&#9670;&nbsp;</a></span>HandleFieldOfView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TP_Cam.HandleFieldOfView </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -566,6 +595,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af78d618c0b9df46a127b2a69f73dc9f0" name="af78d618c0b9df46a127b2a69f73dc9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af78d618c0b9df46a127b2a69f73dc9f0">&#9670;&nbsp;</a></span>thisCamera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera TP_Cam.thisCamera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a03d2115165be2578e401b54c1047e0e1" name="a03d2115165be2578e401b54c1047e0e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03d2115165be2578e401b54c1047e0e1">&#9670;&nbsp;</a></span>VerticalSensitivity</h2>
 
@@ -597,7 +648,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_t_p___cam.html">TP_Cam</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:34 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

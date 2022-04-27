@@ -1,13 +1,13 @@
 var hierarchy =
 [
     [ "InControl.InputDevice.AnalogSnapshotEntry", "struct_in_control_1_1_input_device_1_1_analog_snapshot_entry.html", null ],
-    [ "UnityEditor.AI.NavMeshSurfaceEditor.AsyncBakeOperation", "struct_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_async_bake_operation.html", null ],
     [ "AttackDetails", "struct_attack_details.html", null ],
     [ "Attribute", null, [
       [ "InControl.NativeInputDeviceProfileAttribute", "class_in_control_1_1_native_input_device_profile_attribute.html", null ],
       [ "InControl.PreserveAttribute", "class_in_control_1_1_preserve_attribute.html", null ],
       [ "InControl.UnityInputDeviceProfileAttribute", "class_in_control_1_1_unity_input_device_profile_attribute.html", null ]
     ] ],
+    [ "AudioFadeScript", "class_audio_fade_script.html", null ],
     [ "InControl.BindingListenOptions", "class_in_control_1_1_binding_listen_options.html", null ],
     [ "InControl.BindingSourceListener", "interface_in_control_1_1_binding_source_listener.html", [
       [ "InControl.DeviceBindingSourceListener", "class_in_control_1_1_device_binding_source_listener.html", null ],
@@ -15,20 +15,38 @@ var hierarchy =
       [ "InControl.MouseBindingSourceListener", "class_in_control_1_1_mouse_binding_source_listener.html", null ],
       [ "InControl.UnknownDeviceBindingSourceListener", "class_in_control_1_1_unknown_device_binding_source_listener.html", null ]
     ] ],
+    [ "DynamicShadowProjector.ShadowTextureRenderer.BlurParam", "struct_dynamic_shadow_projector_1_1_shadow_texture_renderer_1_1_blur_param.html", null ],
     [ "InControl.Internal.CodeWriter", "class_in_control_1_1_internal_1_1_code_writer.html", null ],
+    [ "ProjectorForLWRP.ObjectPool< T >.CollectionBase< CollectionType >", "class_projector_for_l_w_r_p_1_1_object_pool_1_1_collection_base.html", null ],
+    [ "ProjectorForLWRP.ObjectPool< T >.CollectionBase< List< T > >", "class_projector_for_l_w_r_p_1_1_object_pool_1_1_collection_base.html", [
+      [ "ProjectorForLWRP.ObjectPool< T >.List", "class_projector_for_l_w_r_p_1_1_object_pool_1_1_list.html", [
+        [ "ProjectorForLWRP.ObjectPool< T >.AutoClearList", "class_projector_for_l_w_r_p_1_1_object_pool_1_1_auto_clear_list.html", null ]
+      ] ]
+    ] ],
+    [ "DynamicShadowProjector.DrawTargetObject.CommandBufferHash", "struct_dynamic_shadow_projector_1_1_draw_target_object_1_1_command_buffer_hash.html", null ],
+    [ "ProjectorForLWRP.CustomRendererPassManager", "class_projector_for_l_w_r_p_1_1_custom_renderer_pass_manager.html", null ],
     [ "InControl.DeadZone", "class_in_control_1_1_dead_zone.html", null ],
+    [ "Dictionary", null, [
+      [ "ProjectorForLWRP.Collections.AutoClearMap< TKey, TValue >", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_map.html", null ]
+    ] ],
     [ "DoxygenConfig", "class_doxygen_config.html", null ],
     [ "DoxyRunner", "class_doxy_runner.html", null ],
     [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", null ],
     [ "Editor", null, [
-      [ "ApplyProceduralTexturePropertiesEditor", "class_apply_procedural_texture_properties_editor.html", null ],
+      [ "ApplyProceduralTexturePropertiesEditor", "class_apply_procedural_texture_properties_editor.html", null ]
+    ] ],
+    [ "UnityEditor.Editor", null, [
+      [ "DynamicShadowProjector.Editor.EditorBase", "class_dynamic_shadow_projector_1_1_editor_1_1_editor_base.html", [
+        [ "DynamicShadowProjector.Editor.DrawSceneObjectEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_draw_scene_object_editor.html", null ],
+        [ "DynamicShadowProjector.Editor.DrawTargetObjectEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_draw_target_object_editor.html", null ],
+        [ "DynamicShadowProjector.Editor.MipmappedShadowFallbackEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html", null ],
+        [ "DynamicShadowProjector.Editor.PropertyBlockForTransparentReceiverEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_property_block_for_transparent_receiver_editor.html", null ],
+        [ "DynamicShadowProjector.Editor.ShadowTextureRendererEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_shadow_texture_renderer_editor.html", null ]
+      ] ],
       [ "LuxURPEssentials.DecalEditor", "class_lux_u_r_p_essentials_1_1_decal_editor.html", null ],
       [ "LuxURPEssentials.GetTerrainHeightNormalMapEditor", "class_lux_u_r_p_essentials_1_1_get_terrain_height_normal_map_editor.html", null ],
       [ "ProceduralTexture2DEditor", "class_procedural_texture2_d_editor.html", null ],
-      [ "UnityEditor.AI.NavMeshLinkEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor.html", null ],
-      [ "UnityEditor.AI.NavMeshModifierEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor.html", null ],
-      [ "UnityEditor.AI.NavMeshModifierVolumeEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor.html", null ],
-      [ "UnityEditor.AI.NavMeshSurfaceEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor.html", null ]
+      [ "ProjectorForLWRP.ProjectorEditor", "class_projector_for_l_w_r_p_1_1_projector_editor.html", null ]
     ] ],
     [ "EditorWindow", null, [
       [ "DoxygenWindow", "class_doxygen_window.html", null ]
@@ -38,9 +56,16 @@ var hierarchy =
     ] ],
     [ "FiniteStateMachine", "class_finite_state_machine.html", null ],
     [ "Lux_SRP_GrassDisplacement.GrassDisplacementRenderFeature.GrassDisplacementSettings", "class_lux___s_r_p___grass_displacement_1_1_grass_displacement_render_feature_1_1_grass_displacement_settings.html", null ],
+    [ "HashSet", null, [
+      [ "ProjectorForLWRP.Collections.AutoClearSet< T >", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_set.html", null ]
+    ] ],
     [ "ICadeReaderView()", "category_i_cade_reader_view_07_08.html", null ],
     [ "IComparable", null, [
       [ "InControl.VersionInfo", "struct_in_control_1_1_version_info.html", null ]
+    ] ],
+    [ "ProjectorForLWRP.ICustomRenderer", "interface_projector_for_l_w_r_p_1_1_i_custom_renderer.html", [
+      [ "ProjectorForLWRP.AdditionalProjectorRenderer", "class_projector_for_l_w_r_p_1_1_additional_projector_renderer.html", null ],
+      [ "ProjectorForLWRP.ProjectorForLWRP", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html", null ]
     ] ],
     [ "IEquatable", null, [
       [ "InControl.BindingSource", "class_in_control_1_1_binding_source.html", [
@@ -88,6 +113,12 @@ var hierarchy =
     [ "InControl.InputDeviceStyleExtensions", "class_in_control_1_1_input_device_style_extensions.html", null ],
     [ "InControl.InputManager", "class_in_control_1_1_input_manager.html", null ],
     [ "InControl.InputRange", "struct_in_control_1_1_input_range.html", null ],
+    [ "IProcessSceneWithReport", null, [
+      [ "ProjectorForLWRP.ProjectorMaterialPreprocessor", "class_projector_for_l_w_r_p_1_1_projector_material_preprocessor.html", null ]
+    ] ],
+    [ "ISerializationCallbackReceiver", null, [
+      [ "DynamicShadowProjector.ShadowTextureRenderer", "class_dynamic_shadow_projector_1_1_shadow_texture_renderer.html", null ]
+    ] ],
     [ "InControl.IUpdateable", "interface_in_control_1_1_i_updateable.html", null ],
     [ "InControl.KeyCombo", "struct_in_control_1_1_key_combo.html", null ],
     [ "InControl.UnityKeyboardProvider.KeyMapping", "struct_in_control_1_1_unity_keyboard_provider_1_1_key_mapping.html", null ],
@@ -96,6 +127,9 @@ var hierarchy =
     [ "LeanSmooth", "class_lean_smooth.html", null ],
     [ "LeanTweenExt", "class_lean_tween_ext.html", null ],
     [ "LeanTweenType", "class_lean_tween_type.html", null ],
+    [ "List", null, [
+      [ "ProjectorForLWRP.Collections.AutoClearList< T >", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_list.html", null ]
+    ] ],
     [ "InControl.Logger", "class_in_control_1_1_logger.html", null ],
     [ "InControl.LogMessage", "struct_in_control_1_1_log_message.html", null ],
     [ "LTBezier", "class_l_t_bezier.html", null ],
@@ -107,6 +141,9 @@ var hierarchy =
     [ "LTSeq", "class_l_t_seq.html", null ],
     [ "LTSpline", "class_l_t_spline.html", null ],
     [ "LTUtility", "class_l_t_utility.html", null ],
+    [ "ProjectorForLWRP.ObjectPool< T >.Map< KeyType >", "class_projector_for_l_w_r_p_1_1_object_pool_1_1_map.html", [
+      [ "ProjectorForLWRP.ObjectPool< T >.AutoClearMap< KeyType >", "class_projector_for_l_w_r_p_1_1_object_pool_1_1_auto_clear_map.html", null ]
+    ] ],
     [ "InControl.MarshalUtility", "class_in_control_1_1_marshal_utility.html", null ],
     [ "MaterialPropertyDrawer", null, [
       [ "LuxURPCameraFadeDrawer", "class_lux_u_r_p_camera_fade_drawer.html", null ],
@@ -121,6 +158,7 @@ var hierarchy =
       [ "LuxURPWindFoliageDrawer", "class_lux_u_r_p_wind_foliage_drawer.html", null ],
       [ "LuxURPWindGrassDrawer", "class_lux_u_r_p_wind_grass_drawer.html", null ]
     ] ],
+    [ "MenuTestScript", "class_menu_test_script.html", null ],
     [ "MonoBehaviour", null, [
       [ "AISensor", "class_a_i_sensor.html", null ],
       [ "AnimationToStateMachine", "class_animation_to_state_machine.html", null ],
@@ -135,14 +173,25 @@ var hierarchy =
       [ "BindingsExample.BindingsExample", "class_bindings_example_1_1_bindings_example.html", null ],
       [ "BindingsMenu", "class_bindings_menu.html", null ],
       [ "BitBotLoadingScreen", "class_bit_bot_loading_screen.html", null ],
+      [ "Blinking", "class_blinking.html", null ],
       [ "CharacterGroundedTrigger", "class_character_grounded_trigger.html", null ],
       [ "CharacterMove", "class_character_move.html", null ],
+      [ "CollectMove", "class_collect_move.html", null ],
       [ "ConstantRotation", "class_constant_rotation.html", null ],
       [ "CreditScroll", "class_credit_scroll.html", null ],
       [ "DentedPixel.LTExamples.PathBezier", "class_dented_pixel_1_1_l_t_examples_1_1_path_bezier.html", null ],
       [ "DentedPixel.LTExamples.TestingUnitTests", "class_dented_pixel_1_1_l_t_examples_1_1_testing_unit_tests.html", null ],
       [ "DialogueManager", "class_dialogue_manager.html", null ],
       [ "DialogueTrigger", "class_dialogue_trigger.html", null ],
+      [ "DynamicShadowProjector.DrawSceneObject", "class_dynamic_shadow_projector_1_1_draw_scene_object.html", null ],
+      [ "DynamicShadowProjector.DrawTargetObject", "class_dynamic_shadow_projector_1_1_draw_target_object.html", null ],
+      [ "DynamicShadowProjector.FollowTargetObject", "class_dynamic_shadow_projector_1_1_follow_target_object.html", null ],
+      [ "DynamicShadowProjector.MipmappedShadowFallback", "class_dynamic_shadow_projector_1_1_mipmapped_shadow_fallback.html", null ],
+      [ "DynamicShadowProjector.PropertyBlockForTransparentReceiver", "class_dynamic_shadow_projector_1_1_property_block_for_transparent_receiver.html", null ],
+      [ "DynamicShadowProjector.Sample.FPSCheck", "class_dynamic_shadow_projector_1_1_sample_1_1_f_p_s_check.html", null ],
+      [ "DynamicShadowProjector.Sample.Rotate", "class_dynamic_shadow_projector_1_1_sample_1_1_rotate.html", null ],
+      [ "DynamicShadowProjector.Sample.Swing", "class_dynamic_shadow_projector_1_1_sample_1_1_swing.html", null ],
+      [ "DynamicShadowProjector.ShadowTextureRenderer", "class_dynamic_shadow_projector_1_1_shadow_texture_renderer.html", null ],
       [ "EndCreditLogic", "class_end_credit_logic.html", null ],
       [ "Entity", "class_entity.html", [
         [ "Charger", "class_charger.html", null ],
@@ -204,12 +253,14 @@ var hierarchy =
       [ "Lux_SRP_GrassDisplacement.DebugGrassDisplacementTex", "class_lux___s_r_p___grass_displacement_1_1_debug_grass_displacement_tex.html", null ],
       [ "Lux_SRP_GrassDisplacement.RotateAndMove", "class_lux___s_r_p___grass_displacement_1_1_rotate_and_move.html", null ],
       [ "Lux_SRP_GrassDisplacement.SmoothFollow", "class_lux___s_r_p___grass_displacement_1_1_smooth_follow.html", null ],
+      [ "MenuIdle", "class_menu_idle.html", null ],
       [ "MenuLogic", "class_menu_logic.html", null ],
       [ "MenuManager", "class_menu_manager.html", null ],
       [ "MultiplayerBasicExample.Player", "class_multiplayer_basic_example_1_1_player.html", null ],
       [ "MultiplayerBasicExample.PlayerManager", "class_multiplayer_basic_example_1_1_player_manager.html", null ],
       [ "MultiplayerWithBindingsExample.Player", "class_multiplayer_with_bindings_example_1_1_player.html", null ],
       [ "MultiplayerWithBindingsExample.PlayerManager", "class_multiplayer_with_bindings_example_1_1_player_manager.html", null ],
+      [ "MusicManager", "class_music_manager.html", null ],
       [ "OldGUIExamplesCS", "class_old_g_u_i_examples_c_s.html", null ],
       [ "PathBezier2d", "class_path_bezier2d.html", null ],
       [ "PathSpline2d", "class_path_spline2d.html", null ],
@@ -220,10 +271,18 @@ var hierarchy =
       [ "Pickup", "class_pickup.html", null ],
       [ "PlatformMover", "class_platform_mover.html", null ],
       [ "PlayerAnimatorController", "class_player_animator_controller.html", null ],
+      [ "ProjectileTesting", "class_projectile_testing.html", null ],
+      [ "ProjectorForLWRP.AdditionalProjectorRenderer", "class_projector_for_l_w_r_p_1_1_additional_projector_renderer.html", null ],
+      [ "ProjectorForLWRP.Test.CullingTest", "class_projector_for_l_w_r_p_1_1_test_1_1_culling_test.html", null ],
+      [ "ProjectorForSRP.ProjectorForSRP", "class_projector_for_s_r_p_1_1_projector_for_s_r_p.html", [
+        [ "ProjectorForLWRP.ProjectorForLWRP", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html", null ]
+      ] ],
       [ "RainFollow", "class_rain_follow.html", null ],
+      [ "ReticleBehaviour", "class_reticle_behaviour.html", null ],
       [ "RootScript", "class_root_script.html", null ],
       [ "RotateSeeker", "class_rotate_seeker.html", null ],
       [ "RotationTest", "class_rotation_test.html", null ],
+      [ "SettingsControl", "class_settings_control.html", null ],
       [ "SoundSystem", "class_sound_system.html", null ],
       [ "TP_Cam", "class_t_p___cam.html", null ],
       [ "TestRayCastHit", "class_test_ray_cast_hit.html", null ],
@@ -244,9 +303,9 @@ var hierarchy =
       [ "testDamage", "classtest_damage.html", null ],
       [ "testHealth", "classtest_health.html", null ]
     ] ],
+    [ "MusicManager.MusicSource", "class_music_manager_1_1_music_source.html", null ],
     [ "InControl.NativeInputOptions", "struct_in_control_1_1_native_input_options.html", null ],
     [ "InControl.NativeVersionInfo", "struct_in_control_1_1_native_version_info.html", null ],
-    [ "UnityEditor.AI.NavMeshComponentsGUIUtility", "class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility.html", null ],
     [ "<NSObject>", null, [
       [ "<ICadeEventDelegate>", "protocol_i_cade_event_delegate-p.html", [
         [ "ICadeManager()", "category_i_cade_manager_07_08.html", null ]
@@ -261,6 +320,7 @@ var hierarchy =
     [ "System.Object", null, [
       [ "LTRect", "class_l_t_rect.html", null ]
     ] ],
+    [ "ProjectorForLWRP.ObjectPool< T >", "class_projector_for_l_w_r_p_1_1_object_pool.html", null ],
     [ "InControl.OptionalFloat", "struct_in_control_1_1_optional_float.html", null ],
     [ "InControl.OptionalInputDeviceDriverType", "struct_in_control_1_1_optional_input_device_driver_type.html", null ],
     [ "InControl.OptionalInputDeviceTransportType", "struct_in_control_1_1_optional_input_device_transport_type.html", null ],
@@ -276,12 +336,14 @@ var hierarchy =
       [ "MenuActions", "class_menu_actions.html", null ],
       [ "MultiplayerWithBindingsExample.PlayerActions", "class_multiplayer_with_bindings_example_1_1_player_actions.html", null ]
     ] ],
+    [ "PlayerMovementTest", "class_player_movement_test.html", null ],
     [ "PropertyAttribute", null, [
       [ "InControl.HexadecimalAttribute", "class_in_control_1_1_hexadecimal_attribute.html", null ],
       [ "InControl.InspectorNameAttribute", "class_in_control_1_1_inspector_name_attribute.html", null ],
       [ "LuxURPEssentials.LuxURP_HelpBtn", "class_lux_u_r_p_essentials_1_1_lux_u_r_p___help_btn.html", null ],
       [ "Lux_SRP_GrassDisplacement.LayerAttribute", "class_lux___s_r_p___grass_displacement_1_1_layer_attribute.html", null ]
     ] ],
+    [ "ProjectorForSRP.ProjectorForSRP.PropertyBlock", "class_projector_for_s_r_p_1_1_projector_for_s_r_p_1_1_property_block.html", null ],
     [ "PropertyDrawer", null, [
       [ "InControl.InputControlSourcePropertyDrawer", "class_in_control_1_1_input_control_source_property_drawer.html", null ],
       [ "InControl.OptionalFloatPropertyDrawer", "class_in_control_1_1_optional_float_property_drawer.html", null ],
@@ -294,8 +356,12 @@ var hierarchy =
     ] ],
     [ "TimeQueue.QueueInfo", "struct_time_queue_1_1_queue_info.html", null ],
     [ "InControl.Reflector", "class_in_control_1_1_reflector.html", null ],
+    [ "DynamicShadowProjector.DrawTargetObject.ReplaceShader", "struct_dynamic_shadow_projector_1_1_draw_target_object_1_1_replace_shader.html", null ],
+    [ "ResObject", "class_res_object.html", null ],
+    [ "ReticleBehaviour.ReticleTween", "class_reticle_behaviour_1_1_reticle_tween.html", null ],
     [ "InControl.Internal.RingBuffer< T >", "class_in_control_1_1_internal_1_1_ring_buffer.html", null ],
     [ "ScriptableObject", null, [
+      [ "BarkPool", "class_bark_pool.html", null ],
       [ "CharacterMoveStats", "class_character_move_stats.html", null ],
       [ "D_Attack", "class_d___attack.html", null ],
       [ "D_Dead", "class_d___dead.html", null ],
@@ -306,15 +372,20 @@ var hierarchy =
       [ "Dialogue", "class_dialogue.html", null ],
       [ "InControl.NativeInputDeviceProfileList", "class_in_control_1_1_native_input_device_profile_list.html", null ],
       [ "InControl.UnityInputDeviceProfileList", "class_in_control_1_1_unity_input_device_profile_list.html", null ],
-      [ "ProceduralTexture2D", "class_procedural_texture2_d.html", null ]
+      [ "MusicTrack", "class_music_track.html", null ],
+      [ "ProceduralTexture2D", "class_procedural_texture2_d.html", null ],
+      [ "SoundEffectType", "class_sound_effect_type.html", null ]
     ] ],
     [ "UnityEngine.Rendering.Universal.ScriptableRendererFeature", null, [
-      [ "Lux_SRP_GrassDisplacement.GrassDisplacementRenderFeature", "class_lux___s_r_p___grass_displacement_1_1_grass_displacement_render_feature.html", null ]
+      [ "Lux_SRP_GrassDisplacement.GrassDisplacementRenderFeature", "class_lux___s_r_p___grass_displacement_1_1_grass_displacement_render_feature.html", null ],
+      [ "ProjectorForLWRP.ProjectorRendererFeature", "class_projector_for_l_w_r_p_1_1_projector_renderer_feature.html", null ]
     ] ],
     [ "UnityEngine.Rendering.Universal.ScriptableRenderPass", null, [
-      [ "Lux_SRP_GrassDisplacement.GrassDisplacementPass", "class_lux___s_r_p___grass_displacement_1_1_grass_displacement_pass.html", null ]
+      [ "Lux_SRP_GrassDisplacement.GrassDisplacementPass", "class_lux___s_r_p___grass_displacement_1_1_grass_displacement_pass.html", null ],
+      [ "ProjectorForLWRP.CustomRendererPass", "class_projector_for_l_w_r_p_1_1_custom_renderer_pass.html", null ]
     ] ],
     [ "ShaderGUI", null, [
+      [ "DynamicShadowProjector.ProjectorShaderGUI", "class_dynamic_shadow_projector_1_1_projector_shader_g_u_i.html", null ],
       [ "LuxToonShaderGUI", "class_lux_toon_shader_g_u_i.html", null ],
       [ "LuxURPCustomBillboardShaderGUI", "class_lux_u_r_p_custom_billboard_shader_g_u_i.html", null ],
       [ "LuxURPCustomGlassShaderGUI", "class_lux_u_r_p_custom_glass_shader_g_u_i.html", null ],
@@ -361,11 +432,12 @@ var hierarchy =
         [ "Villager_Roam", "class_villager___roam.html", null ]
       ] ]
     ] ],
-    [ "UnityEditor.AI.NavMeshSurfaceEditor.Styles", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles.html", null ],
+    [ "ProjectorForLWRP.StencilMaskAllocator", "class_projector_for_l_w_r_p_1_1_stencil_mask_allocator.html", null ],
     [ "UnityEditor.LuxUberShaderGUI.Styles", "class_unity_editor_1_1_lux_uber_shader_g_u_i_1_1_styles.html", null ],
     [ "SystemException", null, [
       [ "InControl.OptionalTypeHasNoValueException", "class_in_control_1_1_optional_type_has_no_value_exception.html", null ]
     ] ],
+    [ "ProjectorForSRP.ProjectorForSRP.TemporaryData", "class_projector_for_s_r_p_1_1_projector_for_s_r_p_1_1_temporary_data.html", null ],
     [ "ProceduralTexture2DEditor.TextureData", "struct_procedural_texture2_d_editor_1_1_texture_data.html", null ],
     [ "InControl.Touch", "class_in_control_1_1_touch.html", null ],
     [ "InControl.TouchPool", "class_in_control_1_1_touch_pool.html", null ],

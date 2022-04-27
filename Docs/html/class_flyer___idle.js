@@ -9,11 +9,12 @@ var class_flyer___idle =
     [ "PhysicsUpdate", "class_flyer___idle.html#aa788f98eb3249902706f61d8ba386b6a", null ],
     [ "currentEulerAngles", "class_flyer___idle.html#aad711dc99b20b45300d8db1ec45fb7e3", null ],
     [ "enemy", "class_flyer___idle.html#a616f180509fb22cd5f43dd2a9b223b6e", null ],
+    [ "enemyModel", "class_flyer___idle.html#a1c7cbfbfbda202a09e00c68c97a9af85", null ],
     [ "orientationTracker", "class_flyer___idle.html#a4224a68a6031093572879cf3e6910e59", null ],
-    [ "playerDistance", "class_flyer___idle.html#af8788aefd8b4c4e310e523f596897fe1", null ],
-    [ "ReachedEndofRotation", "class_flyer___idle.html#a42fa3091ea8213f40d64075edf6a2b92", null ],
+    [ "ReachedEndOfRightRotation", "class_flyer___idle.html#ade635027de00b42005f2a2b42365ed90", null ],
     [ "rotationAngle", "class_flyer___idle.html#a74019a0e15b4ed6a3e94733ffa973084", null ],
+    [ "rotationCounter", "class_flyer___idle.html#a62d87d964490e65b61cbf2a0710e33fa", null ],
     [ "rotationSpeed", "class_flyer___idle.html#aa907b034127b8f7684f7baf61cf089b8", null ],
-    [ "speed", "class_flyer___idle.html#abdc592f75e405543ec1cebdc4803458d", null ],
-    [ "startingOrientation", "class_flyer___idle.html#af0a6cb38b5c909d1ae4d1431c3fd3b00", null ]
+    [ "startingOrientation", "class_flyer___idle.html#af0a6cb38b5c909d1ae4d1431c3fd3b00", null ],
+    [ "zAxisEulerAngles", "class_flyer___idle.html#ad145d7456f6e4ae77ea6072eb7cd05ed", null ]
 ];

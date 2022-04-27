@@ -1,0 +1,28 @@
+var class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor =
+[
+    [ "OnDisable", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#ad4b88c59706f13af14d79f47556de194", null ],
+    [ "OnEnable", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a84d758de98e30bf8d8d363158508f48f", null ],
+    [ "OnInspectorGUI", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a54995668b53a8561cadac5c3579186d0", null ],
+    [ "RestoreShadowTextureRenderer", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a068cfe6eebf542800acaf517ae617d5e", null ],
+    [ "TestFallback", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a8f3290532187fc66cf374b25e0c02f01", null ],
+    [ "m_blurLevel", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a3bf2d9b922d01f6159c86bbaf58dba69", null ],
+    [ "m_blurLevelBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a9729df3d28e7fd0183c1e63a7e44f868", null ],
+    [ "m_blurSize", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#ae25a6cbba2152ad88a5ac9cd80cb4b16", null ],
+    [ "m_blurSizeBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a521c8db35552fbe9d4c1f318d263ad69", null ],
+    [ "m_fallbackShaderOrMaterial", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a6cb6f4dd439b36c7cd13904440ef9c79", null ],
+    [ "m_mipLevelBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a799d6ef09ff912a5c79b809fb9db9e8c", null ],
+    [ "m_modifyTextureSize", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a6530533e691a805c901c913d45849122", null ],
+    [ "m_multiSampling", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a5f93667b2113117d5953490e5a312ae4", null ],
+    [ "m_multiSamplingBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a057ac2925053a5042106631bb5e44d21", null ],
+    [ "m_projector", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a6af5e5e4724cf76fe667d5b342f99a07", null ],
+    [ "m_projectorMaterialBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#adb859b1b94eafd49f502405fa400d221", null ],
+    [ "m_projectorShaderBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a778304b90a9c150e18a024082ffe0858", null ],
+    [ "m_superSampling", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a2e0016b22fc44ae5a1069d64df60f987", null ],
+    [ "m_superSamplingBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#aa294fc6808db4c8a0f5ab1dc30500445", null ],
+    [ "m_testFallback", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#aee519cd62d5202e0b1905aa2221ef149", null ],
+    [ "m_textureHeight", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a15da58095f66871d1b3c41014ceff831", null ],
+    [ "m_textureHeightBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#ad2ec968c14609e84f0b48ffce323e6e9", null ],
+    [ "m_textureWidth", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a28e708f16b27bb75799b657b07988503", null ],
+    [ "m_textureWidthBackup", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a2a6fa9f50a202ab773600ec55be4dfce", null ],
+    [ "s_defaultFallbackShader", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html#a846b57908295fa0579931999da510e36", null ]
+];

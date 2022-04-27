@@ -16,9 +16,10 @@ var searchData=
   ['joytekxbox360controllermacnativeprofile_2ecs_13',['JoytekXbox360ControllerMacNativeProfile.cs',['../_joytek_xbox360_controller_mac_native_profile_8cs.html',1,'']]],
   ['jump_14',['Jump',['../class_bindings_example_1_1_player_actions.html#a8347939be49b792fcd6676f982118663',1,'BindingsExample.PlayerActions.Jump()'],['../class_input_system.html#ab7b3ab284eeaf53323057efdbe91e530',1,'InputSystem.Jump()']]],
   ['jump_15',['JUMP',['../class_general_events_listeners.html#ab9b1de95bcad1168c448621b17aabdfda40222410c7347ec4b6bcaba3bcb21f3b',1,'GeneralEventsListeners']]],
-  ['jumpiter_16',['jumpIter',['../class_general_camera_shake.html#ac93d4caaa487e7d92261defa25354eaa',1,'GeneralCameraShake']]],
-  ['jumpmultiplierair_17',['jumpMultiplierAir',['../class_character_move_stats.html#a8ffb990d9db24525185e22900cbdeb0d',1,'CharacterMoveStats']]],
-  ['jumpmultiplierground_18',['jumpMultiplierGround',['../class_character_move_stats.html#a6ed98e09c25a9f726d0650c7cc2073b8',1,'CharacterMoveStats']]],
-  ['jumpsound_19',['jumpSound',['../class_character_move.html#a7a4b24bacc422ffc0197da6ad97f6649',1,'CharacterMove']]],
-  ['jumpup_20',['jumpUp',['../class_general_events_listeners.html#adf3d5737155b9898501dfa44638a2c59',1,'GeneralEventsListeners']]]
+  ['jumpdoublesound_16',['jumpDoubleSound',['../class_character_move.html#a5ddb37995895dc584ef2c4b4877d0235',1,'CharacterMove']]],
+  ['jumpiter_17',['jumpIter',['../class_general_camera_shake.html#ac93d4caaa487e7d92261defa25354eaa',1,'GeneralCameraShake']]],
+  ['jumpmultiplierair_18',['jumpMultiplierAir',['../class_character_move_stats.html#a8ffb990d9db24525185e22900cbdeb0d',1,'CharacterMoveStats']]],
+  ['jumpmultiplierground_19',['jumpMultiplierGround',['../class_character_move_stats.html#a6ed98e09c25a9f726d0650c7cc2073b8',1,'CharacterMoveStats']]],
+  ['jumpsound_20',['jumpSound',['../class_character_move.html#ac0619d2ba658de5781516d77e803be78',1,'CharacterMove']]],
+  ['jumpup_21',['jumpUp',['../class_general_events_listeners.html#adf3d5737155b9898501dfa44638a2c59',1,'GeneralEventsListeners']]]
 ];

@@ -14,6 +14,28 @@ var annotated_dup =
       ] ],
       [ "LeanDummy", "class_dented_pixel_1_1_lean_dummy.html", null ]
     ] ],
+    [ "DynamicShadowProjector", "namespace_dynamic_shadow_projector.html", [
+      [ "Editor", "namespace_dynamic_shadow_projector_1_1_editor.html", [
+        [ "DrawSceneObjectEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_draw_scene_object_editor.html", "class_dynamic_shadow_projector_1_1_editor_1_1_draw_scene_object_editor" ],
+        [ "DrawTargetObjectEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_draw_target_object_editor.html", "class_dynamic_shadow_projector_1_1_editor_1_1_draw_target_object_editor" ],
+        [ "EditorBase", "class_dynamic_shadow_projector_1_1_editor_1_1_editor_base.html", "class_dynamic_shadow_projector_1_1_editor_1_1_editor_base" ],
+        [ "MipmappedShadowFallbackEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor.html", "class_dynamic_shadow_projector_1_1_editor_1_1_mipmapped_shadow_fallback_editor" ],
+        [ "PropertyBlockForTransparentReceiverEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_property_block_for_transparent_receiver_editor.html", "class_dynamic_shadow_projector_1_1_editor_1_1_property_block_for_transparent_receiver_editor" ],
+        [ "ShadowTextureRendererEditor", "class_dynamic_shadow_projector_1_1_editor_1_1_shadow_texture_renderer_editor.html", "class_dynamic_shadow_projector_1_1_editor_1_1_shadow_texture_renderer_editor" ]
+      ] ],
+      [ "Sample", "namespace_dynamic_shadow_projector_1_1_sample.html", [
+        [ "FPSCheck", "class_dynamic_shadow_projector_1_1_sample_1_1_f_p_s_check.html", "class_dynamic_shadow_projector_1_1_sample_1_1_f_p_s_check" ],
+        [ "Rotate", "class_dynamic_shadow_projector_1_1_sample_1_1_rotate.html", "class_dynamic_shadow_projector_1_1_sample_1_1_rotate" ],
+        [ "Swing", "class_dynamic_shadow_projector_1_1_sample_1_1_swing.html", "class_dynamic_shadow_projector_1_1_sample_1_1_swing" ]
+      ] ],
+      [ "DrawSceneObject", "class_dynamic_shadow_projector_1_1_draw_scene_object.html", "class_dynamic_shadow_projector_1_1_draw_scene_object" ],
+      [ "DrawTargetObject", "class_dynamic_shadow_projector_1_1_draw_target_object.html", "class_dynamic_shadow_projector_1_1_draw_target_object" ],
+      [ "FollowTargetObject", "class_dynamic_shadow_projector_1_1_follow_target_object.html", "class_dynamic_shadow_projector_1_1_follow_target_object" ],
+      [ "MipmappedShadowFallback", "class_dynamic_shadow_projector_1_1_mipmapped_shadow_fallback.html", "class_dynamic_shadow_projector_1_1_mipmapped_shadow_fallback" ],
+      [ "ProjectorShaderGUI", "class_dynamic_shadow_projector_1_1_projector_shader_g_u_i.html", "class_dynamic_shadow_projector_1_1_projector_shader_g_u_i" ],
+      [ "PropertyBlockForTransparentReceiver", "class_dynamic_shadow_projector_1_1_property_block_for_transparent_receiver.html", "class_dynamic_shadow_projector_1_1_property_block_for_transparent_receiver" ],
+      [ "ShadowTextureRenderer", "class_dynamic_shadow_projector_1_1_shadow_texture_renderer.html", "class_dynamic_shadow_projector_1_1_shadow_texture_renderer" ]
+    ] ],
     [ "InControl", "namespace_in_control.html", [
       [ "Internal", "namespace_in_control_1_1_internal.html", [
         [ "CodeWriter", "class_in_control_1_1_internal_1_1_code_writer.html", "class_in_control_1_1_internal_1_1_code_writer" ],
@@ -154,17 +176,33 @@ var annotated_dup =
       [ "PlayerActions", "class_multiplayer_with_bindings_example_1_1_player_actions.html", "class_multiplayer_with_bindings_example_1_1_player_actions" ],
       [ "PlayerManager", "class_multiplayer_with_bindings_example_1_1_player_manager.html", "class_multiplayer_with_bindings_example_1_1_player_manager" ]
     ] ],
+    [ "ProjectorForLWRP", "namespace_projector_for_l_w_r_p.html", [
+      [ "Collections", "namespace_projector_for_l_w_r_p_1_1_collections.html", [
+        [ "AutoClearList", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_list.html", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_list" ],
+        [ "AutoClearMap", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_map.html", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_map" ],
+        [ "AutoClearSet", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_set.html", "class_projector_for_l_w_r_p_1_1_collections_1_1_auto_clear_set" ]
+      ] ],
+      [ "Test", "namespace_projector_for_l_w_r_p_1_1_test.html", [
+        [ "CullingTest", "class_projector_for_l_w_r_p_1_1_test_1_1_culling_test.html", "class_projector_for_l_w_r_p_1_1_test_1_1_culling_test" ]
+      ] ],
+      [ "AdditionalProjectorRenderer", "class_projector_for_l_w_r_p_1_1_additional_projector_renderer.html", "class_projector_for_l_w_r_p_1_1_additional_projector_renderer" ],
+      [ "CustomRendererPass", "class_projector_for_l_w_r_p_1_1_custom_renderer_pass.html", "class_projector_for_l_w_r_p_1_1_custom_renderer_pass" ],
+      [ "CustomRendererPassManager", "class_projector_for_l_w_r_p_1_1_custom_renderer_pass_manager.html", "class_projector_for_l_w_r_p_1_1_custom_renderer_pass_manager" ],
+      [ "ICustomRenderer", "interface_projector_for_l_w_r_p_1_1_i_custom_renderer.html", "interface_projector_for_l_w_r_p_1_1_i_custom_renderer" ],
+      [ "ObjectPool", "class_projector_for_l_w_r_p_1_1_object_pool.html", "class_projector_for_l_w_r_p_1_1_object_pool" ],
+      [ "ProjectorEditor", "class_projector_for_l_w_r_p_1_1_projector_editor.html", "class_projector_for_l_w_r_p_1_1_projector_editor" ],
+      [ "ProjectorForLWRP", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p" ],
+      [ "ProjectorMaterialPreprocessor", "class_projector_for_l_w_r_p_1_1_projector_material_preprocessor.html", "class_projector_for_l_w_r_p_1_1_projector_material_preprocessor" ],
+      [ "ProjectorRendererFeature", "class_projector_for_l_w_r_p_1_1_projector_renderer_feature.html", "class_projector_for_l_w_r_p_1_1_projector_renderer_feature" ],
+      [ "StencilMaskAllocator", "class_projector_for_l_w_r_p_1_1_stencil_mask_allocator.html", "class_projector_for_l_w_r_p_1_1_stencil_mask_allocator" ]
+    ] ],
+    [ "ProjectorForSRP", "namespace_projector_for_s_r_p.html", [
+      [ "ProjectorForSRP", "class_projector_for_s_r_p_1_1_projector_for_s_r_p.html", "class_projector_for_s_r_p_1_1_projector_for_s_r_p" ]
+    ] ],
     [ "TouchExample", "namespace_touch_example.html", [
       [ "CubeController", "class_touch_example_1_1_cube_controller.html", "class_touch_example_1_1_cube_controller" ]
     ] ],
     [ "UnityEditor", "namespace_unity_editor.html", [
-      [ "AI", "namespace_unity_editor_1_1_a_i.html", [
-        [ "NavMeshComponentsGUIUtility", "class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility" ],
-        [ "NavMeshLinkEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor" ],
-        [ "NavMeshModifierEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor" ],
-        [ "NavMeshModifierVolumeEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" ],
-        [ "NavMeshSurfaceEditor", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor.html", "class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor" ]
-      ] ],
       [ "LuxUberShaderGUI", "class_unity_editor_1_1_lux_uber_shader_g_u_i.html", "class_unity_editor_1_1_lux_uber_shader_g_u_i" ]
     ] ],
     [ "UnityEngine", "namespace_unity_engine.html", [
@@ -187,12 +225,15 @@ var annotated_dup =
     [ "ApplyProceduralTexturePropertiesEditor", "class_apply_procedural_texture_properties_editor.html", "class_apply_procedural_texture_properties_editor" ],
     [ "AttackDetails", "struct_attack_details.html", "struct_attack_details" ],
     [ "AttackState", "class_attack_state.html", "class_attack_state" ],
+    [ "AudioFadeScript", "class_audio_fade_script.html", "class_audio_fade_script" ],
+    [ "BarkPool", "class_bark_pool.html", "class_bark_pool" ],
     [ "BarkTrigger", "class_bark_trigger.html", "class_bark_trigger" ],
     [ "BarkTriggerOrbs", "class_bark_trigger_orbs.html", "class_bark_trigger_orbs" ],
     [ "Billboard", "class_billboard.html", "class_billboard" ],
     [ "BindingButton", "class_binding_button.html", "class_binding_button" ],
     [ "BindingsMenu", "class_bindings_menu.html", "class_bindings_menu" ],
     [ "BitBotLoadingScreen", "class_bit_bot_loading_screen.html", "class_bit_bot_loading_screen" ],
+    [ "Blinking", "class_blinking.html", "class_blinking" ],
     [ "CharacterGroundedTrigger", "class_character_grounded_trigger.html", "class_character_grounded_trigger" ],
     [ "CharacterMove", "class_character_move.html", "class_character_move" ],
     [ "CharacterMoveStats", "class_character_move_stats.html", "class_character_move_stats" ],
@@ -201,6 +242,7 @@ var annotated_dup =
     [ "Charger_Idle", "class_charger___idle.html", "class_charger___idle" ],
     [ "Charger_Patrol", "class_charger___patrol.html", "class_charger___patrol" ],
     [ "Charger_Roam", "class_charger___roam.html", "class_charger___roam" ],
+    [ "CollectMove", "class_collect_move.html", "class_collect_move" ],
     [ "ConstantRotation", "class_constant_rotation.html", "class_constant_rotation" ],
     [ "CreditScroll", "class_credit_scroll.html", "class_credit_scroll" ],
     [ "D_Attack", "class_d___attack.html", "class_d___attack" ],
@@ -302,8 +344,12 @@ var annotated_dup =
     [ "LuxURPWindFoliageDrawer", "class_lux_u_r_p_wind_foliage_drawer.html", "class_lux_u_r_p_wind_foliage_drawer" ],
     [ "LuxURPWindGrassDrawer", "class_lux_u_r_p_wind_grass_drawer.html", "class_lux_u_r_p_wind_grass_drawer" ],
     [ "MenuActions", "class_menu_actions.html", "class_menu_actions" ],
+    [ "MenuIdle", "class_menu_idle.html", "class_menu_idle" ],
     [ "MenuLogic", "class_menu_logic.html", "class_menu_logic" ],
     [ "MenuManager", "class_menu_manager.html", "class_menu_manager" ],
+    [ "MenuTestScript", "class_menu_test_script.html", "class_menu_test_script" ],
+    [ "MusicManager", "class_music_manager.html", "class_music_manager" ],
+    [ "MusicTrack", "class_music_track.html", "class_music_track" ],
     [ "OldGUIExamplesCS", "class_old_g_u_i_examples_c_s.html", "class_old_g_u_i_examples_c_s" ],
     [ "PathBezier2d", "class_path_bezier2d.html", "class_path_bezier2d" ],
     [ "PathSpline2d", "class_path_spline2d.html", "class_path_spline2d" ],
@@ -315,13 +361,19 @@ var annotated_dup =
     [ "Pickup", "class_pickup.html", "class_pickup" ],
     [ "PlatformMover", "class_platform_mover.html", "class_platform_mover" ],
     [ "PlayerAnimatorController", "class_player_animator_controller.html", "class_player_animator_controller" ],
+    [ "PlayerMovementTest", "class_player_movement_test.html", "class_player_movement_test" ],
     [ "ProceduralTexture2D", "class_procedural_texture2_d.html", "class_procedural_texture2_d" ],
     [ "ProceduralTexture2DEditor", "class_procedural_texture2_d_editor.html", "class_procedural_texture2_d_editor" ],
+    [ "ProjectileTesting", "class_projectile_testing.html", "class_projectile_testing" ],
     [ "RainFollow", "class_rain_follow.html", "class_rain_follow" ],
+    [ "ResObject", "class_res_object.html", "class_res_object" ],
+    [ "ReticleBehaviour", "class_reticle_behaviour.html", "class_reticle_behaviour" ],
     [ "RoamState", "class_roam_state.html", "class_roam_state" ],
     [ "RootScript", "class_root_script.html", "class_root_script" ],
     [ "RotateSeeker", "class_rotate_seeker.html", "class_rotate_seeker" ],
     [ "RotationTest", "class_rotation_test.html", "class_rotation_test" ],
+    [ "SettingsControl", "class_settings_control.html", "class_settings_control" ],
+    [ "SoundEffectType", "class_sound_effect_type.html", "class_sound_effect_type" ],
     [ "SoundSystem", "class_sound_system.html", "class_sound_system" ],
     [ "State", "class_state.html", "class_state" ],
     [ "testDamage", "classtest_damage.html", "classtest_damage" ],

@@ -1,6 +1,7 @@
 var class_t_p___cam =
 [
     [ "GetCameraActive", "class_t_p___cam.html#a86d0c314e54669d3e4db9078193da4b6", null ],
+    [ "HandleFieldOfView", "class_t_p___cam.html#af9aa4d9e13eacb1c23ef2d48c2c8bca4", null ],
     [ "ModularClamp", "class_t_p___cam.html#aa65afd14a1930a6828a64da4c5bc5442", null ],
     [ "NormalizeAngle", "class_t_p___cam.html#a4fe7e735a2075891e6dcb1a10b4fccc0", null ],
     [ "Rotate", "class_t_p___cam.html#a775045f99b1e5d8ef23aee4ed704ef6d", null ],
@@ -19,5 +20,6 @@ var class_t_p___cam =
     [ "RotX", "class_t_p___cam.html#a60451c854bf31b9e4cca5e85094f7bbb", null ],
     [ "RotY", "class_t_p___cam.html#ab5bab6ae45953e6d101268d1a539cf3f", null ],
     [ "SmoothingFactor", "class_t_p___cam.html#a1eabc1ccbd4cba6f0c1939d77fec8b22", null ],
+    [ "thisCamera", "class_t_p___cam.html#af78d618c0b9df46a127b2a69f73dc9f0", null ],
     [ "VerticalSensitivity", "class_t_p___cam.html#a03d2115165be2578e401b54c1047e0e1", null ]
 ];

@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('class_player_animator_controller.html'
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_player_animator_controller-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">PlayerAnimatorController Class Reference</div></div>
 </div><!--header-->
@@ -99,6 +100,8 @@ Inheritance diagram for PlayerAnimatorController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1338551012ef42d89ba18a42265cca7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a1338551012ef42d89ba18a42265cca7c">SetGrappleTrigger</a> ()</td></tr>
+<tr class="separator:a1338551012ef42d89ba18a42265cca7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ded397d5e2fa1b630d7df58b4ce61c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#ad8ded397d5e2fa1b630d7df58b4ce61c">SetDashTrigger</a> ()</td></tr>
 <tr class="separator:ad8ded397d5e2fa1b630d7df58b4ce61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4645e3033c8fdfececea83208dba8233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a4645e3033c8fdfececea83208dba8233">SetJumpTrigger</a> ()</td></tr>
@@ -114,17 +117,63 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a02dbe7661f2d6555caaf7254779cc73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f590283c185f0252e5c22265aed32bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a9f590283c185f0252e5c22265aed32bc">Update</a> ()</td></tr>
 <tr class="separator:a9f590283c185f0252e5c22265aed32bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d83ceae2e9c6ac542af6d5e6097dd40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a3d83ceae2e9c6ac542af6d5e6097dd40">PlaySplitGrapple</a> ()</td></tr>
+<tr class="separator:a3d83ceae2e9c6ac542af6d5e6097dd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a693667750779c02ff80294c2150ef8fe"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a693667750779c02ff80294c2150ef8fe">timer</a></td></tr>
+<tr class="separator:a693667750779c02ff80294c2150ef8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a63584e316e8e163ba15889e55b6ddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_grappling_hook.html">GrapplingHook</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a0a63584e316e8e163ba15889e55b6ddf">grapplingHook</a></td></tr>
 <tr class="separator:a0a63584e316e8e163ba15889e55b6ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33c7887b3bce50b0dafc9b2dc783f788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_move.html">CharacterMove</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a33c7887b3bce50b0dafc9b2dc783f788">characterController</a></td></tr>
 <tr class="separator:a33c7887b3bce50b0dafc9b2dc783f788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25b069d19d59d1a45c370477526f4d0c"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a25b069d19d59d1a45c370477526f4d0c">playerAnimator</a></td></tr>
 <tr class="separator:a25b069d19d59d1a45c370477526f4d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f8acca3516a8c106c6379573c8e77e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#ac6f8acca3516a8c106c6379573c8e77e">isGrappling</a> =false</td></tr>
+<tr class="separator:ac6f8acca3516a8c106c6379573c8e77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9741586960d55ee8dff5b3c1aad62de9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a9741586960d55ee8dff5b3c1aad62de9">isDoubleJump</a> =false</td></tr>
+<tr class="separator:a9741586960d55ee8dff5b3c1aad62de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e21651591047cc4c9939943be36327e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a0e21651591047cc4c9939943be36327e">playStretch</a> =true</td></tr>
+<tr class="separator:a0e21651591047cc4c9939943be36327e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a916d09e697dfbaece540598274b0aee9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a916d09e697dfbaece540598274b0aee9">STRETCH</a> =&quot;stretch&quot;</td></tr>
+<tr class="separator:a916d09e697dfbaece540598274b0aee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2cba04307836308350180119c48877"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a9f2cba04307836308350180119c48877">LOOK_AROUND</a> =&quot;look_around&quot;</td></tr>
+<tr class="separator:a9f2cba04307836308350180119c48877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b8866389cb3af6e420ce5f43a713fd"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a78b8866389cb3af6e420ce5f43a713fd">GRAPPLE_PULL</a> =&quot;isGrapplePull&quot;</td></tr>
+<tr class="separator:a78b8866389cb3af6e420ce5f43a713fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba8bc01233918d04acf859b5d43dac4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_animator_controller.html#a9ba8bc01233918d04acf859b5d43dac4">DOUBLE_JUMP</a> =&quot;isDoubleJump&quot;</td></tr>
+<tr class="separator:a9ba8bc01233918d04acf859b5d43dac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3d83ceae2e9c6ac542af6d5e6097dd40" name="a3d83ceae2e9c6ac542af6d5e6097dd40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d83ceae2e9c6ac542af6d5e6097dd40">&#9670;&nbsp;</a></span>PlaySplitGrapple()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAnimatorController.PlaySplitGrapple </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad8ded397d5e2fa1b630d7df58b4ce61c" name="ad8ded397d5e2fa1b630d7df58b4ce61c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8ded397d5e2fa1b630d7df58b4ce61c">&#9670;&nbsp;</a></span>SetDashTrigger()</h2>
 
@@ -153,6 +202,23 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isFalling</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1338551012ef42d89ba18a42265cca7c" name="a1338551012ef42d89ba18a42265cca7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1338551012ef42d89ba18a42265cca7c">&#9670;&nbsp;</a></span>SetGrappleTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAnimatorController.SetGrappleTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -268,6 +334,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ba8bc01233918d04acf859b5d43dac4" name="a9ba8bc01233918d04acf859b5d43dac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba8bc01233918d04acf859b5d43dac4">&#9670;&nbsp;</a></span>DOUBLE_JUMP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string PlayerAnimatorController.DOUBLE_JUMP =&quot;isDoubleJump&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78b8866389cb3af6e420ce5f43a713fd" name="a78b8866389cb3af6e420ce5f43a713fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b8866389cb3af6e420ce5f43a713fd">&#9670;&nbsp;</a></span>GRAPPLE_PULL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string PlayerAnimatorController.GRAPPLE_PULL =&quot;isGrapplePull&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0a63584e316e8e163ba15889e55b6ddf" name="a0a63584e316e8e163ba15889e55b6ddf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a63584e316e8e163ba15889e55b6ddf">&#9670;&nbsp;</a></span>grapplingHook</h2>
 
@@ -284,6 +394,72 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9741586960d55ee8dff5b3c1aad62de9" name="a9741586960d55ee8dff5b3c1aad62de9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9741586960d55ee8dff5b3c1aad62de9">&#9670;&nbsp;</a></span>isDoubleJump</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerAnimatorController.isDoubleJump =false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6f8acca3516a8c106c6379573c8e77e" name="ac6f8acca3516a8c106c6379573c8e77e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f8acca3516a8c106c6379573c8e77e">&#9670;&nbsp;</a></span>isGrappling</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerAnimatorController.isGrappling =false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f2cba04307836308350180119c48877" name="a9f2cba04307836308350180119c48877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2cba04307836308350180119c48877">&#9670;&nbsp;</a></span>LOOK_AROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string PlayerAnimatorController.LOOK_AROUND =&quot;look_around&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -312,6 +488,72 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0e21651591047cc4c9939943be36327e" name="a0e21651591047cc4c9939943be36327e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e21651591047cc4c9939943be36327e">&#9670;&nbsp;</a></span>playStretch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerAnimatorController.playStretch =true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a916d09e697dfbaece540598274b0aee9" name="a916d09e697dfbaece540598274b0aee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a916d09e697dfbaece540598274b0aee9">&#9670;&nbsp;</a></span>STRETCH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string PlayerAnimatorController.STRETCH =&quot;stretch&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a693667750779c02ff80294c2150ef8fe" name="a693667750779c02ff80294c2150ef8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a693667750779c02ff80294c2150ef8fe">&#9670;&nbsp;</a></span>timer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float PlayerAnimatorController.timer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/Unity Projects/450/Assets/Scripts/<a class="el" href="_player_animator_controller_8cs.html">PlayerAnimatorController.cs</a></li>
 </ul>
@@ -321,7 +563,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_player_animator_controller.html">PlayerAnimatorController</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:34 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

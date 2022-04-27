@@ -15,8 +15,8 @@ var searchData=
   ['versionnumber_12',['versionNumber',['../struct_in_control_1_1_input_device_info.html#adea19448560670fa006b03c107b66a45',1,'InControl.InputDeviceInfo.versionNumber()'],['../struct_in_control_1_1_input_device_matcher.html#ae8e167d4b48991bc7a074c970021dfbb',1,'InControl.InputDeviceMatcher.versionNumber()']]],
   ['verticalbobmagnitude_13',['verticalBobMagnitude',['../class_bit_bot_loading_screen.html#af97db56b80e34462a1a55281136cd2ab',1,'BitBotLoadingScreen']]],
   ['verticalbobtime_14',['verticalBobTime',['../class_bit_bot_loading_screen.html#abd7488a91e5f3045c1cf10a12b5ff99f',1,'BitBotLoadingScreen']]],
-  ['verticalsensitivity_15',['verticalSensitivity',['../class_character_move.html#ab9ff932378845d64ea2a546cae531371',1,'CharacterMove']]],
-  ['verticalsensitivity_16',['VerticalSensitivity',['../class_t_p___cam.html#a03d2115165be2578e401b54c1047e0e1',1,'TP_Cam']]],
+  ['verticalsensitivity_15',['VerticalSensitivity',['../class_t_p___cam.html#a03d2115165be2578e401b54c1047e0e1',1,'TP_Cam']]],
+  ['verticalsensitivity_16',['verticalSensitivity',['../class_character_move.html#ab9ff932378845d64ea2a546cae531371',1,'CharacterMove']]],
   ['vibratetosend_17',['vibrateToSend',['../class_in_control_1_1_native_input_device.html#a706ca482782d50a9acd26df5754ab138',1,'InControl::NativeInputDevice']]],
   ['vibratetriggerstosend_18',['vibrateTriggersToSend',['../class_in_control_1_1_native_input_device.html#a36b193d1dee1efc625547ea1f709b796',1,'InControl::NativeInputDevice']]],
   ['vibrato_19',['vibrato',['../class_lean_audio_options.html#a583166b1cfe4923bff35eda0d0bffba9',1,'LeanAudioOptions']]],
@@ -25,5 +25,6 @@ var searchData=
   ['virtualdevice_22',['virtualDevice',['../class_virtual_device_example_1_1_virtual_device_example.html#a8fdcea6ee549fd58e9faf0eccfeebdef',1,'VirtualDeviceExample::VirtualDeviceExample']]],
   ['visiblebindings_23',['visibleBindings',['../class_in_control_1_1_player_action.html#a4b49ab57c7e7162c9e42853442c7bc8e',1,'InControl::PlayerAction']]],
   ['visualizepath_24',['visualizePath',['../class_path_bezier2d.html#ae566c7d632575a3ef0f10ffec7757889',1,'PathBezier2d.visualizePath()'],['../class_path_spline2d.html#ad9dfc236e306d54defb90dec43508b47',1,'PathSpline2d.visualizePath()']]],
-  ['volume_25',['volume',['../class_sound_system_1_1_sound_type.html#ad73b15626b1bf581d4dfa00dbfdc4f31',1,'SoundSystem::SoundType']]]
+  ['volume_25',['volume',['../class_sound_effect_type.html#aa03c4c82185788a92bd6d04c23a25632',1,'SoundEffectType']]],
+  ['volumeslider_26',['volumeSlider',['../class_settings_control.html#a4f4c88c7e215a7d760bb29557675a274',1,'SettingsControl']]]
 ];

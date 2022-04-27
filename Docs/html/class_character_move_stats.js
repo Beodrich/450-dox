@@ -2,6 +2,7 @@ var class_character_move_stats =
 [
     [ "airMoveMultiplier", "class_character_move_stats.html#a3b1c716a13e8066410296b8507e7ffd1", null ],
     [ "dashForce", "class_character_move_stats.html#a6e2011e3041737d06acd9e219d02a39c", null ],
+    [ "dashGravityDuration", "class_character_move_stats.html#a5cb8159e2ecac23dd30104c0354e1096", null ],
     [ "dashStateDuration", "class_character_move_stats.html#a9890e4f29669f30207d81cd30ab4f832", null ],
     [ "gravity", "class_character_move_stats.html#a7e5b50d82a9294580ca14d2c4858ebf0", null ],
     [ "groundedBuffer", "class_character_move_stats.html#a2b8e72312e9f63b174cbc66a1c0fd9a4", null ],

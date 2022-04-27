@@ -83,7 +83,8 @@ $(document).ready(function(){initNavTree('class_animation_to_state_machine.html'
 
 <div class="header">
   <div class="summary">
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_animation_to_state_machine-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AnimationToStateMachine Class Reference</div></div>
 </div><!--header-->
@@ -95,12 +96,20 @@ Inheritance diagram for AnimationToStateMachine:</div>
   <img src="class_animation_to_state_machine.png" alt=""/>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a028f2365830ab895d7b9eefef62be6dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_to_state_machine.html#a028f2365830ab895d7b9eefef62be6dc">setAttackState</a> (<a class="el" href="class_attack_state.html">AttackState</a> state)</td></tr>
+<tr class="separator:a028f2365830ab895d7b9eefef62be6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9243b0c4118d5bc33a91b0c5105f0957"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_to_state_machine.html#a9243b0c4118d5bc33a91b0c5105f0957">TriggerAttack</a> ()</td></tr>
+<tr class="memdesc:a9243b0c4118d5bc33a91b0c5105f0957"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from animation event  <a href="class_animation_to_state_machine.html#a9243b0c4118d5bc33a91b0c5105f0957">More...</a><br /></td></tr>
 <tr class="separator:a9243b0c4118d5bc33a91b0c5105f0957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ad19bd98f6ce9ef976620e86ccac515"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_to_state_machine.html#a8ad19bd98f6ce9ef976620e86ccac515">FinishAttack</a> ()</td></tr>
 <tr class="separator:a8ad19bd98f6ce9ef976620e86ccac515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9111c4f489bc356bc6e20aade9a1dc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_attack_state.html">AttackState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_to_state_machine.html#a9111c4f489bc356bc6e20aade9a1dc6b">attackState</a></td></tr>
+<tr class="separator:a9111c4f489bc356bc6e20aade9a1dc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8ad19bd98f6ce9ef976620e86ccac515" name="a8ad19bd98f6ce9ef976620e86ccac515"></a>
@@ -108,9 +117,6 @@ Private Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void AnimationToStateMachine.FinishAttack </td>
@@ -119,11 +125,24 @@ Private Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a028f2365830ab895d7b9eefef62be6dc" name="a028f2365830ab895d7b9eefef62be6dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a028f2365830ab895d7b9eefef62be6dc">&#9670;&nbsp;</a></span>setAttackState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnimationToStateMachine.setAttackState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_attack_state.html">AttackState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -133,15 +152,32 @@ Private Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void AnimationToStateMachine.TriggerAttack </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>called from animation event </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9111c4f489bc356bc6e20aade9a1dc6b" name="a9111c4f489bc356bc6e20aade9a1dc6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9111c4f489bc356bc6e20aade9a1dc6b">&#9670;&nbsp;</a></span>attackState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_attack_state.html">AttackState</a> AnimationToStateMachine.attackState</td>
         </tr>
       </table>
   </td>
@@ -162,7 +198,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_animation_to_state_machine.html">AnimationToStateMachine</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:01 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

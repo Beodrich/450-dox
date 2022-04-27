@@ -126,6 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_class_attack_state"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_attack_state')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_attack_state.html">AttackState</a></td></tr>
 <tr class="memitem:a2240c087ca4775e923ed48989b84acfd inherit pub_methods_class_attack_state"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#a2240c087ca4775e923ed48989b84acfd">AttackState</a> (<a class="el" href="class_entity.html">Entity</a> <a class="el" href="class_state.html#ab5f24d40c9969b3abdf63dc2885e6b10">entity</a>, <a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a> <a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a>, string <a class="el" href="class_state.html#a40b2d6807563eeb9f6a93ab63e84b0ff">animBoolName</a>, <a class="el" href="class_d___attack.html">D_Attack</a> <a class="el" href="class_attack_state.html#a0b0a53cada85085d15f60b6a02251db4">stateData</a>)</td></tr>
 <tr class="separator:a2240c087ca4775e923ed48989b84acfd inherit pub_methods_class_attack_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeaaeb341c5f91c7372e1cd7d518400d inherit pub_methods_class_attack_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#adeaaeb341c5f91c7372e1cd7d518400d">TriggerAttack</a> ()</td></tr>
+<tr class="separator:adeaaeb341c5f91c7372e1cd7d518400d inherit pub_methods_class_attack_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e39549fc00e4bbe874b08b249067e42 inherit pub_methods_class_attack_state"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_attack_state.html#a3e39549fc00e4bbe874b08b249067e42">FinishAttack</a> ()</td></tr>
+<tr class="separator:a3e39549fc00e4bbe874b08b249067e42 inherit pub_methods_class_attack_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_state"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_state')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_state.html">State</a></td></tr>
 <tr class="memitem:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">State</a> (<a class="el" href="class_entity.html">Entity</a> <a class="el" href="class_state.html#ab5f24d40c9969b3abdf63dc2885e6b10">entity</a>, <a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a> <a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a>, string <a class="el" href="class_state.html#a40b2d6807563eeb9f6a93ab63e84b0ff">animBoolName</a>)</td></tr>
 <tr class="memdesc:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_state.html">State</a>, contains entity which refers to the enemy game object, statemachine which handles switching between states, and animBoolName, wich contains the string of which animation to use for the current state  <a href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">More...</a><br /></td></tr>
@@ -180,6 +184,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8d6116eada83ac107913b84575a79051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a0b66974c3259cefefc5ca12605b4c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_charger___attack.html#a71a0b66974c3259cefefc5ca12605b4c">closeEnoughToPlayer</a> =1.0f</td></tr>
 <tr class="separator:a71a0b66974c3259cefefc5ca12605b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4234cb65175cf537e475239364e2bfdf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_charger___attack.html#a4234cb65175cf537e475239364e2bfdf">roarDur</a></td></tr>
+<tr class="separator:a4234cb65175cf537e475239364e2bfdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -189,8 +195,6 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a952c42e2fb3441574c165b60abec173b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf4f75ed616de61121fe9cf88b78764f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_charger___attack.html#abf4f75ed616de61121fe9cf88b78764f">ROAR</a> =&quot;Roar&quot;</td></tr>
 <tr class="separator:abf4f75ed616de61121fe9cf88b78764f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88140cb46add71ed09bb1007194965b0"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_charger___attack.html#a88140cb46add71ed09bb1007194965b0">roarDur</a> =5.0f</td></tr>
-<tr class="separator:a88140cb46add71ed09bb1007194965b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -945,8 +949,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a88140cb46add71ed09bb1007194965b0" name="a88140cb46add71ed09bb1007194965b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88140cb46add71ed09bb1007194965b0">&#9670;&nbsp;</a></span>roarDur</h2>
+<a id="a4234cb65175cf537e475239364e2bfdf" name="a4234cb65175cf537e475239364e2bfdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4234cb65175cf537e475239364e2bfdf">&#9670;&nbsp;</a></span>roarDur</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -955,12 +959,12 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float Charger_Attack.roarDur =5.0f</td>
+          <td class="memname">float Charger_Attack.roarDur</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1020,7 +1024,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_charger___attack.html">Charger_Attack</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_flyer___patrol.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_flyer___patrol-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Flyer_Patrol Class Reference</div></div>
@@ -140,17 +141,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa84d78d0bc464e900c77971b9ad19545 inherit pub_methods_class_patrol_state"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_patrol_state.html#aa84d78d0bc464e900c77971b9ad19545">PhysicsUpdate</a> ()</td></tr>
 <tr class="memdesc:aa84d78d0bc464e900c77971b9ad19545 inherit pub_methods_class_patrol_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps track of in-game checks  <a href="class_patrol_state.html#aa84d78d0bc464e900c77971b9ad19545">More...</a><br /></td></tr>
 <tr class="separator:aa84d78d0bc464e900c77971b9ad19545 inherit pub_methods_class_patrol_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9941b70ad4e13f4884f137c163a3684c inherit pub_methods_class_patrol_state"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_patrol_state.html#a9941b70ad4e13f4884f137c163a3684c">getCurrentDestPoint</a> ()</td></tr>
+<tr class="separator:a9941b70ad4e13f4884f137c163a3684c inherit pub_methods_class_patrol_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_state"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_state')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_state.html">State</a></td></tr>
 <tr class="memitem:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">State</a> (<a class="el" href="class_entity.html">Entity</a> <a class="el" href="class_state.html#ab5f24d40c9969b3abdf63dc2885e6b10">entity</a>, <a class="el" href="class_finite_state_machine.html">FiniteStateMachine</a> <a class="el" href="class_state.html#a46c2eaa63bd3caf970a2b6964dc68d7e">stateMachine</a>, string <a class="el" href="class_state.html#a40b2d6807563eeb9f6a93ab63e84b0ff">animBoolName</a>)</td></tr>
 <tr class="memdesc:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_state.html">State</a>, contains entity which refers to the enemy game object, statemachine which handles switching between states, and animBoolName, wich contains the string of which animation to use for the current state  <a href="class_state.html#a83a24e59ee230e77b0fcf05ec3cd48de">More...</a><br /></td></tr>
 <tr class="separator:a83a24e59ee230e77b0fcf05ec3cd48de inherit pub_methods_class_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad3d4ac4438ae83d1d58da95eefa7fbf9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#ad3d4ac4438ae83d1d58da95eefa7fbf9">getRemainingDistance</a> ()</td></tr>
+<tr class="separator:ad3d4ac4438ae83d1d58da95eefa7fbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a80c59dd2817f8da5aa77e1fb80b81f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_flyer.html">Flyer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a80c59dd2817f8da5aa77e1fb80b81f2c">enemy</a></td></tr>
 <tr class="separator:a80c59dd2817f8da5aa77e1fb80b81f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4befd10031b1be9c5d4b8dfef5b3b762"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a4befd10031b1be9c5d4b8dfef5b3b762">playerDistance</a></td></tr>
-<tr class="separator:a4befd10031b1be9c5d4b8dfef5b3b762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e69fce2b75ff4150d174eca2865f87"><td class="memItemLeft" align="right" valign="top">Rigidbody&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a60e69fce2b75ff4150d174eca2865f87">rigidbody</a></td></tr>
+<tr class="separator:a60e69fce2b75ff4150d174eca2865f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04cc968136c6f99b80804b4ea6a9f337"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a04cc968136c6f99b80804b4ea6a9f337">destPoint</a></td></tr>
+<tr class="separator:a04cc968136c6f99b80804b4ea6a9f337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8561d4914f7911f1d1c8222f81a9f06"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#af8561d4914f7911f1d1c8222f81a9f06">target</a></td></tr>
+<tr class="separator:af8561d4914f7911f1d1c8222f81a9f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aacd8b4dc1ddab1c1c1d75651ff0343"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a1aacd8b4dc1ddab1c1c1d75651ff0343">moveDirection</a></td></tr>
+<tr class="separator:a1aacd8b4dc1ddab1c1c1d75651ff0343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33db4bfdaeff22be730476d7f1ff3dab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a33db4bfdaeff22be730476d7f1ff3dab">moveSpeed</a></td></tr>
+<tr class="separator:a33db4bfdaeff22be730476d7f1ff3dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a480e91576282cf1e534d5c72af44a4c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a480e91576282cf1e534d5c72af44a4c9">isRotating</a></td></tr>
+<tr class="separator:a480e91576282cf1e534d5c72af44a4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a35f270405ed36a5c453e6ac6be85d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flyer___patrol.html#a4a35f270405ed36a5c453e6ac6be85d5">rotationSpeed</a> = 2f</td></tr>
+<tr class="separator:a4a35f270405ed36a5c453e6ac6be85d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -307,6 +327,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad3d4ac4438ae83d1d58da95eefa7fbf9" name="ad3d4ac4438ae83d1d58da95eefa7fbf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d4ac4438ae83d1d58da95eefa7fbf9">&#9670;&nbsp;</a></span>getRemainingDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Flyer_Patrol.getRemainingDistance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a854f516d33eb008c091a00d4e7b98945" name="a854f516d33eb008c091a00d4e7b98945"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a854f516d33eb008c091a00d4e7b98945">&#9670;&nbsp;</a></span>GotoNextPoint()</h2>
 
@@ -393,6 +438,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a04cc968136c6f99b80804b4ea6a9f337" name="a04cc968136c6f99b80804b4ea6a9f337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04cc968136c6f99b80804b4ea6a9f337">&#9670;&nbsp;</a></span>destPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Flyer_Patrol.destPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a80c59dd2817f8da5aa77e1fb80b81f2c" name="a80c59dd2817f8da5aa77e1fb80b81f2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80c59dd2817f8da5aa77e1fb80b81f2c">&#9670;&nbsp;</a></span>enemy</h2>
 
@@ -415,8 +482,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4befd10031b1be9c5d4b8dfef5b3b762" name="a4befd10031b1be9c5d4b8dfef5b3b762"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4befd10031b1be9c5d4b8dfef5b3b762">&#9670;&nbsp;</a></span>playerDistance</h2>
+<a id="a480e91576282cf1e534d5c72af44a4c9" name="a480e91576282cf1e534d5c72af44a4c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a480e91576282cf1e534d5c72af44a4c9">&#9670;&nbsp;</a></span>isRotating</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,7 +492,117 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float Flyer_Patrol.playerDistance</td>
+          <td class="memname">bool Flyer_Patrol.isRotating</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1aacd8b4dc1ddab1c1c1d75651ff0343" name="a1aacd8b4dc1ddab1c1c1d75651ff0343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aacd8b4dc1ddab1c1c1d75651ff0343">&#9670;&nbsp;</a></span>moveDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Flyer_Patrol.moveDirection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33db4bfdaeff22be730476d7f1ff3dab" name="a33db4bfdaeff22be730476d7f1ff3dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33db4bfdaeff22be730476d7f1ff3dab">&#9670;&nbsp;</a></span>moveSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Flyer_Patrol.moveSpeed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60e69fce2b75ff4150d174eca2865f87" name="a60e69fce2b75ff4150d174eca2865f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e69fce2b75ff4150d174eca2865f87">&#9670;&nbsp;</a></span>rigidbody</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody Flyer_Patrol.rigidbody</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a35f270405ed36a5c453e6ac6be85d5" name="a4a35f270405ed36a5c453e6ac6be85d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a35f270405ed36a5c453e6ac6be85d5">&#9670;&nbsp;</a></span>rotationSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Flyer_Patrol.rotationSpeed = 2f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8561d4914f7911f1d1c8222f81a9f06" name="af8561d4914f7911f1d1c8222f81a9f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8561d4914f7911f1d1c8222f81a9f06">&#9670;&nbsp;</a></span>target</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Flyer_Patrol.target</td>
         </tr>
       </table>
   </td>
@@ -446,7 +623,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_flyer___patrol.html">Flyer_Patrol</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -6,6 +6,7 @@ var class_root_script =
     [ "CharMove", "class_root_script.html#a454f204c7bc5263ee83bbc83ab32483e", null ],
     [ "GlobalQueue", "class_root_script.html#a850dbd119cba55e3044dac100cc9f8d0", null ],
     [ "Input", "class_root_script.html#a1d8ecc6b35e4edbe58944a60a8a252cd", null ],
+    [ "MusicManager", "class_root_script.html#ae434e5366dbe404e3939a7b1707a8e7a", null ],
     [ "PlayerCamera", "class_root_script.html#aa08fd3c2d7731038d46fb83e3f565ec3", null ],
     [ "Root", "class_root_script.html#aadcb2271a921a9597ee4eebecc67ed87", null ],
     [ "SceneLoader", "class_root_script.html#a56f8d913830d549e54f8e14f78e79d76", null ],

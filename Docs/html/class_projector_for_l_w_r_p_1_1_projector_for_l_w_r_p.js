@@ -1,0 +1,46 @@
+var class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p =
+[
+    [ "StencilTestOptions", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1edf9cf64a1a2042ab3b3c30434f5d2d", [
+      [ "None", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1edf9cf64a1a2042ab3b3c30434f5d2da6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "ClearStencil", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1edf9cf64a1a2042ab3b3c30434f5d2dac5eb638c1de4cd74c78d1fc1e24acb93", null ],
+      [ "PreventOverwriting", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1edf9cf64a1a2042ab3b3c30434f5d2da43066e4bf95d27f9c82e8e9918ebb843", null ]
+    ] ],
+    [ "StencilTestState", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a06c443fd9f4a1d1ef75caad5d6196fd2", [
+      [ "None", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a06c443fd9f4a1d1ef75caad5d6196fd2a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "BothSide", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a06c443fd9f4a1d1ef75caad5d6196fd2aeb5c17bfda782998eb008e26f9dbb219", null ],
+      [ "BackfaceOnly", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a06c443fd9f4a1d1ef75caad5d6196fd2a519f9a160868962ea50ab98f59637911", null ]
+    ] ],
+    [ "ProjectorForLWRP", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#aa9c21c874f5f2167c0ec2c5b535a2a74", null ],
+    [ "AddProjectorToRenderer", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#abdd3dc8194c7b9768ad00aaef40a9210", null ],
+    [ "Cleanup", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a74db25064ea8dfc4a0601418e3dbce7e", null ],
+    [ "ClearFullscreenStencil", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a86c32bd66a7452f5c009d4be19baf9ff", null ],
+    [ "ClearStencil", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a0ed22377d845294a9a1b8f4ad2f0a35c", null ],
+    [ "CopySerializedPropertiesFrom", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#abc63d8faa247a6ffda25543037d7b206", null ],
+    [ "DestroyObject", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1b71b31c34b420440880d43493fee67f", null ],
+    [ "GetDefaultDrawSettings", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a914cddad145a0a900e4e3ae236a2546a", null ],
+    [ "GetFrustumMesh", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#ad0ce71b27ea11c853b36884c37ac7dc6", null ],
+    [ "OnProjectorFrustumChanged", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a057cf7a0f82f1b979b709fdfce9280e9", null ],
+    [ "Render", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a40ef0ba8007aa0d9c681375020001b0a", null ],
+    [ "StaticInitialize", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a1e47b98c1f9b20d61774b78ba4c0507f", null ],
+    [ "WriteFrustumStencil", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a6ab5f4f17f498363d7187673172a83ea", null ],
+    [ "m_meshFrustum", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a6852a0f890ac009faf32af9abd5ca165", null ],
+    [ "m_meshFrustumDirty", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#af4d4b6584d1fd7665ffee749c73598a5", null ],
+    [ "m_perObjectData", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a28dc938fd523bb0b653bc34412c4e175", null ],
+    [ "m_renderPassEvent", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a515778a0a9d4d3fa2a614dfdde864849", null ],
+    [ "m_runtimeStencilPassMaterial", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#adeb8733e19aaf2c010155d83db8cbd3a", null ],
+    [ "m_stencilPass", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a8fc29c806475ba568a8ce9bdef55aa24", null ],
+    [ "m_stencilTestOptions", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a645813fcd2bacae960dba5e09c4bbb04", null ],
+    [ "m_stencilTestState", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a69590342d0c5d5979d27f4c20f1bd233", null ],
+    [ "s_defaultShaderTagIdList", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a4d1fe7e31a4260d33410a3d30783e024", null ],
+    [ "s_fullScreenClearStencilMaterial", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a9e72f747cc7006f0d74c259e2344837d", null ],
+    [ "s_fullScreenMesh", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a0a0d75be6b3712401377fe868eba5d1c", null ],
+    [ "s_isInitialized", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#ad0a1f7d32b3ce522e27c81c6fe3e0cc4", null ],
+    [ "s_shaderPropIdStencilMask", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a2794937bd63518cb5037972a56cd1135", null ],
+    [ "s_shaderPropIdStencilRef", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a61371d5c59ed7f9fdcc995239c7828cb", null ],
+    [ "defaultShaderTagIdList", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a8e8bdd31477a5d54946930a8ec975376", null ],
+    [ "perObjectData", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#ae23d375a9cdfed2cece63d733be2273d", null ],
+    [ "renderPassEvent", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#ad6ce2361d9e4e3db992492101c2e29ca", null ],
+    [ "stencilPassMaterial", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#aeaf5e6d6b32d150282710fea9e682082", null ],
+    [ "stencilTestOptions", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#a94a4063f490273656967223901c16583", null ],
+    [ "useStencilTest", "class_projector_for_l_w_r_p_1_1_projector_for_l_w_r_p.html#aef110bfc5d2afe05a9d0dbc83007b360", null ]
+];

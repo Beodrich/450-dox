@@ -6,5 +6,6 @@ var class_dialogue =
     [ "characterName", "class_dialogue.html#adfa5e48857ab643e813d157651eedbc9", null ],
     [ "nextPrompts", "class_dialogue.html#a678cbaf45f86d1da828585db5d1cc3d9", null ],
     [ "prompts", "class_dialogue.html#a31c349762ffa9b8a766aa4c3153bd4cf", null ],
-    [ "responses", "class_dialogue.html#afbc87cda748914258613cda434c1272f", null ]
+    [ "responses", "class_dialogue.html#afbc87cda748914258613cda434c1272f", null ],
+    [ "soundToPlay", "class_dialogue.html#aa99e8b7c6fb964fa1b275ff6b5f8afef", null ]
 ];

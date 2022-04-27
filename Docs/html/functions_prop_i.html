@@ -104,8 +104,10 @@ $(document).ready(function(){initNavTree('functions_prop_i.html',''); initResiza
 <li>InvertXAxis&#160;:&#160;<a class="el" href="class_in_control_1_1_player_two_axis_action.html#a81a931f22c13207dddb7732037f651e5">InControl.PlayerTwoAxisAction</a></li>
 <li>InvertYAxis&#160;:&#160;<a class="el" href="class_in_control_1_1_input_manager.html#a7931f5cf113868962f6e8be37d54f392">InControl.InputManager</a>, <a class="el" href="class_in_control_1_1_player_two_axis_action.html#acb65a1d97a4abee3dd0cfe444d148428">InControl.PlayerTwoAxisAction</a></li>
 <li>IsActive&#160;:&#160;<a class="el" href="class_in_control_1_1_input_device.html#af31f04c251833ec56f3501cc67fc2abd">InControl.InputDevice</a>, <a class="el" href="class_in_control_1_1_touch_stick_control.html#a04cfb224dda4453d120d6b86dc3443a3">InControl.TouchStickControl</a></li>
+<li>isActive&#160;:&#160;<a class="el" href="class_projector_for_l_w_r_p_1_1_custom_renderer_pass.html#a84bcc8f8d17b69615e52d57450422dd7">ProjectorForLWRP.CustomRendererPass</a></li>
 <li>IsAnalog&#160;:&#160;<a class="el" href="class_in_control_1_1_input_control.html#a469b919e57931445cb998feb9445e695">InControl.InputControl</a></li>
 <li>IsAttached&#160;:&#160;<a class="el" href="class_in_control_1_1_input_device.html#ae7c70795b65e02d9d2b061c71a448ec0">InControl.InputDevice</a></li>
+<li>isBuiltinRP&#160;:&#160;<a class="el" href="class_dynamic_shadow_projector_1_1_shadow_texture_renderer.html#a293b71dba7190985d89008294818ab18">DynamicShadowProjector.ShadowTextureRenderer</a></li>
 <li>IsButton&#160;:&#160;<a class="el" href="class_in_control_1_1_input_control.html#accbacb4aaee2a5022d7b9a578ab6103a">InControl.InputControl</a></li>
 <li>IsConnected&#160;:&#160;<a class="el" href="class_in_control_1_1_ouya_everywhere_device.html#a9a8af79a842e950c46190b5c4513ce95">InControl.OuyaEverywhereDevice</a></li>
 <li>IsHidden&#160;:&#160;<a class="el" href="class_in_control_1_1_input_device_profile.html#a3028c74f63433a3744ad3a01476fb544">InControl.InputDeviceProfile</a></li>
@@ -117,6 +119,7 @@ $(document).ready(function(){initNavTree('functions_prop_i.html',''); initResiza
 <li>IsNotTheSingleton&#160;:&#160;<a class="el" href="class_in_control_1_1_singleton_mono_behavior.html#a6c557432bdef227f75b1dbd48b774501">InControl.SingletonMonoBehavior&lt; TComponent &gt;</a></li>
 <li>IsNullControl&#160;:&#160;<a class="el" href="class_in_control_1_1_one_axis_input_control.html#acff62d4d79fb6e8ca2d9b96640078211">InControl.OneAxisInputControl</a></li>
 <li>IsPressed&#160;:&#160;<a class="el" href="interface_in_control_1_1_i_input_control.html#aea68895f288e7267d9724ee05da09b55">InControl.IInputControl</a>, <a class="el" href="struct_in_control_1_1_key_combo.html#ac958bc59780d1d064d27ac333f9a076d">InControl.KeyCombo</a>, <a class="el" href="class_in_control_1_1_one_axis_input_control.html#a162fd9ae5ec093c0cfb29f70d44ed615">InControl.OneAxisInputControl</a>, <a class="el" href="class_in_control_1_1_two_axis_input_control.html#a8b976859c70543b75438ceaa269d99e7">InControl.TwoAxisInputControl</a>, <a class="el" href="struct_in_control_1_1_unity_keyboard_provider_1_1_key_mapping.html#a6a01e22e795bc997ef9ee0830ce40f59">InControl.UnityKeyboardProvider.KeyMapping</a></li>
+<li>isProjectorVisible&#160;:&#160;<a class="el" href="class_dynamic_shadow_projector_1_1_shadow_texture_renderer.html#abf1ebf3d60b7f19cd67324f37e1b1e07">DynamicShadowProjector.ShadowTextureRenderer</a></li>
 <li>IsSetup&#160;:&#160;<a class="el" href="class_in_control_1_1_input_manager.html#ae17aaa5efd24e538c82af6d0eaf85c1c">InControl.InputManager</a></li>
 <li>IsStandard&#160;:&#160;<a class="el" href="class_in_control_1_1_input_control.html#a0327800ee042077a687c6920a1372a34">InControl.InputControl</a></li>
 <li>IsSupportedOnThisPlatform&#160;:&#160;<a class="el" href="class_in_control_1_1_input_device.html#ad3aee3607585ff3fca5c2c8e0ef3f0bb">InControl.InputDevice</a>, <a class="el" href="class_in_control_1_1_input_device_profile.html#a3afbc43d0833d3b79ab50309f4b78449">InControl.InputDeviceProfile</a>, <a class="el" href="class_in_control_1_1_native_input_device.html#ab25e8ac9331fe14fc703d96310117292">InControl.NativeInputDevice</a>, <a class="el" href="class_in_control_1_1_unity_input_device.html#a8fee2aff9dd9d66453e3f6dc63afc63b">InControl.UnityInputDevice</a></li>
@@ -128,7 +131,7 @@ $(document).ready(function(){initNavTree('functions_prop_i.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:03 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:35 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

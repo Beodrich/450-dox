@@ -102,6 +102,8 @@ Inheritance diagram for KnockBackTest:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a85efba74a767dce2fa01f87b194f565a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#a85efba74a767dce2fa01f87b194f565a">SetCanBeHit</a> (bool value)</td></tr>
 <tr class="separator:a85efba74a767dce2fa01f87b194f565a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d38a710b0809e4fca1c7dd03bbc0c0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#a1d38a710b0809e4fca1c7dd03bbc0c0f">DeleteProjectile</a> ()</td></tr>
+<tr class="separator:a1d38a710b0809e4fca1c7dd03bbc0c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -109,13 +111,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab2ff07e88940901f492ef38c95083115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a112880acdd5c488d8b4bdd77a6d5eab5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#a112880acdd5c488d8b4bdd77a6d5eab5">upwardForce</a> = 70</td></tr>
 <tr class="separator:a112880acdd5c488d8b4bdd77a6d5eab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c62cbebec0e06295f302a947681f79e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#a9c62cbebec0e06295f302a947681f79e">rotation</a> = 30f</td></tr>
-<tr class="separator:a9c62cbebec0e06295f302a947681f79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37b36314e9456e978982ceb436112a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#ac37b36314e9456e978982ceb436112a5">destroyOnContact</a> = false</td></tr>
+<tr class="separator:ac37b36314e9456e978982ceb436112a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ac9bce32f119864de16e61f57c0f03a2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#ac9bce32f119864de16e61f57c0f03a2c">OnCollisionEnter</a> (Collision collision)</td></tr>
 <tr class="separator:ac9bce32f119864de16e61f57c0f03a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86fbb6bfc373a3eb76dc88766b45640"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#ae86fbb6bfc373a3eb76dc88766b45640">OnTriggerEnter</a> (Collider other)</td></tr>
+<tr class="separator:ae86fbb6bfc373a3eb76dc88766b45640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9c1ad8ff27a77bea6d03880542a6034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_knock_back_test.html#af9c1ad8ff27a77bea6d03880542a6034">OnCollisionExit</a> (Collision collision)</td></tr>
 <tr class="separator:af9c1ad8ff27a77bea6d03880542a6034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -127,6 +131,23 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a34942f76e3a220f83a6586e5616990c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1d38a710b0809e4fca1c7dd03bbc0c0f" name="a1d38a710b0809e4fca1c7dd03bbc0c0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d38a710b0809e4fca1c7dd03bbc0c0f">&#9670;&nbsp;</a></span>DeleteProjectile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KnockBackTest.DeleteProjectile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac9bce32f119864de16e61f57c0f03a2c" name="ac9bce32f119864de16e61f57c0f03a2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9bce32f119864de16e61f57c0f03a2c">&#9670;&nbsp;</a></span>OnCollisionEnter()</h2>
 
@@ -167,6 +188,32 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">Collision&#160;</td>
           <td class="paramname"><em>collision</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae86fbb6bfc373a3eb76dc88766b45640" name="ae86fbb6bfc373a3eb76dc88766b45640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86fbb6bfc373a3eb76dc88766b45640">&#9670;&nbsp;</a></span>OnTriggerEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KnockBackTest.OnTriggerEnter </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -220,6 +267,20 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac37b36314e9456e978982ceb436112a5" name="ac37b36314e9456e978982ceb436112a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac37b36314e9456e978982ceb436112a5">&#9670;&nbsp;</a></span>destroyOnContact</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KnockBackTest.destroyOnContact = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab2ff07e88940901f492ef38c95083115" name="ab2ff07e88940901f492ef38c95083115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2ff07e88940901f492ef38c95083115">&#9670;&nbsp;</a></span>forcePower</h2>
 
@@ -256,20 +317,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c62cbebec0e06295f302a947681f79e" name="a9c62cbebec0e06295f302a947681f79e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c62cbebec0e06295f302a947681f79e">&#9670;&nbsp;</a></span>rotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float KnockBackTest.rotation = 30f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a112880acdd5c488d8b4bdd77a6d5eab5" name="a112880acdd5c488d8b4bdd77a6d5eab5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a112880acdd5c488d8b4bdd77a6d5eab5">&#9670;&nbsp;</a></span>upwardForce</h2>
 
@@ -293,7 +340,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_knock_back_test.html">KnockBackTest</a></li>
-    <li class="footer">Generated on Sun Mar 27 2022 14:02:02 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Apr 27 2022 17:14:33 for 450-Prototyping by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

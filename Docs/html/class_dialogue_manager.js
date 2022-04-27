@@ -22,11 +22,14 @@ var class_dialogue_manager =
     [ "dialogueCamera", "class_dialogue_manager.html#a6d0429f0424a44ade1a2755a6fb481ee", null ],
     [ "dialogueText", "class_dialogue_manager.html#a0b57f4f76aff6346fe9e07e01e0b73fd", null ],
     [ "dialogueUI", "class_dialogue_manager.html#a8a2e343b61526c9c67394cfb022c4dcf", null ],
+    [ "flynn", "class_dialogue_manager.html#a6dfa4064c470b8c2943302726945ddf3", null ],
     [ "geneIntroWithName", "class_dialogue_manager.html#a3d0e4755c2e257383521ddde30a3d907", null ],
     [ "interactText", "class_dialogue_manager.html#abd36a834011a04ca628c45328438f339", null ],
     [ "isPrompted", "class_dialogue_manager.html#ac22b5673b3a4566c772d6a0475ef44f1", null ],
     [ "mainCamera", "class_dialogue_manager.html#a0cfa8cf09ee47af1c9b189f911e466ea", null ],
     [ "nameText", "class_dialogue_manager.html#a9c64d5c08738e27cd39c783d87192e88", null ],
     [ "responseButtons", "class_dialogue_manager.html#ab1dceadabd5af93a43961f9dbeecabc6", null ],
-    [ "sentences", "class_dialogue_manager.html#ad5960852fefb06c014bb7905c38394af", null ]
+    [ "scarfHatVillager", "class_dialogue_manager.html#a022cca61884d198d82934b1ad9680ee7", null ],
+    [ "sentences", "class_dialogue_manager.html#ad5960852fefb06c014bb7905c38394af", null ],
+    [ "windNoFlynn", "class_dialogue_manager.html#a9fd0aaaaf46387c8a66938f38ce2a2d1", null ]
 ];
