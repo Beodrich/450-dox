@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "450-Prototyping", "index.html", [
+  [ "Re:Active", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
